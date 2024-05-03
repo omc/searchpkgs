@@ -7,10 +7,15 @@ edition = "2021"
 
 [dependencies]
 lazy_static = "1.4.0"
+nix-base32 = "0.1.1"
 octocrab = "0.38.0"
 regex = "1.10.4"
-semver = "1.0.22"
+reqwest = "0.12.4"
+ring = "0.17.8"
+semver = { version = "1.0.22", features = ["serde"] }
 serde = { version = "1.0.198", features = ["derive"] }
 serde_json = "1.0.116"
 snafu = "0.8.2"
+strum = { version = "0.26.2", features = ["strum_macros", "derive"] }
 tokio = { version = "1.37.0", features = ["full"] }
+url = { version = "2.5.0", features = ["serde"] }
