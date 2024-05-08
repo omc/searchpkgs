@@ -1,0 +1,3644 @@
+{
+  "elasticsearch": {
+    "0.4.0": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.4.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.4.0.tar.gz"
+      }
+    },
+    "0.5.0": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.5.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.5.0.tar.gz"
+      }
+    },
+    "0.5.1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.5.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.5.1.tar.gz"
+      }
+    },
+    "0.6.0": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.6.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.6.0.tar.gz"
+      }
+    },
+    "0.7.0": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.7.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.7.0.tar.gz"
+      }
+    },
+    "0.7.1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.7.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.7.1.tar.gz"
+      }
+    },
+    "0.8.0": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.8.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.8.0.tar.gz"
+      }
+    },
+    "0.9.0": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.9.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.9.0.tar.gz"
+      }
+    },
+    "0.10.0": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.10.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.10.0.tar.gz"
+      }
+    },
+    "0.11.0": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.11.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.11.0.tar.gz"
+      }
+    },
+    "0.12.0": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.12.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.12.0.tar.gz"
+      }
+    },
+    "0.12.1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.12.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.12.1.tar.gz"
+      }
+    },
+    "0.13.0": {
+      "x86_64": {
+        "hash": "1zd923xzy1pqnpcl7qni6fx1hjaci0b573yi1g9wm9q1ynqb3kdc",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.13.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1zd923xzy1pqnpcl7qni6fx1hjaci0b573yi1g9wm9q1ynqb3kdc",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.13.0.tar.gz"
+      }
+    },
+    "0.13.1": {
+      "x86_64": {
+        "hash": "1jqfl01gvwl6xkyij3y18nwm47s80gcs8gbsxfwwccv1x7izi71z",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.13.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1jqfl01gvwl6xkyij3y18nwm47s80gcs8gbsxfwwccv1x7izi71z",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.13.1.tar.gz"
+      }
+    },
+    "0.14.0": {
+      "x86_64": {
+        "hash": "01lnr8asqglxjf8mi9kqv0d8pqw2z43p2af8bm9dv2lprm5ms4yj",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.14.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "01lnr8asqglxjf8mi9kqv0d8pqw2z43p2af8bm9dv2lprm5ms4yj",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.14.0.tar.gz"
+      }
+    },
+    "0.14.1": {
+      "x86_64": {
+        "hash": "1vg5yxbj1ngwcm4v4aj2kjr37l5sl68kbcndkksc5j7yd8sj27kb",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.14.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1vg5yxbj1ngwcm4v4aj2kjr37l5sl68kbcndkksc5j7yd8sj27kb",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.14.1.tar.gz"
+      }
+    },
+    "0.14.2": {
+      "x86_64": {
+        "hash": "053kn39qvzfmx72h321dz6njwavwbkfd96mnmh440vdg0qm6j09b",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.14.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "053kn39qvzfmx72h321dz6njwavwbkfd96mnmh440vdg0qm6j09b",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.14.2.tar.gz"
+      }
+    },
+    "0.14.3": {
+      "x86_64": {
+        "hash": "07nkmlxp2ms0sbdzdpc1ylj7cfw2ym4rh2ywa7zx871z5p5ipj0i",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.14.3.tar.gz"
+      },
+      "aarch64": {
+        "hash": "07nkmlxp2ms0sbdzdpc1ylj7cfw2ym4rh2ywa7zx871z5p5ipj0i",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.14.3.tar.gz"
+      }
+    },
+    "0.14.4": {
+      "x86_64": {
+        "hash": "11c76zwm9x7k1sv891lapid5bkrhbmsivz8qdj7q2zh3viiqbr1z",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.14.4.tar.gz"
+      },
+      "aarch64": {
+        "hash": "11c76zwm9x7k1sv891lapid5bkrhbmsivz8qdj7q2zh3viiqbr1z",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.14.4.tar.gz"
+      }
+    },
+    "0.15.0": {
+      "x86_64": {
+        "hash": "1gfnh5zqgc5sb0rb3y3gb4l2vxyv4cvsc9r15dqvp9zpmn051jkd",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.15.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1gfnh5zqgc5sb0rb3y3gb4l2vxyv4cvsc9r15dqvp9zpmn051jkd",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.15.0.tar.gz"
+      }
+    },
+    "0.15.1": {
+      "x86_64": {
+        "hash": "0dd4gx2v2c0bhxjiwrq2xfz5l9vl3v5py56bygkh3ys942indvwc",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.15.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0dd4gx2v2c0bhxjiwrq2xfz5l9vl3v5py56bygkh3ys942indvwc",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.15.1.tar.gz"
+      }
+    },
+    "0.15.2": {
+      "x86_64": {
+        "hash": "18hihcj3ydb7n4yqdkb4bb07rk38xalqjdq8nd86xjf7ij6scg7j",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.15.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "18hihcj3ydb7n4yqdkb4bb07rk38xalqjdq8nd86xjf7ij6scg7j",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.15.2.tar.gz"
+      }
+    },
+    "0.16.0": {
+      "x86_64": {
+        "hash": "1fqys8zii7xlmqjpchky33jxrplwx70jwdqsarr9wwic972gdw1l",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.16.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1fqys8zii7xlmqjpchky33jxrplwx70jwdqsarr9wwic972gdw1l",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.16.0.tar.gz"
+      }
+    },
+    "0.16.1": {
+      "x86_64": {
+        "hash": "1ahgkilmmn9kn3ds0hg60s428790lx2hs6zalrxyb49sdbipjy30",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.16.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1ahgkilmmn9kn3ds0hg60s428790lx2hs6zalrxyb49sdbipjy30",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.16.1.tar.gz"
+      }
+    },
+    "0.16.2": {
+      "x86_64": {
+        "hash": "0vbms2i80dz3wdv1q1cb506dsaw5cwanrqsw4bgdvwwdanymp0pz",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.16.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0vbms2i80dz3wdv1q1cb506dsaw5cwanrqsw4bgdvwwdanymp0pz",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.16.2.tar.gz"
+      }
+    },
+    "0.16.3": {
+      "x86_64": {
+        "hash": "0zqcgbmhdnjykg05y72jlbz5xphjgg7zvynl97rwm5knzy1hiz92",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.16.3.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0zqcgbmhdnjykg05y72jlbz5xphjgg7zvynl97rwm5knzy1hiz92",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.16.3.tar.gz"
+      }
+    },
+    "0.16.4": {
+      "x86_64": {
+        "hash": "0z9dhx72k2dii1mcqrxixxs076n0qr4ia6679n8mn5c7x5qn6nli",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.16.4.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0z9dhx72k2dii1mcqrxixxs076n0qr4ia6679n8mn5c7x5qn6nli",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.16.4.tar.gz"
+      }
+    },
+    "0.16.5": {
+      "x86_64": {
+        "hash": "0fk0pqv6i435x7khzxk8pqy1i2zlij5nrsxlwy6z09wi35kg4323",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.16.5.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0fk0pqv6i435x7khzxk8pqy1i2zlij5nrsxlwy6z09wi35kg4323",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.16.5.tar.gz"
+      }
+    },
+    "0.17.0": {
+      "x86_64": {
+        "hash": "04fc3n66yfygnp76v8ng874isvld48n60gxhpm5i43kzmc64azfi",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.17.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "04fc3n66yfygnp76v8ng874isvld48n60gxhpm5i43kzmc64azfi",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.17.0.tar.gz"
+      }
+    },
+    "0.17.1": {
+      "x86_64": {
+        "hash": "1kxqkxms8w572fl213vhr5sscbysikch3fqw0mf1d28s7avqkmb6",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.17.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1kxqkxms8w572fl213vhr5sscbysikch3fqw0mf1d28s7avqkmb6",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.17.1.tar.gz"
+      }
+    },
+    "0.17.2": {
+      "x86_64": {
+        "hash": "161fa3dz5cf1g72hnp9qa0yqpiyh89jdkzc9nkd872bc37gbg0c1",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.17.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "161fa3dz5cf1g72hnp9qa0yqpiyh89jdkzc9nkd872bc37gbg0c1",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.17.2.tar.gz"
+      }
+    },
+    "0.17.3": {
+      "x86_64": {
+        "hash": "0yi8kdwfi3fygasaxk9468scn9n87sbq36s260fn4w73yw6vdhwh",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.17.3.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0yi8kdwfi3fygasaxk9468scn9n87sbq36s260fn4w73yw6vdhwh",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.17.3.tar.gz"
+      }
+    },
+    "0.17.4": {
+      "x86_64": {
+        "hash": "0fpjxyp33p3wifvg7w542c8pmcyjy7llc53r92gpd8snvhkgbndr",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.17.4.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0fpjxyp33p3wifvg7w542c8pmcyjy7llc53r92gpd8snvhkgbndr",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.17.4.tar.gz"
+      }
+    },
+    "0.17.5": {
+      "x86_64": {
+        "hash": "03fkzbi36rkp3ydfqmmn3jw5j3qb3gbjrsnw4x6vmhz6f2lmblac",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.17.5.tar.gz"
+      },
+      "aarch64": {
+        "hash": "03fkzbi36rkp3ydfqmmn3jw5j3qb3gbjrsnw4x6vmhz6f2lmblac",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.17.5.tar.gz"
+      }
+    },
+    "0.17.6": {
+      "x86_64": {
+        "hash": "13505wlnbbixz015fkxy3bxgvjsggmhyihwzpf3nsilsz728gjjl",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.17.6.tar.gz"
+      },
+      "aarch64": {
+        "hash": "13505wlnbbixz015fkxy3bxgvjsggmhyihwzpf3nsilsz728gjjl",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.17.6.tar.gz"
+      }
+    },
+    "0.17.7": {
+      "x86_64": {
+        "hash": "03q99fzk5b8yflwjj24m89hripphngkzdfqsydniqib89cnm6d6a",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.17.7.tar.gz"
+      },
+      "aarch64": {
+        "hash": "03q99fzk5b8yflwjj24m89hripphngkzdfqsydniqib89cnm6d6a",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.17.7.tar.gz"
+      }
+    },
+    "0.17.8": {
+      "x86_64": {
+        "hash": "0r9ks1k8zjk6ac47igxmyzsm801gz0dylj6f48h73j3fsdny2l61",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.17.8.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0r9ks1k8zjk6ac47igxmyzsm801gz0dylj6f48h73j3fsdny2l61",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.17.8.tar.gz"
+      }
+    },
+    "0.17.9": {
+      "x86_64": {
+        "hash": "02qaa6711brjw0d2xlcijsfb1qjpc7hkk8l6l6q6wcrpbp07spir",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.17.9.tar.gz"
+      },
+      "aarch64": {
+        "hash": "02qaa6711brjw0d2xlcijsfb1qjpc7hkk8l6l6q6wcrpbp07spir",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.17.9.tar.gz"
+      }
+    },
+    "0.17.10": {
+      "x86_64": {
+        "hash": "1kfhz7clffcv7dbz9ij39wdcmn0qjj5jm5wqzkqyrlpfip18ks1w",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.17.10.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1kfhz7clffcv7dbz9ij39wdcmn0qjj5jm5wqzkqyrlpfip18ks1w",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.17.10.tar.gz"
+      }
+    },
+    "0.18.0": {
+      "x86_64": {
+        "hash": "18bd8k31bwjzvs3mvsdgk7hw4cidd6f527ccsxwa6qrk1mw9sa73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.18.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "18bd8k31bwjzvs3mvsdgk7hw4cidd6f527ccsxwa6qrk1mw9sa73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.18.0.tar.gz"
+      }
+    },
+    "0.18.1": {
+      "x86_64": {
+        "hash": "1h1fr48zi357r0748qwbldxb66wf210p1nz5zvp3f9bp5diavrqh",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.18.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1h1fr48zi357r0748qwbldxb66wf210p1nz5zvp3f9bp5diavrqh",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.18.1.tar.gz"
+      }
+    },
+    "0.18.2": {
+      "x86_64": {
+        "hash": "0nxlzbr081i73s9in0jhwbx1n6lq4n4cqh0161wzaglsg924ihcy",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.18.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0nxlzbr081i73s9in0jhwbx1n6lq4n4cqh0161wzaglsg924ihcy",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.18.2.tar.gz"
+      }
+    },
+    "0.18.3": {
+      "x86_64": {
+        "hash": "1bih4ksmk5aassw8qlifnnv2pb125b9l5gh7r6z0rngbf7xaf90a",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.18.3.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1bih4ksmk5aassw8qlifnnv2pb125b9l5gh7r6z0rngbf7xaf90a",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.18.3.tar.gz"
+      }
+    },
+    "0.18.4": {
+      "x86_64": {
+        "hash": "0c4gn559l4jwz7zcv94xi7wbcfx617jm4ma4w5a0k9xasc6ac8yx",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.18.4.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0c4gn559l4jwz7zcv94xi7wbcfx617jm4ma4w5a0k9xasc6ac8yx",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.18.4.tar.gz"
+      }
+    },
+    "0.18.5": {
+      "x86_64": {
+        "hash": "0lvwzbmw6rx22bn14qbmxa1m0nknhn0y3ajp9ji9ry6b9q9ng85l",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.18.5.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0lvwzbmw6rx22bn14qbmxa1m0nknhn0y3ajp9ji9ry6b9q9ng85l",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.18.5.tar.gz"
+      }
+    },
+    "0.18.6": {
+      "x86_64": {
+        "hash": "0n62vsdb2ml0aldj9h1k52qsy99ardl15a50sfzxckl66hzf6n3v",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.18.6.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0n62vsdb2ml0aldj9h1k52qsy99ardl15a50sfzxckl66hzf6n3v",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.18.6.tar.gz"
+      }
+    },
+    "0.18.7": {
+      "x86_64": {
+        "hash": "1pxhkk37pfmsrj1d7xcvzfwzjnmv9i990vqvin22hzvmvhj0033w",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.18.7.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1pxhkk37pfmsrj1d7xcvzfwzjnmv9i990vqvin22hzvmvhj0033w",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.18.7.tar.gz"
+      }
+    },
+    "0.19.0-rc1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.0-rc1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.0-rc1.tar.gz"
+      }
+    },
+    "0.19.0-rc2": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.0-rc2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.0-rc2.tar.gz"
+      }
+    },
+    "0.19.0-rc3": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.0-rc3.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.0-rc3.tar.gz"
+      }
+    },
+    "0.19.0": {
+      "x86_64": {
+        "hash": "15vns89sqiz17s3bgd9f53dpv88d82m8z860bkncfgp7cg959xgr",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "15vns89sqiz17s3bgd9f53dpv88d82m8z860bkncfgp7cg959xgr",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.0.tar.gz"
+      }
+    },
+    "0.19.1": {
+      "x86_64": {
+        "hash": "0879bhn36nxxawmjzkfnxl2p2fhzy7p5aknf7ai465w94li3nfsy",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0879bhn36nxxawmjzkfnxl2p2fhzy7p5aknf7ai465w94li3nfsy",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.1.tar.gz"
+      }
+    },
+    "0.19.2": {
+      "x86_64": {
+        "hash": "11691jk5i0w86xbbpyhwgbvkpxm8b4kk8qcf7dkxcwkhw2c1lnnx",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "11691jk5i0w86xbbpyhwgbvkpxm8b4kk8qcf7dkxcwkhw2c1lnnx",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.2.tar.gz"
+      }
+    },
+    "0.19.3": {
+      "x86_64": {
+        "hash": "17gncgc9c2fzfl7400mg2z9ifaqcy3gl2n5lvqh7lyjacivvw0w0",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.3.tar.gz"
+      },
+      "aarch64": {
+        "hash": "17gncgc9c2fzfl7400mg2z9ifaqcy3gl2n5lvqh7lyjacivvw0w0",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.3.tar.gz"
+      }
+    },
+    "0.19.4": {
+      "x86_64": {
+        "hash": "1pg5fxlpf0kk1kr9fzslrbik6hsygkybk4w9i7c5ykn3xjs0a190",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.4.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1pg5fxlpf0kk1kr9fzslrbik6hsygkybk4w9i7c5ykn3xjs0a190",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.4.tar.gz"
+      }
+    },
+    "0.19.5": {
+      "x86_64": {
+        "hash": "0wqjv5gggbkphfg8mmm60zvqzfqv7y6yqqi5p1lz3yhp5qlfiqz8",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.5.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0wqjv5gggbkphfg8mmm60zvqzfqv7y6yqqi5p1lz3yhp5qlfiqz8",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.5.tar.gz"
+      }
+    },
+    "0.19.6": {
+      "x86_64": {
+        "hash": "1n5xkgvwcpy3xdqc6mfrz48ic6wgn3aw17nak0c897y02n38gj32",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.6.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1n5xkgvwcpy3xdqc6mfrz48ic6wgn3aw17nak0c897y02n38gj32",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.6.tar.gz"
+      }
+    },
+    "0.19.7": {
+      "x86_64": {
+        "hash": "1b6w5pirk8hsj71qkiramq11492123fmd6a6czp9vq9i3vhkidzl",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.7.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1b6w5pirk8hsj71qkiramq11492123fmd6a6czp9vq9i3vhkidzl",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.7.tar.gz"
+      }
+    },
+    "0.19.8": {
+      "x86_64": {
+        "hash": "0aigpn9wv6srrvfpslnb8hv66n4hxbygah27ay3y0rvin8lzhvy0",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.8.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0aigpn9wv6srrvfpslnb8hv66n4hxbygah27ay3y0rvin8lzhvy0",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.8.tar.gz"
+      }
+    },
+    "0.19.9": {
+      "x86_64": {
+        "hash": "1m5xrn3c8wky9hvra8ji1mdwvl9zzcnhyb7ljszqyjw7b76g01ca",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.9.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1m5xrn3c8wky9hvra8ji1mdwvl9zzcnhyb7ljszqyjw7b76g01ca",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.9.tar.gz"
+      }
+    },
+    "0.19.10": {
+      "x86_64": {
+        "hash": "1f85d7vybkvzavmpxg3qpa9zx4g70p6bf4y3hqw4pvkm66mil98p",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.10.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1f85d7vybkvzavmpxg3qpa9zx4g70p6bf4y3hqw4pvkm66mil98p",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.10.tar.gz"
+      }
+    },
+    "0.19.11": {
+      "x86_64": {
+        "hash": "12789w6rva3k38hb78w8dv34czhsxglrpwqm8y790a7k1s1wsc9i",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.11.tar.gz"
+      },
+      "aarch64": {
+        "hash": "12789w6rva3k38hb78w8dv34czhsxglrpwqm8y790a7k1s1wsc9i",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.11.tar.gz"
+      }
+    },
+    "0.19.12": {
+      "x86_64": {
+        "hash": "1dpdmal8h9vm4fm4sacg5lc5d0bjw9gmw11y8x6yxhhxq32374a1",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.12.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1dpdmal8h9vm4fm4sacg5lc5d0bjw9gmw11y8x6yxhhxq32374a1",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.19.12.tar.gz"
+      }
+    },
+    "0.20.0-rc1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.20.0-rc1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.20.0-rc1.tar.gz"
+      }
+    },
+    "0.20.0": {
+      "x86_64": {
+        "hash": "09d1fz4zmppmzl4hdwympmpz4ix2whgzlfl0113y4cz1vxhqbi7l",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.20.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "09d1fz4zmppmzl4hdwympmpz4ix2whgzlfl0113y4cz1vxhqbi7l",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.20.0.tar.gz"
+      }
+    },
+    "0.20.1": {
+      "x86_64": {
+        "hash": "027ngccc4jx3npmxlh73cn7j276534xkaccy4l8d7n1km5h7k7v3",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.20.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "027ngccc4jx3npmxlh73cn7j276534xkaccy4l8d7n1km5h7k7v3",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.20.1.tar.gz"
+      }
+    },
+    "0.20.2": {
+      "x86_64": {
+        "hash": "0fn0n9r5n0yivxk7qhg28sjsbw5rn77dkin1hvhpaznzhbdn8x4s",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.20.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0fn0n9r5n0yivxk7qhg28sjsbw5rn77dkin1hvhpaznzhbdn8x4s",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.20.2.tar.gz"
+      }
+    },
+    "0.20.3": {
+      "x86_64": {
+        "hash": "17l63jkq7a44g915n24ka8jk0a9sdccknsnc2ilz448z432yhz6y",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.20.3.tar.gz"
+      },
+      "aarch64": {
+        "hash": "17l63jkq7a44g915n24ka8jk0a9sdccknsnc2ilz448z432yhz6y",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.20.3.tar.gz"
+      }
+    },
+    "0.20.4": {
+      "x86_64": {
+        "hash": "1yy6m31yih6hw4xwdrf3y9rfa75a81yw2w4jmcl5fikidl49n426",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.20.4.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1yy6m31yih6hw4xwdrf3y9rfa75a81yw2w4jmcl5fikidl49n426",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.20.4.tar.gz"
+      }
+    },
+    "0.20.5": {
+      "x86_64": {
+        "hash": "00a94dgb2vvkk00cg9kbhr042win3042rxnhwdywzb1i2mpm676c",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.20.5.tar.gz"
+      },
+      "aarch64": {
+        "hash": "00a94dgb2vvkk00cg9kbhr042win3042rxnhwdywzb1i2mpm676c",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.20.5.tar.gz"
+      }
+    },
+    "0.20.6": {
+      "x86_64": {
+        "hash": "04ppln94wmzkv2lg56qgsmnsv20gb2brl9gfay20wgv9kcn8mz6l",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.20.6.tar.gz"
+      },
+      "aarch64": {
+        "hash": "04ppln94wmzkv2lg56qgsmnsv20gb2brl9gfay20wgv9kcn8mz6l",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.20.6.tar.gz"
+      }
+    },
+    "0.90.0-beta1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.0-beta1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.0-beta1.tar.gz"
+      }
+    },
+    "0.90.0-rc1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.0-rc1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.0-rc1.tar.gz"
+      }
+    },
+    "0.90.0-rc2": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.0-rc2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.0-rc2.tar.gz"
+      }
+    },
+    "0.90.0": {
+      "x86_64": {
+        "hash": "01kd4vk4kwnmr1jgxd8954nn7xrkachygp6rdvhr7rs4iyalyyng",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "01kd4vk4kwnmr1jgxd8954nn7xrkachygp6rdvhr7rs4iyalyyng",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.0.tar.gz"
+      }
+    },
+    "0.90.1": {
+      "x86_64": {
+        "hash": "0lpy2phd3a6av3aw9irp90rnyn3906y704hh9x20d4vws1cdlsm8",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0lpy2phd3a6av3aw9irp90rnyn3906y704hh9x20d4vws1cdlsm8",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.1.tar.gz"
+      }
+    },
+    "0.90.2": {
+      "x86_64": {
+        "hash": "1hjpqblq7iksnrair828f6v2yi0xhkcw9yk9fld3jv4z7x3951id",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1hjpqblq7iksnrair828f6v2yi0xhkcw9yk9fld3jv4z7x3951id",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.2.tar.gz"
+      }
+    },
+    "0.90.3": {
+      "x86_64": {
+        "hash": "1l1rv9xq93zg5c73jg3s9vxs7x8ryz03bsp8jvz6d3k979cxr0hn",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.3.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1l1rv9xq93zg5c73jg3s9vxs7x8ryz03bsp8jvz6d3k979cxr0hn",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.3.tar.gz"
+      }
+    },
+    "0.90.4": {
+      "x86_64": {
+        "hash": "12jsfm2d1qhkmhwglg0zmzk1a0l6ngkqf2z180dmmgang313l71d",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.4.tar.gz"
+      },
+      "aarch64": {
+        "hash": "12jsfm2d1qhkmhwglg0zmzk1a0l6ngkqf2z180dmmgang313l71d",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.4.tar.gz"
+      }
+    },
+    "0.90.5": {
+      "x86_64": {
+        "hash": "09l0am37mhvcbdbvfxc5mk1z3vslf5cnkk33ax0xn74jj0q7hm2d",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.5.tar.gz"
+      },
+      "aarch64": {
+        "hash": "09l0am37mhvcbdbvfxc5mk1z3vslf5cnkk33ax0xn74jj0q7hm2d",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.5.tar.gz"
+      }
+    },
+    "0.90.6": {
+      "x86_64": {
+        "hash": "0x9p0k7i6nnw1q3n24fjkypw9739l5dr25xf92ic92hznqx13rbi",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.6.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0x9p0k7i6nnw1q3n24fjkypw9739l5dr25xf92ic92hznqx13rbi",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.6.tar.gz"
+      }
+    },
+    "0.90.7": {
+      "x86_64": {
+        "hash": "1ry8nx6ms3jrg85jzpj8nrjry8hx88l2g8yw2ds95dwdmipc965p",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.7.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1ry8nx6ms3jrg85jzpj8nrjry8hx88l2g8yw2ds95dwdmipc965p",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.7.tar.gz"
+      }
+    },
+    "0.90.8": {
+      "x86_64": {
+        "hash": "199gnz592mjizg0964mmx0ldyy5ww5f92q3sry3c99bzsd2fmlrq",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.8.tar.gz"
+      },
+      "aarch64": {
+        "hash": "199gnz592mjizg0964mmx0ldyy5ww5f92q3sry3c99bzsd2fmlrq",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.8.tar.gz"
+      }
+    },
+    "0.90.9": {
+      "x86_64": {
+        "hash": "0dhff47arg0pfrrl7l3nwhsbadl6pm8g15n0rbd0lyl5wl3w59qb",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.9.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0dhff47arg0pfrrl7l3nwhsbadl6pm8g15n0rbd0lyl5wl3w59qb",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.9.tar.gz"
+      }
+    },
+    "0.90.10": {
+      "x86_64": {
+        "hash": "02xqnpzzsm4dih2c3zjcrjz24x1if7y81qdcjgj9v7qfngfbiykd",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.10.tar.gz"
+      },
+      "aarch64": {
+        "hash": "02xqnpzzsm4dih2c3zjcrjz24x1if7y81qdcjgj9v7qfngfbiykd",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.10.tar.gz"
+      }
+    },
+    "0.90.11": {
+      "x86_64": {
+        "hash": "09ih5nyv18zihfvczvs4fa1fkm9ix8y6pzj7nv346lymk674pnrf",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.11.tar.gz"
+      },
+      "aarch64": {
+        "hash": "09ih5nyv18zihfvczvs4fa1fkm9ix8y6pzj7nv346lymk674pnrf",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.11.tar.gz"
+      }
+    },
+    "0.90.12": {
+      "x86_64": {
+        "hash": "0r86i43b3n0agzd59yb2lxcf2v8d7y36v7zwfs2na4dsj61i012i",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.12.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0r86i43b3n0agzd59yb2lxcf2v8d7y36v7zwfs2na4dsj61i012i",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.12.tar.gz"
+      }
+    },
+    "0.90.13": {
+      "x86_64": {
+        "hash": "13mqqhmyg65s3sazisv4k4bmp5pskwbpg58kcf1x7jpavjh5r2fy",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.13.tar.gz"
+      },
+      "aarch64": {
+        "hash": "13mqqhmyg65s3sazisv4k4bmp5pskwbpg58kcf1x7jpavjh5r2fy",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.13.tar.gz"
+      }
+    },
+    "1.0.0-beta1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.0-beta1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.0-beta1.tar.gz"
+      }
+    },
+    "1.0.0-beta2": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.0-beta2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.0-beta2.tar.gz"
+      }
+    },
+    "1.0.0-rc1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.0-rc1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.0-rc1.tar.gz"
+      }
+    },
+    "1.0.0-rc2": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.0-rc2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.0-rc2.tar.gz"
+      }
+    },
+    "1.0.0": {
+      "x86_64": {
+        "hash": "1ank6x7z0r4b49d3kq1gbhn0gin3hjvnv0s2sfkw2xhdsqk93bgn",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1ank6x7z0r4b49d3kq1gbhn0gin3hjvnv0s2sfkw2xhdsqk93bgn",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.0.tar.gz"
+      }
+    },
+    "1.0.1": {
+      "x86_64": {
+        "hash": "1ljp7y9g2adxda7iqks08kcryr4wrkqkdll3rlwbfzf6nsx871iy",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1ljp7y9g2adxda7iqks08kcryr4wrkqkdll3rlwbfzf6nsx871iy",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.1.tar.gz"
+      }
+    },
+    "1.0.2": {
+      "x86_64": {
+        "hash": "03wvaaxrslvm6b16mg6aq33q141jcph7p43l887cchm7f9s1dqjv",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "03wvaaxrslvm6b16mg6aq33q141jcph7p43l887cchm7f9s1dqjv",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.2.tar.gz"
+      }
+    },
+    "1.0.3": {
+      "x86_64": {
+        "hash": "1yharghdqdx5h8pl7zb95gmgpr87lxnydmkfwjp95fbm7zzr01hm",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.3.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1yharghdqdx5h8pl7zb95gmgpr87lxnydmkfwjp95fbm7zzr01hm",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.3.tar.gz"
+      }
+    },
+    "1.1.0": {
+      "x86_64": {
+        "hash": "0qkbrqkbyrq5abk3pp7ji67c3b08hhgh5arwrlgpkg70swgvr6wz",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.1.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0qkbrqkbyrq5abk3pp7ji67c3b08hhgh5arwrlgpkg70swgvr6wz",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.1.0.tar.gz"
+      }
+    },
+    "1.1.1": {
+      "x86_64": {
+        "hash": "1ijgz9dla2cdbm956zm6x9dqa23i1xb2x705va4i10xb1slwsq4b",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.1.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1ijgz9dla2cdbm956zm6x9dqa23i1xb2x705va4i10xb1slwsq4b",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.1.1.tar.gz"
+      }
+    },
+    "1.1.2": {
+      "x86_64": {
+        "hash": "05q8y0ri49xmgl2ll9nv8vqvxfmmw1w1iqrrwrj990xxadpwy7bj",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.1.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "05q8y0ri49xmgl2ll9nv8vqvxfmmw1w1iqrrwrj990xxadpwy7bj",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.1.2.tar.gz"
+      }
+    },
+    "1.2.0": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.2.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.2.0.tar.gz"
+      }
+    },
+    "1.2.1": {
+      "x86_64": {
+        "hash": "1hk17b6yrh5s1gw9ax0jrbavl07ffhjsbqmm8fz11gn61fcn3bqd",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.2.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1hk17b6yrh5s1gw9ax0jrbavl07ffhjsbqmm8fz11gn61fcn3bqd",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.2.1.tar.gz"
+      }
+    },
+    "1.2.2": {
+      "x86_64": {
+        "hash": "1ghsqs2ahc2lr76xayrzj4pwfn803z2mj1wnn2pyjjzsk9l2hmv9",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.2.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1ghsqs2ahc2lr76xayrzj4pwfn803z2mj1wnn2pyjjzsk9l2hmv9",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.2.2.tar.gz"
+      }
+    },
+    "1.2.3": {
+      "x86_64": {
+        "hash": "0h3zf0f92w12lwvlw7cir2rh0ri81qkr6li7lgimnsc3gmkayxyb",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.2.3.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0h3zf0f92w12lwvlw7cir2rh0ri81qkr6li7lgimnsc3gmkayxyb",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.2.3.tar.gz"
+      }
+    },
+    "1.2.4": {
+      "x86_64": {
+        "hash": "1jfzvax2sjj7fg79y2y2xgrdilnn5m667563l4p6r22fw6snkd1i",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.2.4.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1jfzvax2sjj7fg79y2y2xgrdilnn5m667563l4p6r22fw6snkd1i",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.2.4.tar.gz"
+      }
+    },
+    "1.3.0": {
+      "x86_64": {
+        "hash": "0qw4zsr09ca3kxl7an2s1k8sgzhpf4v50sc72wcw5grq5yabpwns",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0qw4zsr09ca3kxl7an2s1k8sgzhpf4v50sc72wcw5grq5yabpwns",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.0.tar.gz"
+      }
+    },
+    "1.3.1": {
+      "x86_64": {
+        "hash": "0rlza8siigmd1qfbm0fn9jicfhpqjgjqazm7paa8p01l6d9pz6a3",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0rlza8siigmd1qfbm0fn9jicfhpqjgjqazm7paa8p01l6d9pz6a3",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.1.tar.gz"
+      }
+    },
+    "1.3.2": {
+      "x86_64": {
+        "hash": "01kb9dz0rk9119w8bhgr92k3s7rwl5a7mkag40bbaqidz73w7ali",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "01kb9dz0rk9119w8bhgr92k3s7rwl5a7mkag40bbaqidz73w7ali",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.2.tar.gz"
+      }
+    },
+    "1.3.3": {
+      "x86_64": {
+        "hash": "0kdfksd9fhwx8i8g9z60y38c9jjnfdkq54d6naq5am8cc3xmrvyi",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.3.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0kdfksd9fhwx8i8g9z60y38c9jjnfdkq54d6naq5am8cc3xmrvyi",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.3.tar.gz"
+      }
+    },
+    "1.3.4": {
+      "x86_64": {
+        "hash": "1m81hgs29qjig3kzkwzxb7n4zw1njins27mr3n5kax6h6hhnpd2r",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.4.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1m81hgs29qjig3kzkwzxb7n4zw1njins27mr3n5kax6h6hhnpd2r",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.4.tar.gz"
+      }
+    },
+    "1.3.5": {
+      "x86_64": {
+        "hash": "0yjg0y4wwmjlb37naw8wxdax2p0gcrkdx88pr6sag8nb1wmnj85m",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.5.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0yjg0y4wwmjlb37naw8wxdax2p0gcrkdx88pr6sag8nb1wmnj85m",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.5.tar.gz"
+      }
+    },
+    "1.3.6": {
+      "x86_64": {
+        "hash": "079zw5hw0vgkkhpgqirirnxkxyyq6yyzmijhgs3wks1pwlxybj7d",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.6.tar.gz"
+      },
+      "aarch64": {
+        "hash": "079zw5hw0vgkkhpgqirirnxkxyyq6yyzmijhgs3wks1pwlxybj7d",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.6.tar.gz"
+      }
+    },
+    "1.3.7": {
+      "x86_64": {
+        "hash": "01lzh59wwnaabiv2yzw5712a9lzp7infadrdqig9fm52ni2h0qp1",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.7.tar.gz"
+      },
+      "aarch64": {
+        "hash": "01lzh59wwnaabiv2yzw5712a9lzp7infadrdqig9fm52ni2h0qp1",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.7.tar.gz"
+      }
+    },
+    "1.3.8": {
+      "x86_64": {
+        "hash": "1j9d18pvcg1m3xza9j59h7rlwdryfrblfwv6agijkqjq4i4wclv4",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.8.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1j9d18pvcg1m3xza9j59h7rlwdryfrblfwv6agijkqjq4i4wclv4",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.8.tar.gz"
+      }
+    },
+    "1.3.9": {
+      "x86_64": {
+        "hash": "19b5y3fi6qdvcfgqk1rgvcng33jj8c53kpmdya6aj3xb5vxg9fxa",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.9.tar.gz"
+      },
+      "aarch64": {
+        "hash": "19b5y3fi6qdvcfgqk1rgvcng33jj8c53kpmdya6aj3xb5vxg9fxa",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.9.tar.gz"
+      }
+    },
+    "1.4.0-beta1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.4.0-beta1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.4.0-beta1.tar.gz"
+      }
+    },
+    "1.4.0": {
+      "x86_64": {
+        "hash": "1vg1q69m4hlkhzjfa0q5xdzj5b7ffa0kz0qp61djhv9sasmxhqls",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.4.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1vg1q69m4hlkhzjfa0q5xdzj5b7ffa0kz0qp61djhv9sasmxhqls",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.4.0.tar.gz"
+      }
+    },
+    "1.4.1": {
+      "x86_64": {
+        "hash": "0nd6bkyf5zq45s38dfc2ijnci14gasscjhg2cq91xgsfan1cibyx",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.4.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0nd6bkyf5zq45s38dfc2ijnci14gasscjhg2cq91xgsfan1cibyx",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.4.1.tar.gz"
+      }
+    },
+    "1.4.2": {
+      "x86_64": {
+        "hash": "1a201l974x4a0ycrm1s970zsk9ay2a5vq4avgkfv4nm31c8xcqd7",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.4.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1a201l974x4a0ycrm1s970zsk9ay2a5vq4avgkfv4nm31c8xcqd7",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.4.2.tar.gz"
+      }
+    },
+    "1.4.3": {
+      "x86_64": {
+        "hash": "0hivgr1w0vsr79rayxrsmv0yz9hx3bnmmcnp8q70qb2qva2lbv8l",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.4.3.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0hivgr1w0vsr79rayxrsmv0yz9hx3bnmmcnp8q70qb2qva2lbv8l",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.4.3.tar.gz"
+      }
+    },
+    "1.4.4": {
+      "x86_64": {
+        "hash": "14jiw2x9im9zaiif2qssq9k8dv7wq63y5g0yn0i2ah41m6ziaaag",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.4.4.tar.gz"
+      },
+      "aarch64": {
+        "hash": "14jiw2x9im9zaiif2qssq9k8dv7wq63y5g0yn0i2ah41m6ziaaag",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.4.4.tar.gz"
+      }
+    },
+    "1.4.5": {
+      "x86_64": {
+        "hash": "03ilvla0j5d00sxcvfw25a5yzfwvfs0lm0ii5r5rmknihhg20qvb",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.4.5.tar.gz"
+      },
+      "aarch64": {
+        "hash": "03ilvla0j5d00sxcvfw25a5yzfwvfs0lm0ii5r5rmknihhg20qvb",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.4.5.tar.gz"
+      }
+    },
+    "1.5.0": {
+      "x86_64": {
+        "hash": "044ndbv1wiziiglfm37ni7hg6npav3a8c6g44bhsimaplgwh74xs",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.5.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "044ndbv1wiziiglfm37ni7hg6npav3a8c6g44bhsimaplgwh74xs",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.5.0.tar.gz"
+      }
+    },
+    "1.5.1": {
+      "x86_64": {
+        "hash": "1mhqr8sv38418lps2lazsamspjak6lfrnxz1z5vm14y20wlbyl9g",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.5.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1mhqr8sv38418lps2lazsamspjak6lfrnxz1z5vm14y20wlbyl9g",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.5.1.tar.gz"
+      }
+    },
+    "1.5.2": {
+      "x86_64": {
+        "hash": "1rbmfhwlrs0d4srnv6xadi0xkvwv44zbbx48cdjr9kgjmm41sk32",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.5.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1rbmfhwlrs0d4srnv6xadi0xkvwv44zbbx48cdjr9kgjmm41sk32",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.5.2.tar.gz"
+      }
+    },
+    "1.6.0": {
+      "x86_64": {
+        "hash": "0z6xvbpb7yxff9087k5riz31hhc58nfmzjq4pj7isa4w3brq5i6d",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.6.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0z6xvbpb7yxff9087k5riz31hhc58nfmzjq4pj7isa4w3brq5i6d",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.6.0.tar.gz"
+      }
+    },
+    "1.6.1": {
+      "x86_64": {
+        "hash": "1gvzzz22b1dbrzqsi8sqjwwvn66d1zflafla0q3yybhjir7afdza",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.6.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1gvzzz22b1dbrzqsi8sqjwwvn66d1zflafla0q3yybhjir7afdza",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.6.1.tar.gz"
+      }
+    },
+    "1.6.2": {
+      "x86_64": {
+        "hash": "1mvdsqw0c8v9ra1i71isizxhv5h89fmhm195380mywjkcdhl68jy",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.6.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1mvdsqw0c8v9ra1i71isizxhv5h89fmhm195380mywjkcdhl68jy",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.6.2.tar.gz"
+      }
+    },
+    "1.7.0": {
+      "x86_64": {
+        "hash": "1fv3hhj1c6nwdhf9vfvgymp7fzf9j2gkx81gsfsx12qnq4282kgs",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.7.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1fv3hhj1c6nwdhf9vfvgymp7fzf9j2gkx81gsfsx12qnq4282kgs",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.7.0.tar.gz"
+      }
+    },
+    "1.7.1": {
+      "x86_64": {
+        "hash": "1rvc4nk7cbcbcscl2ksymmzdhf769vy6vpvgf7ixrwn1sb1150bv",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.7.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1rvc4nk7cbcbcscl2ksymmzdhf769vy6vpvgf7ixrwn1sb1150bv",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.7.1.tar.gz"
+      }
+    },
+    "1.7.2": {
+      "x86_64": {
+        "hash": "0vh7z01dkxapsf6vslwp20k1p566ysbs1gbsrfjcyikxprwgdkr1",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.7.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0vh7z01dkxapsf6vslwp20k1p566ysbs1gbsrfjcyikxprwgdkr1",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.7.2.tar.gz"
+      }
+    },
+    "1.7.3": {
+      "x86_64": {
+        "hash": "1fqdxs82d5y872axibvb8qbjrbnnzkajlyhrjhkxdhsa1qwkwii8",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.7.3.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1fqdxs82d5y872axibvb8qbjrbnnzkajlyhrjhkxdhsa1qwkwii8",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.7.3.tar.gz"
+      }
+    },
+    "1.7.4": {
+      "x86_64": {
+        "hash": "1bmj3a64g6agwlp74b6xv17ki7mxl5sjj3q35y7r8rvj93lmcff9",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.7.4.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1bmj3a64g6agwlp74b6xv17ki7mxl5sjj3q35y7r8rvj93lmcff9",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.7.4.tar.gz"
+      }
+    },
+    "1.7.5": {
+      "x86_64": {
+        "hash": "1l9k6fq5a6f1bch7n0pb3jrjwwh6l0byxk3xqcbydi0kbi99zg3r",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.7.5.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1l9k6fq5a6f1bch7n0pb3jrjwwh6l0byxk3xqcbydi0kbi99zg3r",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.7.5.tar.gz"
+      }
+    },
+    "1.7.6": {
+      "x86_64": {
+        "hash": "1m727q16pf2mnn0xf0n5srv1v9w9l098a60b9hdv4d92rjdygii9",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.7.6.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1m727q16pf2mnn0xf0n5srv1v9w9l098a60b9hdv4d92rjdygii9",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.7.6.tar.gz"
+      }
+    },
+    "2.0.0-beta1": {
+      "x86_64": {
+        "hash": "0ph0karaxqgg9lbcqqv2gb0di9l86hs7r6y368vaxkm64fk949bk",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.0.0-beta1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0ph0karaxqgg9lbcqqv2gb0di9l86hs7r6y368vaxkm64fk949bk",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.0.0-beta1.tar.gz"
+      }
+    },
+    "2.0.0-beta2": {
+      "x86_64": {
+        "hash": "1ds24r3pb97kfffa4ppmqr10lbyj66acspn5xn0rfkk62ir5c2xc",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.0.0-beta2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1ds24r3pb97kfffa4ppmqr10lbyj66acspn5xn0rfkk62ir5c2xc",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.0.0-beta2.tar.gz"
+      }
+    },
+    "2.0.0-rc1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.0.0-rc1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.0.0-rc1.tar.gz"
+      }
+    },
+    "2.0.0": {
+      "x86_64": {
+        "hash": "100kpnjy4j0cz2y3ip9q3b7pbipdx0k466wkbs1mva8f55z8jd8x",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.0.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "100kpnjy4j0cz2y3ip9q3b7pbipdx0k466wkbs1mva8f55z8jd8x",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.0.0.tar.gz"
+      }
+    },
+    "2.0.1": {
+      "x86_64": {
+        "hash": "0p8rn3yqfyii3sr68j2d04l7fqzaayi8sd5x8mfg33vi0smc5i00",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.0.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0p8rn3yqfyii3sr68j2d04l7fqzaayi8sd5x8mfg33vi0smc5i00",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.0.1.tar.gz"
+      }
+    },
+    "2.0.2": {
+      "x86_64": {
+        "hash": "1wv3sv3v3qvaz8pv09j1hrhc1f3zli0lp0bypqn1x0j78fikngzn",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.0.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1wv3sv3v3qvaz8pv09j1hrhc1f3zli0lp0bypqn1x0j78fikngzn",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.0.2.tar.gz"
+      }
+    },
+    "2.1.0": {
+      "x86_64": {
+        "hash": "1qsxwnqw4l8qyjhw1zcscsy5scfniw4rd0y9vm7ldkkilvcqnjw1",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.1.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1qsxwnqw4l8qyjhw1zcscsy5scfniw4rd0y9vm7ldkkilvcqnjw1",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.1.0.tar.gz"
+      }
+    },
+    "2.1.1": {
+      "x86_64": {
+        "hash": "1dgh8r334dlpz46l5mxllfr92jk0iwyy5bnv0bq6ai2cj4l6bndz",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.1.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1dgh8r334dlpz46l5mxllfr92jk0iwyy5bnv0bq6ai2cj4l6bndz",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.1.1.tar.gz"
+      }
+    },
+    "2.1.2": {
+      "x86_64": {
+        "hash": "1p720xa0wi0id8k6l5iqspbmpxh7g2f7ddm0p3sfyalbv4a7xdlr",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.1.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1p720xa0wi0id8k6l5iqspbmpxh7g2f7ddm0p3sfyalbv4a7xdlr",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.1.2.tar.gz"
+      }
+    },
+    "2.2.0": {
+      "x86_64": {
+        "hash": "1jrx984p1lv9izcscidkdrfp8xvph01kw3ns7sh0i5x621pyl192",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.2.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1jrx984p1lv9izcscidkdrfp8xvph01kw3ns7sh0i5x621pyl192",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.2.0.tar.gz"
+      }
+    },
+    "2.2.1": {
+      "x86_64": {
+        "hash": "12wdqzqifdk8j71wmzv82g3g4409f131nwzfy23f89p0pxnv9gyx",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.2.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "12wdqzqifdk8j71wmzv82g3g4409f131nwzfy23f89p0pxnv9gyx",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.2.1.tar.gz"
+      }
+    },
+    "2.2.2": {
+      "x86_64": {
+        "hash": "140rv1yf24a97x203898ldwr9ylr8a06imfxzsn6sc6s3sz5frw2",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.2.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "140rv1yf24a97x203898ldwr9ylr8a06imfxzsn6sc6s3sz5frw2",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.2.2.tar.gz"
+      }
+    },
+    "2.3.0": {
+      "x86_64": {
+        "hash": "0fm5zsz4s6shqcgz9vp1zp5dda5aw67ibsf7n6i1k5zgszk6f0rc",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.3.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0fm5zsz4s6shqcgz9vp1zp5dda5aw67ibsf7n6i1k5zgszk6f0rc",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.3.0.tar.gz"
+      }
+    },
+    "2.3.1": {
+      "x86_64": {
+        "hash": "0bpr11g59pf9g2d7zygdsm3pl74ssqcc35xfspl7zwhp05sjypcj",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.3.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0bpr11g59pf9g2d7zygdsm3pl74ssqcc35xfspl7zwhp05sjypcj",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.3.1.tar.gz"
+      }
+    },
+    "2.3.2": {
+      "x86_64": {
+        "hash": "05r4nwrhdi5w6jgislpzpdkasb06r5cpvd0ipw8crc1xki8x070a",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.3.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "05r4nwrhdi5w6jgislpzpdkasb06r5cpvd0ipw8crc1xki8x070a",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.3.2.tar.gz"
+      }
+    },
+    "2.3.3": {
+      "x86_64": {
+        "hash": "18rpmbpyyid30ychqws3c45fmd2pnlpxbmijzqsldw28ncq86yw3",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.3.3.tar.gz"
+      },
+      "aarch64": {
+        "hash": "18rpmbpyyid30ychqws3c45fmd2pnlpxbmijzqsldw28ncq86yw3",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.3.3.tar.gz"
+      }
+    },
+    "2.3.4": {
+      "x86_64": {
+        "hash": "1ysa5rb1cn64bfw0rm708x7lwqcpvncgqixalryaqjyq6ny0awcz",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.3.4.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1ysa5rb1cn64bfw0rm708x7lwqcpvncgqixalryaqjyq6ny0awcz",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.3.4.tar.gz"
+      }
+    },
+    "2.3.5": {
+      "x86_64": {
+        "hash": "0d4ikcyqw5rz4anj0hdqmmg7kv4zj0gw9vl568yzd8z815q997lp",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.3.5.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0d4ikcyqw5rz4anj0hdqmmg7kv4zj0gw9vl568yzd8z815q997lp",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.3.5.tar.gz"
+      }
+    },
+    "2.4.0": {
+      "x86_64": {
+        "hash": "1kciwxzhcfvwml08f2928cc2cssx52mwdrjv01hh57dknw6znpvq",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.4.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1kciwxzhcfvwml08f2928cc2cssx52mwdrjv01hh57dknw6znpvq",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.4.0.tar.gz"
+      }
+    },
+    "2.4.1": {
+      "x86_64": {
+        "hash": "1ml40papr0pf2pcjihjmclhjzj4l4kxacbx41jvhjjjhyk96lgz1",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.4.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1ml40papr0pf2pcjihjmclhjzj4l4kxacbx41jvhjjjhyk96lgz1",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.4.1.tar.gz"
+      }
+    },
+    "2.4.2": {
+      "x86_64": {
+        "hash": "1rv2745i6bfahpimanwhw65pv3rrazg7s22wwr1asg41y66wnaw8",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.4.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1rv2745i6bfahpimanwhw65pv3rrazg7s22wwr1asg41y66wnaw8",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.4.2.tar.gz"
+      }
+    },
+    "2.4.3": {
+      "x86_64": {
+        "hash": "0x57yhmx3gz3xlkx6kcl35yhf3g59mr801qrz72s7i4z8njidzg5",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.4.3.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0x57yhmx3gz3xlkx6kcl35yhf3g59mr801qrz72s7i4z8njidzg5",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.4.3.tar.gz"
+      }
+    },
+    "2.4.4": {
+      "x86_64": {
+        "hash": "1b47kc74bli0526pv24wm85ym3jkm2irn8qkf9lv214hzjsllhs5",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.4.4.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1b47kc74bli0526pv24wm85ym3jkm2irn8qkf9lv214hzjsllhs5",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.4.4.tar.gz"
+      }
+    },
+    "2.4.5": {
+      "x86_64": {
+        "hash": "0f6dwzdjdrprp0i63fwflax8q81jjcn0d3vlhn7f5prfs51im8q5",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.4.5.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0f6dwzdjdrprp0i63fwflax8q81jjcn0d3vlhn7f5prfs51im8q5",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.4.5.tar.gz"
+      }
+    },
+    "2.4.6": {
+      "x86_64": {
+        "hash": "0igwccm52ixn59cspsdlz4nx1p4zbw24xfkmr10663ilqf2i5zww",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.4.6.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0igwccm52ixn59cspsdlz4nx1p4zbw24xfkmr10663ilqf2i5zww",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.4.6.tar.gz"
+      }
+    },
+    "5.0.0-alpha1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.0.0-alpha1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.0.0-alpha1.tar.gz"
+      }
+    },
+    "5.0.0-alpha2": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.0.0-alpha2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.0.0-alpha2.tar.gz"
+      }
+    },
+    "5.0.0-alpha3": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.0.0-alpha3.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.0.0-alpha3.tar.gz"
+      }
+    },
+    "5.0.0-alpha4": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.0.0-alpha4.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.0.0-alpha4.tar.gz"
+      }
+    },
+    "5.0.0-alpha5": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.0.0-alpha5.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.0.0-alpha5.tar.gz"
+      }
+    },
+    "5.0.0-beta1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.0.0-beta1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.0.0-beta1.tar.gz"
+      }
+    },
+    "5.0.0-rc1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.0.0-rc1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.0.0-rc1.tar.gz"
+      }
+    },
+    "5.0.0": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.0.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.0.0.tar.gz"
+      }
+    },
+    "5.0.1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.0.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.0.1.tar.gz"
+      }
+    },
+    "5.0.2": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.0.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.0.2.tar.gz"
+      }
+    },
+    "5.1.1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.1.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.1.1.tar.gz"
+      }
+    },
+    "5.1.2": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.1.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.1.2.tar.gz"
+      }
+    },
+    "5.2.0": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.2.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.2.0.tar.gz"
+      }
+    },
+    "5.2.1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.2.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.2.1.tar.gz"
+      }
+    },
+    "5.2.2": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.2.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.2.2.tar.gz"
+      }
+    },
+    "5.3.0": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.3.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.3.0.tar.gz"
+      }
+    },
+    "5.3.1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.3.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.3.1.tar.gz"
+      }
+    },
+    "5.3.2": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.3.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.3.2.tar.gz"
+      }
+    },
+    "5.3.3": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.3.3.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.3.3.tar.gz"
+      }
+    },
+    "5.4.0": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.4.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.4.0.tar.gz"
+      }
+    },
+    "5.4.1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.4.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.4.1.tar.gz"
+      }
+    },
+    "5.4.2": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.4.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.4.2.tar.gz"
+      }
+    },
+    "5.4.3": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.4.3.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.4.3.tar.gz"
+      }
+    },
+    "5.5.0": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.5.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.5.0.tar.gz"
+      }
+    },
+    "5.5.1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.5.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.5.1.tar.gz"
+      }
+    },
+    "5.5.2": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.5.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.5.2.tar.gz"
+      }
+    },
+    "5.5.3": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.5.3.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.5.3.tar.gz"
+      }
+    },
+    "5.6.0": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.0.tar.gz"
+      }
+    },
+    "5.6.1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.1.tar.gz"
+      }
+    },
+    "5.6.2": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.2.tar.gz"
+      }
+    },
+    "5.6.3": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.3.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.3.tar.gz"
+      }
+    },
+    "5.6.4": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.4.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.4.tar.gz"
+      }
+    },
+    "5.6.5": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.5.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.5.tar.gz"
+      }
+    },
+    "5.6.6": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.6.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.6.tar.gz"
+      }
+    },
+    "5.6.7": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.7.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.7.tar.gz"
+      }
+    },
+    "5.6.8": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.8.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.8.tar.gz"
+      }
+    },
+    "5.6.9": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.9.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.9.tar.gz"
+      }
+    },
+    "5.6.10": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.10.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.10.tar.gz"
+      }
+    },
+    "5.6.11": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.11.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.11.tar.gz"
+      }
+    },
+    "5.6.12": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.12.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.12.tar.gz"
+      }
+    },
+    "5.6.13": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.13.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.13.tar.gz"
+      }
+    },
+    "5.6.14": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.14.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.14.tar.gz"
+      }
+    },
+    "5.6.15": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.15.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.15.tar.gz"
+      }
+    },
+    "5.6.16": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.16.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.6.16.tar.gz"
+      }
+    },
+    "6.0.0-alpha1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.0.0-alpha1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.0.0-alpha1.tar.gz"
+      }
+    },
+    "6.0.0-alpha2": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.0.0-alpha2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.0.0-alpha2.tar.gz"
+      }
+    },
+    "6.0.0-beta1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.0.0-beta1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.0.0-beta1.tar.gz"
+      }
+    },
+    "6.0.0-beta2": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.0.0-beta2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.0.0-beta2.tar.gz"
+      }
+    },
+    "6.0.0-rc1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.0.0-rc1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.0.0-rc1.tar.gz"
+      }
+    },
+    "6.0.0-rc2": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.0.0-rc2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.0.0-rc2.tar.gz"
+      }
+    },
+    "6.0.0": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.0.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.0.0.tar.gz"
+      }
+    },
+    "6.0.1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.0.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.0.1.tar.gz"
+      }
+    },
+    "6.1.0": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.1.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.1.0.tar.gz"
+      }
+    },
+    "6.1.1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.1.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.1.1.tar.gz"
+      }
+    },
+    "6.1.2": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.1.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.1.2.tar.gz"
+      }
+    },
+    "6.1.3": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.1.3.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.1.3.tar.gz"
+      }
+    },
+    "6.1.4": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.1.4.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.1.4.tar.gz"
+      }
+    },
+    "6.2.0": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.2.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.2.0.tar.gz"
+      }
+    },
+    "6.2.1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.2.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.2.1.tar.gz"
+      }
+    },
+    "6.2.2": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.2.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.2.2.tar.gz"
+      }
+    },
+    "6.2.3": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.2.3.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.2.3.tar.gz"
+      }
+    },
+    "6.2.4": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.2.4.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.2.4.tar.gz"
+      }
+    },
+    "6.3.0": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.3.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.3.0.tar.gz"
+      }
+    },
+    "6.3.1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.3.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.3.1.tar.gz"
+      }
+    },
+    "6.3.2": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.3.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.3.2.tar.gz"
+      }
+    },
+    "6.4.0": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.4.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.4.0.tar.gz"
+      }
+    },
+    "6.4.1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.4.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.4.1.tar.gz"
+      }
+    },
+    "6.4.2": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.4.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.4.2.tar.gz"
+      }
+    },
+    "6.4.3": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.4.3.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.4.3.tar.gz"
+      }
+    },
+    "6.5.0": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.5.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.5.0.tar.gz"
+      }
+    },
+    "6.5.1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.5.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.5.1.tar.gz"
+      }
+    },
+    "6.5.2": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.5.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.5.2.tar.gz"
+      }
+    },
+    "6.5.3": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.5.3.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.5.3.tar.gz"
+      }
+    },
+    "6.5.4": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.5.4.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.5.4.tar.gz"
+      }
+    },
+    "6.6.0": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.6.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.6.0.tar.gz"
+      }
+    },
+    "6.6.1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.6.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.6.1.tar.gz"
+      }
+    },
+    "6.6.2": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.6.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.6.2.tar.gz"
+      }
+    },
+    "6.7.0": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.7.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.7.0.tar.gz"
+      }
+    },
+    "6.7.1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.7.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.7.1.tar.gz"
+      }
+    },
+    "6.7.2": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.7.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.7.2.tar.gz"
+      }
+    },
+    "6.8.0": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.0.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.0.tar.gz"
+      }
+    },
+    "6.8.1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.1.tar.gz"
+      }
+    },
+    "6.8.2": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.2.tar.gz"
+      }
+    },
+    "6.8.3": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.3.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.3.tar.gz"
+      }
+    },
+    "6.8.4": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.4.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.4.tar.gz"
+      }
+    },
+    "6.8.5": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.5.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.5.tar.gz"
+      }
+    },
+    "6.8.6": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.6.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.6.tar.gz"
+      }
+    },
+    "6.8.7": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.7.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.7.tar.gz"
+      }
+    },
+    "6.8.8": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.8.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.8.tar.gz"
+      }
+    },
+    "6.8.9": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.9.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.9.tar.gz"
+      }
+    },
+    "6.8.10": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.10.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.10.tar.gz"
+      }
+    },
+    "6.8.11": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.11.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.11.tar.gz"
+      }
+    },
+    "6.8.12": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.12.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.12.tar.gz"
+      }
+    },
+    "6.8.13": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.13.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.13.tar.gz"
+      }
+    },
+    "6.8.14": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.14.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.14.tar.gz"
+      }
+    },
+    "6.8.15": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.15.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.15.tar.gz"
+      }
+    },
+    "6.8.16": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.16.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.16.tar.gz"
+      }
+    },
+    "6.8.17": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.17.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.17.tar.gz"
+      }
+    },
+    "6.8.18": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.18.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.18.tar.gz"
+      }
+    },
+    "6.8.19": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.19.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.19.tar.gz"
+      }
+    },
+    "6.8.20": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.20.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.20.tar.gz"
+      }
+    },
+    "6.8.21": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.21.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.21.tar.gz"
+      }
+    },
+    "6.8.22": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.22.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.22.tar.gz"
+      }
+    },
+    "6.8.23": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.23.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-6.8.23.tar.gz"
+      }
+    },
+    "7.0.0-alpha1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-7.0.0-alpha1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-7.0.0-alpha1.tar.gz"
+      }
+    },
+    "7.0.0-alpha2": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-7.0.0-alpha2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-7.0.0-alpha2.tar.gz"
+      }
+    },
+    "7.0.0-beta1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-7.0.0-beta1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-7.0.0-beta1.tar.gz"
+      }
+    },
+    "7.0.0-rc1": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-7.0.0-rc1.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-7.0.0-rc1.tar.gz"
+      }
+    },
+    "7.0.0-rc2": {
+      "x86_64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-7.0.0-rc2.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-7.0.0-rc2.tar.gz"
+      }
+    },
+    "7.0.0": {
+      "x86_64": {
+        "hash": "03nrxap632b1ccmddm75zh2xmv88imi975a9ghkqqwshdxa3z3f3",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.0.0-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.0.0-linux-aarch64.tar.gz"
+      }
+    },
+    "7.0.1": {
+      "x86_64": {
+        "hash": "0wdpxg2y8g8lj4i0fj52pw3xh5vfsna1yynjia9vgap9ipiyj7jd",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.0.1-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.0.1-linux-aarch64.tar.gz"
+      }
+    },
+    "7.1.0": {
+      "x86_64": {
+        "hash": "1hdjh8s7zysss8c622bcrfrn0j538j921z7z5z15pks0w85w6dj2",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.1.0-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.1.0-linux-aarch64.tar.gz"
+      }
+    },
+    "7.1.1": {
+      "x86_64": {
+        "hash": "0ncy555336y0h003mfi7vwnndqkl5ixfhwwajv558ixqn4si9gqm",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.1.1-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.1.1-linux-aarch64.tar.gz"
+      }
+    },
+    "7.2.0": {
+      "x86_64": {
+        "hash": "08hnws0gl8sg1f6cs45rjzizss1vj5pgbj0wq1g6w58dmliam55b",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.2.0-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.2.0-linux-aarch64.tar.gz"
+      }
+    },
+    "7.2.1": {
+      "x86_64": {
+        "hash": "0q12d0id4k9igp36pvk7snvck6gd8s1361rzs5sxkrn903zapzsj",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.2.1-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.2.1-linux-aarch64.tar.gz"
+      }
+    },
+    "7.3.0": {
+      "x86_64": {
+        "hash": "0z2x33r8zjparln7ljj5mp2qjg09ssx4yqx4a241yk5cwb7q397v",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.3.0-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.3.0-linux-aarch64.tar.gz"
+      }
+    },
+    "7.3.1": {
+      "x86_64": {
+        "hash": "08plw89h84rlszlfcz2d5h7kw0i45ydvzs4sa994h6kj31sj78m2",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.3.1-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.3.1-linux-aarch64.tar.gz"
+      }
+    },
+    "7.3.2": {
+      "x86_64": {
+        "hash": "07gz3xhdmrsjj6v1lzyfijbh9cddizhjap4njsjpfqqmk3g8gvh4",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.3.2-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.3.2-linux-aarch64.tar.gz"
+      }
+    },
+    "7.4.0": {
+      "x86_64": {
+        "hash": "01z12q1nd1w56vhw3l3aaici2ffwlj41g1yn491ch93mmpcrn5d8",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.4.0-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.4.0-linux-aarch64.tar.gz"
+      }
+    },
+    "7.4.1": {
+      "x86_64": {
+        "hash": "1yj4l999yxlyvd6adikww78lmj2p9a10i20lr4hkyvhgf893wkjf",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.4.1-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.4.1-linux-aarch64.tar.gz"
+      }
+    },
+    "7.4.2": {
+      "x86_64": {
+        "hash": "0pdyhh2zxjbk8j7ijxw4j8g4phvb8i01nps45a4llwwhd1aa6fg6",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.4.2-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.4.2-linux-aarch64.tar.gz"
+      }
+    },
+    "7.5.0": {
+      "x86_64": {
+        "hash": "1gw7pslysscbxl42lsa7qj685jdvws926bzg5dxvgwfx4g812zab",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.5.0-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.5.0-linux-aarch64.tar.gz"
+      }
+    },
+    "7.5.1": {
+      "x86_64": {
+        "hash": "1d4n9ckfagrgdhqchi5zp4j85i32cxfy0m383dgb3nj6hbmba0sy",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.5.1-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.5.1-linux-aarch64.tar.gz"
+      }
+    },
+    "7.5.2": {
+      "x86_64": {
+        "hash": "0ivamklf8cmajvg6p3yi993ksb9m229l14yvndrrpksh63kv98ib",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.5.2-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.5.2-linux-aarch64.tar.gz"
+      }
+    },
+    "7.6.0": {
+      "x86_64": {
+        "hash": "1kqfbm3d0mq5wl1w3sl346ynjwipb7k866smx1gxiszyjq138f40",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.6.0-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.6.0-linux-aarch64.tar.gz"
+      }
+    },
+    "7.6.1": {
+      "x86_64": {
+        "hash": "0x5gvdpccmj1fhhb9z9ahvz6nn4qh2zxwj8qsgkgh0ii34hvzq16",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.6.1-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.6.1-linux-aarch64.tar.gz"
+      }
+    },
+    "7.6.2": {
+      "x86_64": {
+        "hash": "0akn10f9pyzpj6i5qyqw9wg2d3w6rl6dnj7n0h1x0xvf0pqyscg5",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.6.2-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0mdqa9w1p6cmli6976v4wi0sw9r4p5prkj7lzfd1877wk11c9c73",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.6.2-linux-aarch64.tar.gz"
+      }
+    },
+    "7.7.0": {
+      "x86_64": {
+        "hash": "1yans6kgp26mw1wnj5y2v3apnfk7n24n5fkjsc923fzb4v48div1",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.7.0-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "05xhrfg2dnrqg7abnka39m7f69q3zn4bjzk5jdp8xsxl04cmb5ff",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.7.0-linux-aarch64.tar.gz"
+      }
+    },
+    "7.7.1": {
+      "x86_64": {
+        "hash": "0j6c4wkcvk9k9bml2r72p3rw5nlasq7y8j8x6cq41fyywdg39pi8",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.7.1-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0wyxg1a8kl2kzwyynsqx47hq0crp6w3wvhmw3imsh7m7br2cqbmv",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.7.1-linux-aarch64.tar.gz"
+      }
+    },
+    "7.8.0": {
+      "x86_64": {
+        "hash": "1vldd57wdsnr2y6jpm8ls76i63yv79yfvrxmk85yhk2pf4clf814",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.8.0-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0nqwlsgq8jg5smq8xvds6mwgsk355k3f70123rmf7l7p0va7lnr6",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.8.0-linux-aarch64.tar.gz"
+      }
+    },
+    "7.8.1": {
+      "x86_64": {
+        "hash": "16nkam329r72dlldlvqp25vp42gdnrjdk9czvy9l42iswcmzwmhh",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.8.1-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1633n6g0w7ksr19i4bqq66314vwsjks1mcys4knyy9wgnqlk1k3f",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.8.1-linux-aarch64.tar.gz"
+      }
+    },
+    "7.9.0": {
+      "x86_64": {
+        "hash": "0n13nbn20g3j2pzp4rqzzzs64dp4ic2rjq3l5746k4804ciai6j1",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.9.0-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1w52x3y5lrgcj8fsn1jihnq32bc9qq4dgm2ymcv8ckp5xqndqsnn",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.9.0-linux-aarch64.tar.gz"
+      }
+    },
+    "7.9.1": {
+      "x86_64": {
+        "hash": "1m9xmqf7hfspfz3fxxllp1ls0c1afqncirf5bn766dq5ymzyci3k",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.9.1-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "152pr9dqylhp4x7vcfrg4sln9m4cfg8vkwlbpi12012k9lhqgj5c",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.9.1-linux-aarch64.tar.gz"
+      }
+    },
+    "7.9.2": {
+      "x86_64": {
+        "hash": "1adrlv24nxr5lgmmw7f69lyhaqkaf04734iciv4ga2v0dngqh2kz",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.9.2-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0zs4cxl2hl691qfwndffw1ap7krcv354rvk9dhcgbjy00ki1gdsq",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.9.2-linux-aarch64.tar.gz"
+      }
+    },
+    "7.9.3": {
+      "x86_64": {
+        "hash": "1fzyaiimaprmbifnqj0kyqxavxhr12cy6md0vzgrq3c0s3yamh50",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.9.3-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0xqj0yvh6sry6p0cdfhp589lwhmd2rq7khv2p99wv16961rdlqmj",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.9.3-linux-aarch64.tar.gz"
+      }
+    },
+    "7.10.0": {
+      "x86_64": {
+        "hash": "1wjrzmh46s8fnw117wbaadpxq87b5bcyawa4jla28y2vsvp7sx7h",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.10.0-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0fy9ygf6yzzg18x6za5dx0ap87py7dpg0xylhkw809frl038k46v",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.10.0-linux-aarch64.tar.gz"
+      }
+    },
+    "7.10.1": {
+      "x86_64": {
+        "hash": "06xnj7h43gqbd1m4s46q8p84qaj8df714ipcmj0xa24pn3b9h38n",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.10.1-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "04ja0fwjr3xnb58khjzgpl3l8ivqfvw89912sk0r4x0kv8n6d9fn",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.10.1-linux-aarch64.tar.gz"
+      }
+    },
+    "7.10.2": {
+      "x86_64": {
+        "hash": "1n5g6bm1aw1afrkic01z58pi9fhvhk0s1r3qzbz9ys9r907c579a",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.10.2-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "04likkfin77j2301a6jmczxbwyzs42n93zih9f36m5ajkcz3l7p5",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.10.2-linux-aarch64.tar.gz"
+      }
+    },
+    "7.11.0": {
+      "x86_64": {
+        "hash": "05mgy6vb4gr6vfwjjyg341gvjk4ca2lnbbq3h51iq87kbqdk2yay",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.11.0-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1g60svc7i78sg0mvxfnp75vxvdx50594lc65hg5n48b7lj2ab6r3",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.11.0-linux-aarch64.tar.gz"
+      }
+    },
+    "7.11.1": {
+      "x86_64": {
+        "hash": "1wgp0sqgmcjkwky35frg4c9y1vfnx6indcn7vwlm52k1jir7d79k",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.11.1-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "10nprfbf68kx7nrr2y7hc59y3kg3q64imd3q06q33nhq2xqbpa3l",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.11.1-linux-aarch64.tar.gz"
+      }
+    },
+    "7.11.2": {
+      "x86_64": {
+        "hash": "0dh0d1gvbbnjr4nzw1j0ng3z12y3vpli9hkd834f8k86b6lg3sap",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.11.2-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0yihngdgai9vp31ya0cjs1mxjhyhnmpc45h6v90l8kb23nc27b00",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.11.2-linux-aarch64.tar.gz"
+      }
+    },
+    "7.12.0": {
+      "x86_64": {
+        "hash": "0my3gcfb88kml44n688vagz8z0cp3xddrl16rnhmzfy5lg00ja87",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.12.0-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1d9ki1hvs0b61hilk76h32qc4vqziwrhgwnrqhcvzfs2vr5snggh",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.12.0-linux-aarch64.tar.gz"
+      }
+    },
+    "7.12.1": {
+      "x86_64": {
+        "hash": "0b86xkizqbhjccajskzrzisv68d1wcf32q9irii305majvwfvbm6",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.12.1-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1736f6l9b6dni63izgw5ihd76lpcfc5rrdp5hcbd4h38fvhfvrcm",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.12.1-linux-aarch64.tar.gz"
+      }
+    },
+    "7.13.0": {
+      "x86_64": {
+        "hash": "0qlfg2lmdqzn964p702hskg5wfvlp7dih1yb28zg075acpirvlsg",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.13.0-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0vmgz5y45gzq5nfd043d5gsc37z7yakyybf5krdpcrb3k9kydkmd",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.13.0-linux-aarch64.tar.gz"
+      }
+    },
+    "7.13.1": {
+      "x86_64": {
+        "hash": "10schk267k7s96yair566s2g1i9yqgxc6z6zhxl3d8dk32vfawls",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.13.1-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1dy2hqszmx5pwk30psq80wz6cg87hcc4wy03apn42m11bz1vyx18",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.13.1-linux-aarch64.tar.gz"
+      }
+    },
+    "7.13.2": {
+      "x86_64": {
+        "hash": "1j7vmlrwiafhiirqvql612ibnhiia4h668jscb86p9vjpg4nnhh8",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.13.2-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "09qi7hzccy52lk14ykpygcqwsbax644lii28aykyb7s00khxkk6l",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.13.2-linux-aarch64.tar.gz"
+      }
+    },
+    "7.13.3": {
+      "x86_64": {
+        "hash": "1c0d2d2g23x6c4bw4xbbx4j3ycssk2scm9xy0mj3sdg147immmrv",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.13.3-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0kw6im766v496wf71yzjz7jz5jygyqsm6knzajgfqwznqrwjq61j",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.13.3-linux-aarch64.tar.gz"
+      }
+    },
+    "7.13.4": {
+      "x86_64": {
+        "hash": "1dg99m62vnhi7whz0czi6x16jc62idyf97ah2pi504p4b5cmz4i9",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.13.4-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0wjpw9pcgkk23r2ayjkcl6f84iy6kgdzq97sc4bcm9cbcdsfzcky",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.13.4-linux-aarch64.tar.gz"
+      }
+    },
+    "7.14.0": {
+      "x86_64": {
+        "hash": "0xvq226mpg6nwkfxd888f77khhm9hgza9pzxngx81kqgnyl6d9dw",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.14.0-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0xkcph8x69l8z3ai0q2vqjljv6ih6bl9izcqn09r7hsnp5a0rp5j",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.14.0-linux-aarch64.tar.gz"
+      }
+    },
+    "7.14.1": {
+      "x86_64": {
+        "hash": "05s003w5sqnzglcdd1629ilzrykrz5wn7syr4v4jkb2ix0l4jg23",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.14.1-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1ylxmvsill8ik5i7lil155x23hz65y1j1087dqcfycn7birgdmda",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.14.1-linux-aarch64.tar.gz"
+      }
+    },
+    "7.14.2": {
+      "x86_64": {
+        "hash": "0fazhkvcakbhc78f6626fd3z22ahpz4pw9r8rlrv1c8wigdn44sz",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.14.2-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0q0zq8rb4x2k7z5z6x042jf5w54fym3mrxygd07b3qzk4iym2rqq",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.14.2-linux-aarch64.tar.gz"
+      }
+    },
+    "7.15.0": {
+      "x86_64": {
+        "hash": "1nakpgpamzv52l7y7ni7fr8r33ykma0h58vwm16j3ybq6dajfysq",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.15.0-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "04k709w5nvc9mkn5cgwmzfa1khvkv2kxmj0n3069i7jcrpkd1hy3",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.15.0-linux-aarch64.tar.gz"
+      }
+    },
+    "7.15.1": {
+      "x86_64": {
+        "hash": "09n8nwcx3qljhll5qmlj003inv8l9sg86kxgidclgzrckbf0ksa2",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.15.1-linux-x86_64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "08h6k35czn4h4rk3f4r7jwgdswhy035brqxwmpk83kqvfyx2b0zr",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.15.1-linux-aarch64.tar.gz"
+      }
+    },
+    "7.15.2": {
+      "x86_64": {
+        "hash": "1ia47fwxzqn6zalk79y5afjxq65jk94ii9s7pv8ycbxsdwf5r6w1",
+        "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.15.2-linux-x86_64.tar.gz"
+      }
+    }
+  },
+  "opensearch": {
+    "1.0.0": {
+      "x86_64": {
+        "hash": "159k7jq34xc76hcpgzf7hap9l8wz1c7pcsfbpna2nk6mlmd7m5ix",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.0.0/opensearch-min-1.0.0-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1yr2vkb55azjxi8a9acpybh1mz417f4ybmhcnhrf9vp4adzi5zac",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.0.0/opensearch-min-1.0.0-linux-arm64.tar.gz"
+      }
+    },
+    "1.2.0": {
+      "x86_64": {
+        "hash": "13almxn11d035ngbcqzaiwh0dsg4397cgsrds3q8yqhpcv4m9f2a",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.0/opensearch-min-1.2.0-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "19rnamddnv9jqncwm32i35nsfrw4slxdcdd1h60v0z0hwji66pda",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.0/opensearch-min-1.2.0-linux-arm64.tar.gz"
+      }
+    },
+    "1.2.1": {
+      "x86_64": {
+        "hash": "1lnjv0b8as2dz0rks57d97am27y4ipcxrfcqk6k73yb9r9zscci3",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.1/opensearch-min-1.2.1-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "10zr6vk0zgpmrw0n843aq64gcyanpai85smwgn6wszpf302mqzri",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.1/opensearch-min-1.2.1-linux-arm64.tar.gz"
+      }
+    },
+    "1.2.2": {
+      "x86_64": {
+        "hash": "0jk67dzxwqcpy8jzdhhhg5vqma7lah021pp43p5as3na0n9swkrg",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.2/opensearch-min-1.2.2-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0wd6whbm7w7f1ivx76b4znbc5cf9c9zpgqm89vwm3rmixng6m54x",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.2/opensearch-min-1.2.2-linux-arm64.tar.gz"
+      }
+    },
+    "1.2.3": {
+      "x86_64": {
+        "hash": "0c76gmhgz5d5f9n1g82sk2h022vjdppb596pk3a9wzrwypvym07g",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.3/opensearch-min-1.2.3-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "02bmi3ksvfh71qim0n3z48f7g2mdkykbpfnddgybv7nssibnl018",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.3/opensearch-min-1.2.3-linux-arm64.tar.gz"
+      }
+    },
+    "1.2.4": {
+      "x86_64": {
+        "hash": "0axndbg592kykfwvf5a319bl24505wnl2bq7xhlfqsabfhvsc08c",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.4/opensearch-min-1.2.4-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "02yf4y3jy6086qbc1z36a5gkb7y4g07b4gz8zphj2j20h1wq47x9",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.4/opensearch-min-1.2.4-linux-arm64.tar.gz"
+      }
+    },
+    "1.3.0": {
+      "x86_64": {
+        "hash": "1c0pddpya567ah12lmbn0v8q1yg8s2z7j309ahghirrfpcmsb89v",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.0/opensearch-min-1.3.0-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0a6sbryqwjd7mja337xazd4i13q4gqh5v5sia1a2c3bqkza42062",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.0/opensearch-min-1.3.0-linux-arm64.tar.gz"
+      }
+    },
+    "1.3.1": {
+      "x86_64": {
+        "hash": "1lwh1iqivgl4v1b6nxfjissmy72fwg39amsnyb5j447yv21q706a",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.1/opensearch-min-1.3.1-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0igvb0w4ldf8r0i85wjaalx25s8vw8mzgn950nw1snjgbhh394in",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.1/opensearch-min-1.3.1-linux-arm64.tar.gz"
+      }
+    },
+    "1.3.4": {
+      "x86_64": {
+        "hash": "1ki91f244qrv1wfbz248339wykgslrlmji4gsmc5a13za9mn3azj",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.4/opensearch-min-1.3.4-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1vgr52wand0xhrjd1vsnzg2r33nlf734xy271iffc052m2cadx6y",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.4/opensearch-min-1.3.4-linux-arm64.tar.gz"
+      }
+    },
+    "1.3.5": {
+      "x86_64": {
+        "hash": "1wcdsc23kj0yimnz5h17cw28y5mmwqsqjhcvi52lib9vv5pzdk2v",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.5/opensearch-min-1.3.5-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1z2gnq76kyrl2yfxbpsp0lw4gzpsc01qsrx04pns8xafgkr51czl",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.5/opensearch-min-1.3.5-linux-arm64.tar.gz"
+      }
+    },
+    "1.3.6": {
+      "x86_64": {
+        "hash": "0dxsq8xb9ghbpbw32nhd60nq7hf24iwm4kw7xi0dda27pj065cmk",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.6/opensearch-min-1.3.6-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1iyjb8jrby8bh5jx6x5fck0xzwwn63jf59fd547z5qx3jgl2kvgp",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.6/opensearch-min-1.3.6-linux-arm64.tar.gz"
+      }
+    },
+    "1.3.7": {
+      "x86_64": {
+        "hash": "1njqnzxwlrgv9yvrzidrn9i34v5ybln23644m96h48692880ngrl",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.7/opensearch-min-1.3.7-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1fiass0y5lg17y6390330zrdmg37nsxsbhql419j652n05ph17v1",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.7/opensearch-min-1.3.7-linux-arm64.tar.gz"
+      }
+    },
+    "1.3.8": {
+      "x86_64": {
+        "hash": "1ps56g04p1b4h7nikwsc3zg4svcnfl626zfv6ah77f7rkh359dfn",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.8/opensearch-min-1.3.8-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "15zx9lglmx4c5n6pphwkiclxsm49zg98mlirgg8pnacy2gqlzvp2",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.8/opensearch-min-1.3.8-linux-arm64.tar.gz"
+      }
+    },
+    "1.3.9": {
+      "x86_64": {
+        "hash": "058idp3cg3dic4l9vp93zmad2613ri53yy44dj6pwgaisqi6zl6b",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.9/opensearch-min-1.3.9-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "14jxiidnbr3dmm0h1l2i09kpsg86v9l3jgpnfdg5xps39m1yrzfw",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.9/opensearch-min-1.3.9-linux-arm64.tar.gz"
+      }
+    },
+    "1.3.10": {
+      "x86_64": {
+        "hash": "0a0s6w743z764namx268wgnkw9kbggcf1rsn84c27dc1i88djrav",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.10/opensearch-min-1.3.10-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0h0p2g4asw1bsks4psvhwsadml7nwci4drr8rfpryp0as5sh9fs3",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.10/opensearch-min-1.3.10-linux-arm64.tar.gz"
+      }
+    },
+    "1.3.13": {
+      "x86_64": {
+        "hash": "1vqbzyi41cl5g7l761m1hah4nnffagsnysx9b2d346k8p192vv6k",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.13/opensearch-min-1.3.13-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0pzc8bri2hiygfb57f6jmqnkf6w6vqvv9isj6c5r7y2kc1ldhavs",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.13/opensearch-min-1.3.13-linux-arm64.tar.gz"
+      }
+    },
+    "1.3.15": {
+      "x86_64": {
+        "hash": "0x2yrsww2xhz5k4h07zjm0v50k28fvis8s10xdxv4bhba3lfhi2x",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.15/opensearch-min-1.3.15-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "06ksn78r2gvbgf9zjdnf29q0r0rrzqi67riz9rvajs3rr1pl45l7",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.15/opensearch-min-1.3.15-linux-arm64.tar.gz"
+      }
+    },
+    "1.3.16": {
+      "x86_64": {
+        "hash": "1f0l95rcrvws6vqn6zc201s1gp0bjv2l2xrr8gii0178k2fyglzl",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.16/opensearch-min-1.3.16-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0aim3gq2vw3p71naf2yydd5rkx46ni8nf4kp237wh7ygxw5snkv3",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.16/opensearch-min-1.3.16-linux-arm64.tar.gz"
+      }
+    },
+    "2.0.0-rc1": {
+      "x86_64": {
+        "hash": "1pbkv67rk03j8xj9q39ynd80imzvj71d29d4ny76y72n6cij0y0c",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.0.0-rc1/opensearch-min-2.0.0-rc1-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1j1nfxw46dwwks50h51hraq7mfavlhszl0z46r5kzgpg7jaissin",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.0.0-rc1/opensearch-min-2.0.0-rc1-linux-arm64.tar.gz"
+      }
+    },
+    "2.0.0": {
+      "x86_64": {
+        "hash": "0cxam25x8hid3lxwhqkb1ayn7107cymw5hxg6q9904na1jm07iql",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.0.0/opensearch-min-2.0.0-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1xmw9cdfkyryv7nfh5vlhf4n72w7wnaz86vszysqn7izadsix133",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.0.0/opensearch-min-2.0.0-linux-arm64.tar.gz"
+      }
+    },
+    "2.0.1": {
+      "x86_64": {
+        "hash": "0r4qlqqcx4sy44qhk8a8w3k4lnxb7v3psnzrbbq3bqrvcyhj8jr0",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.0.1/opensearch-min-2.0.1-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1qcfq2z2hyqipmky65hhj6i21wwqhn8ljf89gdlirk3h5jic1w8v",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.0.1/opensearch-min-2.0.1-linux-arm64.tar.gz"
+      }
+    },
+    "2.1.0": {
+      "x86_64": {
+        "hash": "0a7fnimb06xdjz6arnw81lb85ry4d360sghmb3bqral0s2qq6rwn",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.1.0/opensearch-min-2.1.0-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0gll5gidd2rn0fxp7n2arpcly4zxsdxsimizqvsx89ihwfvaprj6",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.1.0/opensearch-min-2.1.0-linux-arm64.tar.gz"
+      }
+    },
+    "2.2.0": {
+      "x86_64": {
+        "hash": "0hwzgabh279ya91kn4m6ddszxik15p51a18wi0m0mk1s9nikn53a",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.2.0/opensearch-min-2.2.0-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1mi0gzfxscv5pz7hiz4mdxp27k767ha7a8pslhls4ljad7yw4s4w",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.2.0/opensearch-min-2.2.0-linux-arm64.tar.gz"
+      }
+    },
+    "2.2.1": {
+      "x86_64": {
+        "hash": "1fxz4i7vln3wziqn62fccpz7rjlkw9pldp1bbljz9srhx33z5ck8",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.2.1/opensearch-min-2.2.1-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1g9pw6rhjrj6gzanfbw010f6anlnrn7iiz76fgbz033p7hfvz0jx",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.2.1/opensearch-min-2.2.1-linux-arm64.tar.gz"
+      }
+    },
+    "2.3.0": {
+      "x86_64": {
+        "hash": "1sz87v202pimjhsx4ifxpz05198ynmwqf4ip1xbcbdkzqmlbpkr6",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.3.0/opensearch-min-2.3.0-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1hkdswpv5sa0d9xiim3zxmbyvnl2cfqzg8gz22d4nlbkhn3wf7xi",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.3.0/opensearch-min-2.3.0-linux-arm64.tar.gz"
+      }
+    },
+    "2.4.0": {
+      "x86_64": {
+        "hash": "1h8fq1gpjik71gmy10vszxbvfcx21lk2b49l5564nrnmkfrsbngv",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.4.0/opensearch-min-2.4.0-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "11nfds7xmzswba1bwmj68fcfplvvaagy4bdf8dp6aakgv41ahqv8",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.4.0/opensearch-min-2.4.0-linux-arm64.tar.gz"
+      }
+    },
+    "2.4.1": {
+      "x86_64": {
+        "hash": "0q02chvisrhm8vh8ihlhg0k21mp13civlflbn4ll0x0p4c39cv2r",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.4.1/opensearch-min-2.4.1-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1yfr2kxc0z8289k7azqc1vg6ha900gafkpk8cjzawbqqncblblp0",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.4.1/opensearch-min-2.4.1-linux-arm64.tar.gz"
+      }
+    },
+    "2.5.0": {
+      "x86_64": {
+        "hash": "0rnnq5wqips34j85hrdsklm13p01hisbpsnsrxcmwr0mkknp48lh",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.5.0/opensearch-min-2.5.0-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0d1rqsciwsbqngs970n09vdgl1751vkg04mr4qw970d7xarag39d",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.5.0/opensearch-min-2.5.0-linux-arm64.tar.gz"
+      }
+    },
+    "2.6.0": {
+      "x86_64": {
+        "hash": "14kl0w61sy20g63d9p3wf89h9vw8vq916cbqx8p7g5gi0wc0mbkb",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.6.0/opensearch-min-2.6.0-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1r8vn314nz3blk5mddnalmlpbvf3i8mvq4ld7nvm9wg0pgjqzzgg",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.6.0/opensearch-min-2.6.0-linux-arm64.tar.gz"
+      }
+    },
+    "2.7.0": {
+      "x86_64": {
+        "hash": "107mkyn8wgj6ds388n3azygsaz95k26j9dl4bh7gjvhibf5l3fq9",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.7.0/opensearch-min-2.7.0-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1yymw67krwpdivwrl490133jvh9j1waz564mdpzi8mjnx0456r8x",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.7.0/opensearch-min-2.7.0-linux-arm64.tar.gz"
+      }
+    },
+    "2.8.0": {
+      "x86_64": {
+        "hash": "1r9gh7xhnhyzql81i3xafj8wlwa0ahvccirzmvxkrdx3zfswcidh",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.8.0/opensearch-min-2.8.0-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "14yrdqkjx3ghqjrbdwyp5zflkxjrx6gmr4ryr45wxspxlamxmjcs",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.8.0/opensearch-min-2.8.0-linux-arm64.tar.gz"
+      }
+    },
+    "2.9.0": {
+      "x86_64": {
+        "hash": "06q08cj3gb5dqxg804y2gmqsgs9qy8brlh28h3gdj3y7svs442bm",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.9.0/opensearch-min-2.9.0-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1m9sji0h571nwg6q83adq2z268qbwiqfa95mndkj3170a7zv6f08",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.9.0/opensearch-min-2.9.0-linux-arm64.tar.gz"
+      }
+    },
+    "2.10.0": {
+      "x86_64": {
+        "hash": "01hkysy4bqm7kiv1dwwclbm3nqs7wr5ys618i7bb9pw1wzdy89rn",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.10.0/opensearch-min-2.10.0-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1j29wxq29ji5pcnsyvlhqj3a2ldk8ig7jbc83kxj4ggzxzlnjd7s",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.10.0/opensearch-min-2.10.0-linux-arm64.tar.gz"
+      }
+    },
+    "2.11.0": {
+      "x86_64": {
+        "hash": "032ahx6a3pj6924flblyxv718y5pnbhm1rgir9ydmwcq6awmarbn",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.11.0/opensearch-min-2.11.0-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "13rn0d327zhr9b8z0pwb9avpilhzf74mqixlslqgj698gb2bhibp",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.11.0/opensearch-min-2.11.0-linux-arm64.tar.gz"
+      }
+    },
+    "2.11.1": {
+      "x86_64": {
+        "hash": "1qpil8cvz8gcv0smm26k8qyi5c742174rczilddr3k6ncj7vclw7",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.11.1/opensearch-min-2.11.1-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1x8sh43nan666swxhs8fhrcgj0gg548813xlicn2x8zfq28nd47f",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.11.1/opensearch-min-2.11.1-linux-arm64.tar.gz"
+      }
+    },
+    "2.12.0": {
+      "x86_64": {
+        "hash": "0lh93rb12jwmksnlpr4h322qri83gnlic1s3dqxk2ydr6z715z6j",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.12.0/opensearch-min-2.12.0-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0clqwcsb02gk5i9996x6vv2zkndn4s1lfk08f573qzirzihdvla8",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.12.0/opensearch-min-2.12.0-linux-arm64.tar.gz"
+      }
+    },
+    "2.13.0": {
+      "x86_64": {
+        "hash": "1djq4pkw56ly4y69nf91a8gp7yg0s40b2gz10ssl6g3fb2c19i17",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.13.0/opensearch-min-2.13.0-linux-x64.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0i1g37i6i6byj4phkjqk39l94a1rf2vj1nafyq0ky2bzgc1s1pvq",
+        "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.13.0/opensearch-min-2.13.0-linux-arm64.tar.gz"
+      }
+    }
+  },
+  "quickwit": {
+    "0.2.0": {
+      "x86_64": {
+        "hash": "0wa8dcsgcdvl65pjcszj2j14w0c8smsaw6bl3jbi80icq8hivfm3",
+        "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.2.0/quickwit-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      },
+      "aarch64": {
+        "hash": "073mf96gfl4g3qlx18420bz05ja1nqi924i1hbkr7p407amc9104",
+        "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.2.0/quickwit-v0.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      }
+    },
+    "0.2.1": {
+      "x86_64": {
+        "hash": "1858ijg2yc5rx79p2bxa4zb1lrvy4sjfigghf3cim2saj1sy1b8v",
+        "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.2.1/quickwit-v0.2.1-x86_64-unknown-linux-gnu.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0i03pjzz8j2vxqvmn16n9csbx35wg80a6isv9f0yvjfa0mif102l",
+        "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.2.1/quickwit-v0.2.1-aarch64-unknown-linux-gnu.tar.gz"
+      }
+    },
+    "0.3.0": {
+      "x86_64": {
+        "hash": "0gcs4848ijrpmg0igm4d34dqsiklsbxq9azc5mq3wg4sghr8zf46",
+        "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.3.0/quickwit-v0.3.0-x86_64-unknown-linux-gnu.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0svb1bynx4gy2jasl3klp1cba2aiyybza1183nb63wm0vmd6yi4n",
+        "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.3.0/quickwit-v0.3.0-aarch64-unknown-linux-gnu.tar.gz"
+      }
+    },
+    "0.3.1": {
+      "x86_64": {
+        "hash": "111zr1xbvfxc2rq8g6skhqji0jvdyr8cv11qz8snp6z874gsf7jd",
+        "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.3.1/quickwit-v0.3.1-x86_64-unknown-linux-gnu.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1m1gh6ckflgv2yysivc8ia1bmgh9fy3k51hpf2y605hg5xcjijm3",
+        "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.3.1/quickwit-v0.3.1-aarch64-unknown-linux-gnu.tar.gz"
+      }
+    },
+    "0.4.0": {
+      "x86_64": {
+        "hash": "09qb2fn2fcnfx3wdryprrr2cwj3jska9ivgva7by5zg7nlcqs2zh",
+        "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.4.0/quickwit-v0.4.0-x86_64-unknown-linux-gnu.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1rvlsdk1iqj76as2sm7a45qk29ssr75z6j6qxm0c03wqc4bsimwl",
+        "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.4.0/quickwit-v0.4.0-aarch64-unknown-linux-gnu.tar.gz"
+      }
+    },
+    "0.5.0": {
+      "x86_64": {
+        "hash": "1afvrcyvd6v2kj9vizisp6956pcr0i13aj2mk10x9nmkqbkgfx77",
+        "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.5.0/quickwit-v0.5.0-x86_64-unknown-linux-gnu.tar.gz"
+      },
+      "aarch64": {
+        "hash": "18ndgmdd9vb2h68qb581dyrk2km8y399gg1f7f1ga1ib6k2s2fm4",
+        "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.5.0/quickwit-v0.5.0-aarch64-unknown-linux-gnu.tar.gz"
+      }
+    },
+    "0.6.2": {
+      "x86_64": {
+        "hash": "0cr7mpl7wdwi9gxpd8xrhn2jjca9sh2d0kndlxmix9sfkapab5qq",
+        "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.2/quickwit-v0.6.2-x86_64-unknown-linux-gnu.tar.gz"
+      },
+      "aarch64": {
+        "hash": "19qh2b6z02hiksygxhx7sb38m1qcydxk4fwqdidh96rfwcd0d3k0",
+        "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.2/quickwit-v0.6.2-aarch64-unknown-linux-gnu.tar.gz"
+      }
+    },
+    "0.6.3": {
+      "x86_64": {
+        "hash": "1r710wyz7g1h5zx7c7spzhh4ihxnvxb5013v4fl7456xfh4ndycg",
+        "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.3/quickwit-v0.6.3-x86_64-unknown-linux-gnu.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1fb5jf383ilwkjg7gk2y0vw5k7r12cis2fhsakmdndxn1a1vbvjr",
+        "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.3/quickwit-v0.6.3-aarch64-unknown-linux-gnu.tar.gz"
+      }
+    },
+    "0.6.4": {
+      "x86_64": {
+        "hash": "0dld4nr6qikzv5zm9m7zpasappkfivnki1hlzk47lfmd7cr7cc11",
+        "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.4/quickwit-v0.6.4-x86_64-unknown-linux-gnu.tar.gz"
+      },
+      "aarch64": {
+        "hash": "03734m8v3qfb0q1415fp6l1k505pln2kj8jcqz0jvkql36k2a3rr",
+        "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.4/quickwit-v0.6.4-aarch64-unknown-linux-gnu.tar.gz"
+      }
+    },
+    "0.6.5": {
+      "x86_64": {
+        "hash": "1b6ybc64fc38bdv726xdvs36hqq1hdbs0152n5xfdrqkgpq57yw5",
+        "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.5/quickwit-v0.6.5-x86_64-unknown-linux-gnu.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1y0nxgpmgx5zlkgkirvqca2ybla76jqr7f5as1pymlhprnxx5rap",
+        "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.5/quickwit-v0.6.5-aarch64-unknown-linux-gnu.tar.gz"
+      }
+    },
+    "0.7.0": {
+      "x86_64": {
+        "hash": "0r3wflxiwxmvvfdw7pjqvk8xr8yzybcmi3kymv2zvi0z61b0l1py",
+        "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.7.0/quickwit-v0.7.0-x86_64-unknown-linux-gnu.tar.gz"
+      },
+      "aarch64": {
+        "hash": "12bwxgilij1rgmkjgzycq13af85fmxg63qabfqqsbsrx1pmmi6v8",
+        "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.7.0/quickwit-v0.7.0-aarch64-unknown-linux-gnu.tar.gz"
+      }
+    },
+    "0.7.1": {
+      "x86_64": {
+        "hash": "1iim8ckigznn4ik24la0f2wm2603r9c9741lri7n0zvlzxdjwja4",
+        "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.7.1/quickwit-v0.7.1-x86_64-unknown-linux-gnu.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0rf7jrk264avjs8nf1562m94yvx0g4sv5p6qiy734fq4rl6m33yj",
+        "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.7.1/quickwit-v0.7.1-aarch64-unknown-linux-gnu.tar.gz"
+      }
+    },
+    "0.8.0": {
+      "x86_64": {
+        "hash": "1100ij8vjidivgss49i4d5a1ww7g5h0k6v6zpr6s7ynila28yc11",
+        "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.0/quickwit-v0.8.0-x86_64-unknown-linux-gnu.tar.gz"
+      },
+      "aarch64": {
+        "hash": "1sycwzvnf5x7zg9rhbclbawp214d9pzjk48y1mfr3867x21l8r8c",
+        "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.0/quickwit-v0.8.0-aarch64-unknown-linux-gnu.tar.gz"
+      }
+    },
+    "0.8.1": {
+      "x86_64": {
+        "hash": "0d92wsqcp1ajvmy5i7fc6rn3asdcjzg8l8yl683yryrncwrbs2c0",
+        "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.1/quickwit-v0.8.1-x86_64-unknown-linux-gnu.tar.gz"
+      },
+      "aarch64": {
+        "hash": "0psa89ggcjlfs2a3qs2n7qr0sr5h9pi7nik2csgm2k8rva9jdyq9",
+        "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.1/quickwit-v0.8.1-aarch64-unknown-linux-gnu.tar.gz"
+      }
+    }
+  }
+}

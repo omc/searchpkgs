@@ -1,51 +1,223 @@
+use clap::Parser;
 use lazy_static::lazy_static;
 use regex::Regex;
 use semver::Version;
-use serde::Serialize;
+use serde::{Deserialize, Serialize};
 use snafu::prelude::*;
 use std::{
     collections::BTreeMap,
     fmt::Display,
-    sync::{Arc, Mutex},
+    fs::File,
+    io::{BufReader, BufWriter},
+    path::{Path, PathBuf},
+    sync::Arc,
 };
 use strum::{EnumIter, IntoEnumIterator};
 use tokio::{
-    sync::{mpsc, oneshot::Receiver},
+    sync::mpsc::{UnboundedReceiver, UnboundedSender},
     task::JoinSet,
 };
+use tracing::{info, instrument};
+use tracing_subscriber;
 use url::Url;
+
+#[derive(Parser, Debug)]
+struct Args {
+    /// Refresh the version lists from GitHub
+    #[clap(long, default_value = "false")]
+    update_versions: bool,
+}
 
 #[tokio::main]
 async fn main() -> Result<()> {
-    let octocrab = octocrab::instance();
+    let args = Args::parse();
+    tracing_subscriber::fmt::init();
 
-    let (opensearch_versions, elasticsearch_versions, quickwit_versions) = tokio::join!(
-        fetch_opensearch_versions(octocrab.clone()),
-        fetch_elasticsearch_versions(octocrab.clone()),
-        fetch_quickwit_versions(octocrab.clone())
-    );
+    let manifest: Manifest = initialize_manifest()?;
 
-    let mut versions = BTreeMap::new();
-    versions.insert(Engine::Elasticsearch, elasticsearch_versions?);
-    versions.insert(Engine::OpenSearch, opensearch_versions?);
-    versions.insert(Engine::Quickwit, quickwit_versions?);
+    // gather versions
+    let engine_versions = load_engine_versions(&args).await?;
 
-    let manifest = build_manifest(versions).await;
+    // calculate hashes
+    let (manifest_tx, manifest_rx) = tokio::sync::mpsc::unbounded_channel();
+    let mut set = JoinSet::new();
+    for (engine, versions) in engine_versions {
+        let manifest = manifest.clone();
+        set.spawn(generate_hashes_for_engine_and_arch(
+            engine,
+            versions,
+            manifest,
+            manifest_tx.clone(),
+        ));
+    }
 
-    println!("{}", serde_json::to_string_pretty(&manifest).unwrap());
+    let manifest_task = tokio::task::spawn(async { update_manifest(manifest_rx).await });
+
+    // let the work run
+    while let Some(Ok(_)) = set.join_next().await {}
+    // let _ = tx.send(());
+
+    // one last flush
+    let manifest = manifest_task.await.unwrap();
+    flush_manifest(&manifest);
+
     Ok(())
 }
 
-type Manifest = BTreeMap<Engine, BTreeMap<Version, BTreeMap<Arch, Details>>>;
+fn initialize_manifest() -> Result<Manifest> {
+    let path = Path::new("./manifest.json");
+    if path.exists() {
+        let file = File::open(path).context(FileOpenSnafu)?;
+        let reader = BufReader::new(file);
+        Ok(serde_json::from_reader(reader).context(ReadManifestSnafu)?)
+    } else {
+        Ok(Manifest::new())
+    }
+}
 
-#[derive(Debug, Clone, Serialize, EnumIter, Ord, Eq, PartialOrd, PartialEq, Copy)]
+#[instrument]
+async fn load_engine_versions(args: &Args) -> Result<EngineVersions> {
+    let path = Path::new("./versions.json");
+    if args.update_versions {
+        versions_from_github(path).await
+    } else if !path.exists() {
+        versions_from_github(path).await
+    } else {
+        versions_from_file(path)
+    }
+}
+
+#[instrument(skip(manifest_rx))]
+async fn update_manifest(mut manifest_rx: UnboundedReceiver<ManifestTuple>) -> Manifest {
+    let mut manifest = Manifest::new();
+    while let Some((engine, version, arch, url, hash)) = manifest_rx.recv().await {
+        info!("Updating manifest for {engine} {version} {arch}");
+        let details = Details { hash, url };
+        manifest
+            .entry(engine)
+            .or_default()
+            .entry(version)
+            .or_default()
+            .entry(arch)
+            .or_insert(details);
+        flush_manifest(&manifest);
+    }
+    manifest
+}
+
+#[instrument(skip(manifest))]
+fn flush_manifest(manifest: &Manifest) {
+    let file = File::create(Path::new("./manifest.json")).unwrap();
+    let writer = BufWriter::new(file);
+    serde_json::to_writer_pretty(writer, &manifest).unwrap();
+}
+
+#[instrument(skip(versions, manifest, manifest_tx))]
+async fn generate_hashes_for_engine_and_arch(
+    engine: Engine,
+    versions: Vec<Version>,
+    manifest: Manifest,
+    manifest_tx: UnboundedSender<ManifestTuple>,
+) {
+    let client = reqwest::Client::new();
+    let mut set = JoinSet::new();
+    let concurrency = 2;
+    for version in versions {
+        for arch in Arch::iter() {
+            // TODO: model systems: linux, darwin
+            // check for an entry and avoid redoing work
+            let details = manifest
+                .get(&engine)
+                .and_then(|ev| ev.get(&version))
+                .and_then(|foo| foo.get(&arch));
+            if details.is_some() {
+                info!("Skipping {engine} {version} {arch}");
+                continue;
+            }
+            // limit concurrency per engine
+            while set.len() >= concurrency {
+                set.join_next().await.unwrap().unwrap();
+            }
+            // begin another task when able
+            set.spawn(generate_hash(
+                engine,
+                version.clone(),
+                arch,
+                manifest_tx.clone(),
+                client.clone(),
+            ));
+        }
+    }
+    while let Some(Ok(_)) = set.join_next().await {}
+}
+
+#[instrument]
+async fn generate_hash(
+    engine: Engine,
+    version: Version,
+    arch: Arch,
+    manifest_tx: UnboundedSender<ManifestTuple>,
+    client: reqwest::Client,
+) {
+    // if the hash exists in the manifest, return quickly
+    let url = get_url(&engine, &version, &arch).unwrap();
+    let hash: NixHash = get_hash(url.clone(), client).await;
+    manifest_tx
+        .send((engine, version, arch, url, hash))
+        .unwrap();
+}
+
+#[instrument]
+async fn versions_from_github(
+    path: impl Into<PathBuf> + std::fmt::Debug,
+) -> Result<EngineVersions> {
+    let mut set = JoinSet::new();
+    for engine in Engine::iter() {
+        set.spawn(fetch_versions(engine));
+    }
+    let mut engine_versions = EngineVersions::new();
+    while let Some(Ok(Ok((engine, versions)))) = set.join_next().await {
+        engine_versions.insert(engine, versions);
+    }
+    let file = File::create_new(path.into()).context(FileOpenSnafu)?;
+    let writer = BufWriter::new(file);
+    serde_json::to_writer_pretty(writer, &engine_versions).context(VersionJsonWriteSnafu)?;
+    Ok(engine_versions)
+}
+
+#[instrument]
+fn versions_from_file(path: impl Into<PathBuf> + std::fmt::Debug) -> Result<EngineVersions> {
+    let file = File::open(path.into()).context(FileOpenSnafu)?;
+    let reader = BufReader::new(file);
+    serde_json::from_reader(reader).context(VersionJsonParseSnafu)
+}
+
+#[instrument]
+async fn fetch_versions(engine: Engine) -> Result<(Engine, Vec<Version>)> {
+    let octocrab = octocrab::instance();
+    let versions = match engine {
+        Engine::Elasticsearch => fetch_elasticsearch_versions(octocrab).await,
+        Engine::OpenSearch => fetch_opensearch_versions(octocrab).await,
+        Engine::Quickwit => fetch_quickwit_versions(octocrab).await,
+    };
+
+    Ok((engine, versions?))
+}
+
+type EngineVersions = BTreeMap<Engine, Vec<Version>>;
+type Manifest = BTreeMap<Engine, BTreeMap<Version, BTreeMap<Arch, Details>>>;
+type ManifestTuple = (Engine, Version, Arch, Url, NixHash);
+type NixHash = String;
+
+#[derive(Clone, Copy, Debug, Deserialize, EnumIter, Eq, Ord, PartialEq, PartialOrd, Serialize)]
+#[serde(rename_all = "lowercase")]
 enum Engine {
     Elasticsearch,
     OpenSearch,
     Quickwit,
 }
 
-#[derive(Serialize, Ord, PartialOrd, Eq, PartialEq, EnumIter, Clone, Debug, Copy)]
+#[derive(Deserialize, Serialize, Ord, PartialOrd, Eq, PartialEq, EnumIter, Clone, Debug, Copy)]
 #[serde(rename_all = "lowercase")]
 enum Arch {
     X86_64,
@@ -68,151 +240,90 @@ impl Arch {
     }
 }
 
-#[derive(Serialize)]
+#[derive(Deserialize, Serialize, Debug, Clone)]
 struct Details {
-    #[serde(skip)]
-    engine: Engine,
-    #[serde(skip)]
-    version: Version,
-    #[serde(skip)]
-    arch: Arch,
-
-    hash: Option<String>,
+    hash: NixHash,
     url: Url,
-
-    #[serde(skip)]
-    hash_rx: Option<Receiver<String>>,
 }
 
-impl Details {
-    fn new(engine: Engine, version: Version, arch: Arch) -> Self {
-        let url = Self::get_url(&engine, &version, &arch)
-            .expect("url generation should generally be fine");
-        let hash = None;
-        let hash_rx = None;
-        Self {
-            engine,
-            version,
-            arch,
-            hash,
-            url,
-            hash_rx,
-        }
+fn get_url(engine: &Engine, version: &Version, arch: &Arch) -> Result<Url> {
+    match engine {
+        Engine::Elasticsearch => get_elasticsearch_url(version, arch),
+        Engine::OpenSearch => get_opensearch_url(version, arch),
+        Engine::Quickwit => get_quickwit_url(version, arch),
     }
+}
 
-    async fn get_hash(&mut self, client: reqwest::Client) {
-        let url = &self.url;
-        let resp = client.get(url.clone()).send().await.unwrap();
-        let text = resp.text().await.unwrap();
-        let bytes = text.as_bytes();
-        // TODO: take advangage of Read and Write to stream these bytes into the digest
-        self.hash = Some(nix_sha256_base32(bytes).unwrap());
-    }
+fn get_opensearch_url(version: &Version, arch: &Arch) -> Result<Url> {
+    let arch = arch.opensearch();
+    format!("https://artifacts.opensearch.org/releases/core/opensearch/{version}/opensearch-min-{version}-linux-{arch}.tar.gz").parse().context(ParseUrlSnafu)
+}
 
-    fn get_url(engine: &Engine, version: &Version, arch: &Arch) -> Result<Url> {
-        match engine {
-            Engine::Elasticsearch => Details::get_elasticsearch_url(version, arch),
-            Engine::OpenSearch => Details::get_opensearch_url(version, arch),
-            Engine::Quickwit => Details::get_quickwit_url(version, arch),
-        }
-    }
-
-    fn get_opensearch_url(version: &Version, arch: &Arch) -> Result<Url> {
-        let arch = arch.opensearch();
-        format!("https://artifacts.opensearch.org/releases/core/opensearch/{version}/opensearch-min-{version}-linux-{arch}.tar.gz").parse().context(ParseUrlSnafu)
-    }
-
-    fn get_elasticsearch_url(version: &Version, arch: &Arch) -> Result<Url> {
+fn get_elasticsearch_url(version: &Version, arch: &Arch) -> Result<Url> {
+    if *version < Version::parse("7.0.0").unwrap() {
+        format!("https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-{version}.tar.gz").parse().context(ParseUrlSnafu)
+    } else {
         let arch = arch.elasticsearch_quickwit();
         format!("https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-{version}-linux-{arch}.tar.gz").parse().context(ParseUrlSnafu)
     }
-
-    fn get_quickwit_url(version: &Version, arch: &Arch) -> Result<Url> {
-        let arch = arch.elasticsearch_quickwit();
-        format!("https://github.com/quickwit-oss/quickwit/releases/download/v{version}/quickwit-v{version}-{arch}-unknown-linux-gnu.tar.gz").parse().context(ParseUrlSnafu)
-    }
 }
 
-async fn build_manifest(engine_versions: BTreeMap<Engine, Vec<Version>>) -> Manifest {
-    let manifest = Arc::new(Mutex::new(Manifest::new()));
-    let mut join_set: JoinSet<Result<()>> = JoinSet::new();
-    let max_concurrent = 10;
-    let client = reqwest::Client::new();
+fn get_quickwit_url(version: &Version, arch: &Arch) -> Result<Url> {
+    let arch = arch.elasticsearch_quickwit();
+    format!("https://github.com/quickwit-oss/quickwit/releases/download/v{version}/quickwit-v{version}-{arch}-unknown-linux-gnu.tar.gz").parse().context(ParseUrlSnafu)
+}
 
-    for engine in Engine::iter() {
-        manifest
-            .lock()
-            .unwrap()
-            .insert(engine.clone(), BTreeMap::new());
-        let Some(versions) = engine_versions.get(&engine) else {
-            continue;
-        };
-        for version in versions {
-            let version = version.clone();
-            manifest
-                .lock()
-                .unwrap()
-                .get_mut(&engine)
-                .unwrap()
-                .insert(version.clone(), BTreeMap::new());
-            for arch in Arch::iter() {
-                let manifest = manifest.clone();
-                let client = client.clone();
-                let version = version.clone();
+#[instrument]
+async fn get_hash(url: Url, client: reqwest::Client) -> NixHash {
+    let resp = client.get(url.clone()).send().await.unwrap();
+    // TODO: check the status to avoid hashing and caching an error response
+    let text = resp.text().await.unwrap();
+    let bytes = text.as_bytes();
+    nix_sha256_base32(bytes).unwrap()
+}
 
-                // calculating the hash has network IO to fetch the data, and a
-                // bit of compute for the hash itself, so we do this async
+#[instrument(skip(reader))]
+fn nix_sha256_base32<R: std::io::Read>(reader: R) -> Result<NixHash> {
+    let digest = sha256_digest(reader)?;
+    Ok(nix_base32::to_nix_base32(digest.as_ref()))
+}
 
-                // first we wait for room on the join set as a cheap way to limit concurrency
-                while join_set.len() >= max_concurrent {
-                    let _ = join_set.join_next().await.unwrap().unwrap();
-                }
+#[instrument(skip(reader))]
+fn sha256_digest<R: std::io::Read>(mut reader: R) -> Result<ring::digest::Digest> {
+    let mut context = ring::digest::Context::new(&ring::digest::SHA256);
+    let mut buffer = [0; 1024];
 
-                // now that we're satisfied about concurrency, add another task.
-                // we give it a nicely packaged manifest to mutate with its results.
-                join_set.spawn(async move {
-                    let mut d = Details::new(engine, version.clone(), arch);
-                    d.get_hash(client).await;
-                    manifest
-                        .lock()
-                        .unwrap()
-                        .get_mut(&engine)
-                        .unwrap()
-                        .get_mut(&version)
-                        .unwrap()
-                        .insert(arch, d);
-                    Ok(())
-                });
-            }
+    loop {
+        let count = reader.read(&mut buffer).context(DigestReadSnafu)?;
+        if count == 0 {
+            break;
         }
+        context.update(&buffer[..count]);
     }
 
-    // now we just wait for the rest of the tasks to finish
-    while let Some(Ok(_foo)) = join_set.join_next().await {}
-
-    // all done being async, unwrap and return the manifest
-    Arc::into_inner(manifest)
-        .expect("we're done with the arc")
-        .into_inner()
-        .expect("we're done with mutex")
+    Ok(context.finish())
 }
 
+#[instrument]
 async fn fetch_quickwit_versions(octocrab: Arc<octocrab::Octocrab>) -> Result<Vec<Version>> {
     fetch_versions_from_release_names(&octocrab, "quickwit-oss", "quickwit").await
 }
 
+#[instrument]
 async fn fetch_opensearch_versions(octocrab: Arc<octocrab::Octocrab>) -> Result<Vec<Version>> {
     fetch_versions_from_release_names(&octocrab, "opensearch-project", "Opensearch").await
 }
 
+#[instrument]
 async fn fetch_elasticsearch_versions(octocrab: Arc<octocrab::Octocrab>) -> Result<Vec<Version>> {
     fetch_versions_from_tags(&octocrab, "elastic", "elasticsearch").await
 }
 
+#[instrument(skip(octocrab))]
 async fn fetch_versions_from_tags(
     octocrab: &Arc<octocrab::Octocrab>,
-    owner: impl Into<String>,
-    repo: impl Into<String>,
+    owner: impl Into<String> + std::fmt::Debug,
+    repo: impl Into<String> + std::fmt::Debug,
 ) -> Result<Vec<Version>> {
     let mut page = octocrab
         .repos(owner.into().clone(), repo.into().clone())
@@ -229,7 +340,7 @@ async fn fetch_versions_from_tags(
         .into_iter()
         .map(|t| t.name)
         .flat_map(|name| extract_version_string(&name))
-        .map(|name| Ok(Version::parse(&name).context(VersionParseFromTagSnafu { name })?))
+        .map(|name| Version::parse(&name).context(VersionParseFromTagSnafu { name }))
         .collect();
     let mut v = v?;
     v.sort();
@@ -237,10 +348,11 @@ async fn fetch_versions_from_tags(
 }
 
 // TODO: normalize into the structure we expect?
+#[instrument(skip(octocrab))]
 async fn fetch_versions_from_release_names(
     octocrab: &Arc<octocrab::Octocrab>,
-    owner: impl Into<String>,
-    repo: impl Into<String>,
+    owner: impl Into<String> + std::fmt::Debug,
+    repo: impl Into<String> + std::fmt::Debug,
 ) -> Result<Vec<Version>> {
     let mut page = octocrab
         .repos(owner.into(), repo.into())
@@ -260,7 +372,7 @@ async fn fetch_versions_from_release_names(
         .into_iter()
         .flat_map(|r| r.name)
         .flat_map(|name| extract_version_string(&name))
-        .map(|name| Ok(Version::parse(&name).context(VersionParseFromReleaseSnafu { name })?))
+        .map(|name| Version::parse(&name).context(VersionParseFromReleaseSnafu { name }))
         .collect();
     let mut v = v?;
     v.sort();
@@ -304,6 +416,15 @@ type Result<T, E = Error> = std::result::Result<T, E>;
 
 #[derive(Debug, Snafu)]
 enum Error {
+    ReadManifest {
+        source: serde_json::Error,
+    },
+    VersionJsonParse {
+        source: serde_json::Error,
+    },
+    VersionJsonWrite {
+        source: serde_json::Error,
+    },
     ListRelease {
         source: octocrab::Error,
     },
@@ -329,24 +450,4 @@ enum Error {
     ParseUrl {
         source: url::ParseError,
     },
-}
-
-fn sha256_digest<R: std::io::Read>(mut reader: R) -> Result<ring::digest::Digest> {
-    let mut context = ring::digest::Context::new(&ring::digest::SHA256);
-    let mut buffer = [0; 1024];
-
-    loop {
-        let count = reader.read(&mut buffer).context(DigestReadSnafu)?;
-        if count == 0 {
-            break;
-        }
-        context.update(&buffer[..count]);
-    }
-
-    Ok(context.finish())
-}
-
-fn nix_sha256_base32<R: std::io::Read>(mut reader: R) -> Result<String> {
-    let digest = sha256_digest(reader)?;
-    Ok(nix_base32::to_nix_base32(digest.as_ref()))
 }
