@@ -17,7 +17,7 @@ use tokio::{
     sync::mpsc::{UnboundedReceiver, UnboundedSender},
     task::JoinSet,
 };
-use tracing::{info, instrument};
+use tracing::{debug, info, instrument};
 use tracing_subscriber;
 use url::Url;
 
@@ -51,7 +51,7 @@ async fn main() -> Result<()> {
         ));
     }
 
-    let manifest_task = tokio::task::spawn(async { update_manifest(manifest_rx).await });
+    let manifest_task = tokio::task::spawn(async { update_manifest(manifest, manifest_rx).await });
 
     // let the work run
     while let Some(Ok(_)) = set.join_next().await {}
@@ -89,8 +89,11 @@ async fn load_engine_versions(args: &Args) -> Result<EngineVersions> {
 }
 
 #[instrument(skip(manifest_rx))]
-async fn update_manifest(mut manifest_rx: UnboundedReceiver<ManifestTuple>) -> Manifest {
-    let mut manifest = Manifest::new();
+async fn update_manifest(
+    mut manifest: Manifest,
+    mut manifest_rx: UnboundedReceiver<ManifestTuple>,
+) -> Manifest {
+    // let mut manifest = Manifest::new();
     while let Some((engine, version, arch, url, hash)) = manifest_rx.recv().await {
         info!("Updating manifest for {engine} {version} {arch}");
         let details = Details { hash, url };
@@ -108,7 +111,7 @@ async fn update_manifest(mut manifest_rx: UnboundedReceiver<ManifestTuple>) -> M
 
 #[instrument(skip(manifest))]
 fn flush_manifest(manifest: &Manifest) {
-    let file = File::create(Path::new("./manifest.json")).unwrap();
+    let file = File::create("./manifest.json").expect("crash if we can't create this file");
     let writer = BufWriter::new(file);
     serde_json::to_writer_pretty(writer, &manifest).unwrap();
 }
@@ -137,7 +140,9 @@ async fn generate_hashes_for_engine_and_arch(
             }
             // limit concurrency per engine
             while set.len() >= concurrency {
-                set.join_next().await.unwrap().unwrap();
+                if let Err(e) = set.join_next().await.unwrap().unwrap() {
+                    debug!("Error calculating hash: {e}");
+                };
             }
             // begin another task when able
             set.spawn(generate_hash(
@@ -159,13 +164,14 @@ async fn generate_hash(
     arch: Arch,
     manifest_tx: UnboundedSender<ManifestTuple>,
     client: reqwest::Client,
-) {
+) -> Result<()> {
     // if the hash exists in the manifest, return quickly
     let url = get_url(&engine, &version, &arch).unwrap();
-    let hash = get_hash(url.clone(), client).await;
+    let hash = get_hash(url.clone(), client).await?;
     manifest_tx
         .send((engine, version, arch, url, hash))
         .unwrap();
+    Ok(())
 }
 
 #[instrument]
@@ -275,34 +281,21 @@ fn get_quickwit_url(version: &Version, arch: &Arch) -> Result<Url> {
 }
 
 #[instrument]
-async fn get_hash(url: Url, client: reqwest::Client) -> NixHash {
-    let resp = client.get(url.clone()).send().await.unwrap();
-    // TODO: check the status to avoid hashing and caching an error response
-    let text = resp.text().await.unwrap();
-    let bytes = text.as_bytes();
-    nix_sha256_base32(bytes).unwrap()
-}
-
-#[instrument(skip(reader))]
-fn nix_sha256_base32<R: std::io::Read>(reader: R) -> Result<NixHash> {
-    let digest = sha256_digest(reader)?;
-    Ok(nix_base32::to_nix_base32(digest.as_ref()))
-}
-
-#[instrument(skip(reader))]
-fn sha256_digest<R: std::io::Read>(mut reader: R) -> Result<ring::digest::Digest> {
+async fn get_hash(url: Url, client: reqwest::Client) -> Result<NixHash> {
+    let mut resp = client
+        .get(url.clone())
+        .send()
+        .await
+        .context(GetArtifactSnafu)?
+        .error_for_status()
+        .context(GetArtifactStatusSnafu)?;
     let mut context = ring::digest::Context::new(&ring::digest::SHA256);
-    let mut buffer = [0; 1024];
-
-    loop {
-        let count = reader.read(&mut buffer).context(DigestReadSnafu)?;
-        if count == 0 {
-            break;
-        }
-        context.update(&buffer[..count]);
+    while let Ok(Some(chunk)) = resp.chunk().await {
+        debug!("Hashing chunk of len {}", chunk.len());
+        context.update(&chunk);
     }
-
-    Ok(context.finish())
+    let digest = context.finish();
+    Ok(nix_base32::to_nix_base32(digest.as_ref()))
 }
 
 #[instrument]
@@ -417,6 +410,12 @@ type Result<T, E = Error> = std::result::Result<T, E>;
 
 #[derive(Debug, Snafu)]
 enum Error {
+    GetArtifactStatus {
+        source: reqwest::Error,
+    },
+    GetArtifact {
+        source: reqwest::Error,
+    },
     ReadManifest {
         source: serde_json::Error,
     },
