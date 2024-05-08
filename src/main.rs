@@ -8,7 +8,7 @@ use std::{
     collections::BTreeMap,
     fmt::Display,
     fs::File,
-    io::{BufReader, BufWriter},
+    io::{self, BufReader, BufWriter},
     path::{Path, PathBuf},
     sync::Arc,
 };
@@ -66,12 +66,13 @@ async fn main() -> Result<()> {
 
 fn initialize_manifest() -> Result<Manifest> {
     let path = Path::new("./manifest.json");
-    if path.exists() {
-        let file = File::open(path).context(FileOpenSnafu)?;
-        let reader = BufReader::new(file);
-        Ok(serde_json::from_reader(reader).context(ReadManifestSnafu)?)
-    } else {
-        Ok(Manifest::new())
+    match File::open(path) {
+        Ok(file) => {
+            let reader = BufReader::new(file);
+            Ok(serde_json::from_reader(reader).context(ReadManifestSnafu)?)
+        }
+        Err(e) if e.kind() == io::ErrorKind::NotFound => Ok(Manifest::new()),
+        Err(e) => Err(e).context(FileOpenSnafu),
     }
 }
 
@@ -161,7 +162,7 @@ async fn generate_hash(
 ) {
     // if the hash exists in the manifest, return quickly
     let url = get_url(&engine, &version, &arch).unwrap();
-    let hash: NixHash = get_hash(url.clone(), client).await;
+    let hash = get_hash(url.clone(), client).await;
     manifest_tx
         .send((engine, version, arch, url, hash))
         .unwrap();
@@ -179,7 +180,7 @@ async fn versions_from_github(
     while let Some(Ok(Ok((engine, versions)))) = set.join_next().await {
         engine_versions.insert(engine, versions);
     }
-    let file = File::create_new(path.into()).context(FileOpenSnafu)?;
+    let file = File::create(path.into()).context(FileOpenSnafu)?;
     let writer = BufWriter::new(file);
     serde_json::to_writer_pretty(writer, &engine_versions).context(VersionJsonWriteSnafu)?;
     Ok(engine_versions)
@@ -321,7 +322,7 @@ async fn fetch_elasticsearch_versions(octocrab: Arc<octocrab::Octocrab>) -> Resu
 
 #[instrument(skip(octocrab))]
 async fn fetch_versions_from_tags(
-    octocrab: &Arc<octocrab::Octocrab>,
+    octocrab: &octocrab::Octocrab,
     owner: impl Into<String> + std::fmt::Debug,
     repo: impl Into<String> + std::fmt::Debug,
 ) -> Result<Vec<Version>> {
@@ -350,7 +351,7 @@ async fn fetch_versions_from_tags(
 // TODO: normalize into the structure we expect?
 #[instrument(skip(octocrab))]
 async fn fetch_versions_from_release_names(
-    octocrab: &Arc<octocrab::Octocrab>,
+    octocrab: &octocrab::Octocrab,
     owner: impl Into<String> + std::fmt::Debug,
     repo: impl Into<String> + std::fmt::Debug,
 ) -> Result<Vec<Version>> {
