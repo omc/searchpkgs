@@ -24,9 +24,25 @@
           arch = builtins.elemAt (builtins.split system) 1;
         });
   in {
-    packages = {
-      aarch64-darwin = forAllSystems ({arch, ...}: {});
-    };
+    packages = builtins.mapAttrs (
+      system: systemPackages: let
+        pkgs = import nixpkgs {inherit system;};
+      in (
+        builtins.mapAttrs (_: {
+          pname,
+          version,
+          url,
+          sha256,
+        }: let
+          packageDefinition = ./packages/${pname}.nix;
+        in
+          pkgs.callPackage packageDefinition {
+            inherit pname version url sha256;
+          })
+        systemPackages
+      )
+    ) (builtins.fromJSON (builtins.readFile ./packages.json));
+
     devShells = forAllSystems (
       {pkgs, ...}: {
         default = pkgs.mkShell {
