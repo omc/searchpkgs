@@ -11,5 +11,9 @@ stdenv.mkDerivation {
   src = fetchurl {
     inherit url sha256;
   };
-  installPhase = "mkdir $out";
+  buildPhase = '''';
+  installPhase = ''
+    mkdir $out
+    mv * $out
+  '';
 }

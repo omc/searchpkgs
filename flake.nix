@@ -34,6 +34,7 @@
           url,
           sha256,
         }: let
+          # The construction of the package is defined in a conventional location.
           packageDefinition = ./packages/${pname}.nix;
         in
           pkgs.callPackage packageDefinition {
