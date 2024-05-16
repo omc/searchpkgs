@@ -41,6 +41,8 @@ stdenv.mkDerivation {
   runtimeDependencies = [zlib];
 
   installPhase = ''
+    runHook preInstall
+
     mkdir -p $out
     cp -R bin config lib modules plugins $out
 
@@ -54,6 +56,8 @@ stdenv.mkDerivation {
       --set JAVA_HOME "${jre_headless}"
 
     wrapProgram $out/bin/elasticsearch-plugin --set JAVA_HOME "${jre_headless}"
+
+    runHook postInstall
   '';
 
   passthru = {enableUnfree = true;};
