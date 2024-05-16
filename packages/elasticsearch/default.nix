@@ -7,7 +7,7 @@
   lib,
   stdenv,
   fetchurl,
-  jre_headless,
+  jre17_minimal,
   util-linux,
   zlib,
   makeWrapper,
@@ -38,7 +38,7 @@ stdenv.mkDerivation {
     [makeWrapper]
     ++ lib.optional (!stdenv.hostPlatform.isDarwin) autoPatchelfHook;
 
-  buildInputs = [jre_headless util-linux zlib];
+  buildInputs = [jre17_minimal util-linux zlib];
 
   runtimeDependencies = [zlib];
 
@@ -56,12 +56,12 @@ stdenv.mkDerivation {
 
     wrapProgram $out/bin/elasticsearch \
       --prefix PATH : "${lib.makeBinPath [util-linux coreutils gnugrep]}" \
-      --set JAVA_HOME "${jre_headless}" \
-      --set ES_JAVA_HOME "${jre_headless}"
+      --set JAVA_HOME "${jre17_minimal}" \
+      --set ES_JAVA_HOME "${jre17_minimal}"
 
     wrapProgram $out/bin/elasticsearch-plugin \
-        --set JAVA_HOME "${jre_headless}" \
-        --set ES_JAVA_HOME "${jre_headless}"
+        --set JAVA_HOME "${jre17_minimal}" \
+        --set ES_JAVA_HOME "${jre17_minimal}"
 
     runHook postInstall
   '';
