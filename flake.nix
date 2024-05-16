@@ -35,7 +35,7 @@
           sha256,
         }: let
           # The construction of the package is defined in a conventional location.
-          packageDefinition = ./packages/${pname}.nix;
+          packageDefinition = ./packages/${pname};
         in
           pkgs.callPackage packageDefinition {
             inherit pname version url sha256;
