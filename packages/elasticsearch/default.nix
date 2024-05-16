@@ -43,6 +43,7 @@ stdenv.mkDerivation {
   installPhase = ''
     runHook preInstall
 
+    ls -alr plugins
     mkdir -p $out
     cp -R bin config lib modules plugins $out
 
@@ -53,9 +54,12 @@ stdenv.mkDerivation {
 
     wrapProgram $out/bin/elasticsearch \
       --prefix PATH : "${lib.makeBinPath [util-linux coreutils gnugrep]}" \
-      --set JAVA_HOME "${jre_headless}"
+      --set JAVA_HOME "${jre_headless}" \
+      --set ES_JAVA_HOME "${jre_headless}"
 
-    wrapProgram $out/bin/elasticsearch-plugin --set JAVA_HOME "${jre_headless}"
+    wrapProgram $out/bin/elasticsearch-plugin \
+        --set JAVA_HOME "${jre_headless}" \
+        --set ES_JAVA_HOME "${jre_headless}"
 
     runHook postInstall
   '';
