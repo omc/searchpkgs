@@ -22,6 +22,8 @@ stdenv.mkDerivation {
     inherit url sha256;
   };
 
+  patches = [./es-home-6.x.patch];
+
   postPatch = ''
     substituteInPlace bin/elasticsearch-env --replace \
       "ES_CLASSPATH=\"\$ES_HOME/lib/*\"" \
