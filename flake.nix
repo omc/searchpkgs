@@ -19,6 +19,7 @@
         f {
           pkgs = import nixpkgs {
             inherit overlays system;
+            config.allowUnfree = true;
           };
           inherit system;
           arch = builtins.elemAt (builtins.split system) 1;
@@ -26,7 +27,10 @@
   in {
     packages = builtins.mapAttrs (
       system: systemPackages: let
-        pkgs = import nixpkgs {inherit system;};
+        pkgs = import nixpkgs {
+          inherit system;
+          config.allowUnfree = true;
+        };
       in (
         builtins.mapAttrs (_: {
           pname,
