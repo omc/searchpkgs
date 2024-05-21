@@ -60,7 +60,7 @@ in
 
       # temporarily exclude some plugins until we can wire up the build
       # correctly for native artifacts
-      rm -rf $out/plugins/x-pack-ml $out/modules/x-pack/x-pack-ml
+      rm -rf $out/plugins/x-pack-ml $out/modules/x-pack/x-pack-ml $out/modules/x-pack-ml
 
       chmod +x $out/bin/*
 
