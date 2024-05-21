@@ -58,6 +58,10 @@ in
       mkdir -p $out
       cp -R bin config lib modules plugins $out
 
+      # temporarily exclude some plugins until we can wire up the build
+      # correctly for native artifacts
+      rm -rf $out/plugins/x-pack-ml $out/modules/x-pack/x-pack-ml
+
       chmod +x $out/bin/*
 
       substituteInPlace $out/bin/elasticsearch \
