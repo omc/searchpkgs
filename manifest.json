@@ -6049,6 +6049,28 @@
           "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.13.3-darwin-aarch64.tar.gz"
         }
       }
+    },
+    "8.13.4": {
+      "x86_64": {
+        "linux": {
+          "sha256": "02wh5yr7lpw8x126f2pryxbid542h79vk3c34hig4k5qj2w2vdj6",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.13.4-linux-x86_64.tar.gz"
+        },
+        "darwin": {
+          "sha256": "0blycd5crxlvikspzyp0f4xi4h4x32v4gjf1sk571b9nbij87vnn",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.13.4-darwin-x86_64.tar.gz"
+        }
+      },
+      "aarch64": {
+        "linux": {
+          "sha256": "09c5xc2r6z3r1fg5laalaw9hcc3r8gvr0bc3ady068gabipn4giv",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.13.4-linux-aarch64.tar.gz"
+        },
+        "darwin": {
+          "sha256": "1cwb6b8s4s4fcgxyjc5ydrq1kja92nvp18kb05zmv1kgn1h41phr",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.13.4-darwin-aarch64.tar.gz"
+        }
+      }
     }
   },
   "opensearch": {
@@ -6863,6 +6885,28 @@
         "darwin": {
           "sha256": "12gvx47p04dv4yq66x8jvy4a7h90zyn270fzvlw8nkd6j52l3b21",
           "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.13.0/opensearch-min-2.13.0-linux-arm64.tar.gz"
+        }
+      }
+    },
+    "2.14.0": {
+      "x86_64": {
+        "linux": {
+          "sha256": "0pp1d5jk4j2x2c7m6cjmk9vpcsgnmb7kr4qw1hn8xv6skp5a4khq",
+          "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.14.0/opensearch-min-2.14.0-linux-x64.tar.gz"
+        },
+        "darwin": {
+          "sha256": "0pp1d5jk4j2x2c7m6cjmk9vpcsgnmb7kr4qw1hn8xv6skp5a4khq",
+          "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.14.0/opensearch-min-2.14.0-linux-x64.tar.gz"
+        }
+      },
+      "aarch64": {
+        "linux": {
+          "sha256": "1kndq95xi20pspk8gzkmrn2fw0612wvscipcmidy3ln21wjrccw4",
+          "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.14.0/opensearch-min-2.14.0-linux-arm64.tar.gz"
+        },
+        "darwin": {
+          "sha256": "1kndq95xi20pspk8gzkmrn2fw0612wvscipcmidy3ln21wjrccw4",
+          "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.14.0/opensearch-min-2.14.0-linux-arm64.tar.gz"
         }
       }
     }
