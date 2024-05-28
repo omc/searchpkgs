@@ -7,6 +7,7 @@
   lib,
   stdenv,
   fetchurl,
+  jdk11,
   jdk17,
   util-linux,
   zlib,
@@ -18,6 +19,12 @@
   fixDarwinDylibNames,
 }: let
   applyPatch = (builtins.compareVersions version "6.4.0") >= 0;
+
+  # based on https://www.elastic.co/support/matrix#matrix_jvm
+  jdk =
+    if (lib.versionAtLeast version "8.0.0")
+    then jdk17
+    else jdk11;
 in
   stdenv.mkDerivation {
     inherit pname version;
@@ -47,7 +54,7 @@ in
       ++ lib.optional stdenv.hostPlatform.isLinux autoPatchelfHook
       ++ lib.optional stdenv.hostPlatform.isDarwin fixDarwinDylibNames;
 
-    buildInputs = [jdk17 util-linux zlib libxcrypt-legacy];
+    buildInputs = [jdk util-linux zlib libxcrypt-legacy];
 
     runtimeDependencies = [zlib];
 
@@ -69,12 +76,15 @@ in
 
       wrapProgram $out/bin/elasticsearch \
         --prefix PATH : "${lib.makeBinPath [util-linux coreutils gnugrep]}" \
-        --set JAVA_HOME "${jdk17}" \
-        --set ES_JAVA_HOME "${jdk17}"
+        --set JAVA_HOME "${jdk}" \
+        --set ES_JAVA_HOME "${jdk}"
+
+      substituteInPlace $out/bin/elasticsearch \
+        --replace 'CLI_LIBS=lib/tools/plugin-cli' "CLI_LIBS=$out/lib/tools/plugin-cli"
 
       wrapProgram $out/bin/elasticsearch-plugin \
-          --set JAVA_HOME "${jdk17}" \
-          --set ES_JAVA_HOME "${jdk17}"
+          --set JAVA_HOME "${jdk}" \
+          --set ES_JAVA_HOME "${jdk}"
 
       runHook postInstall
     '';
