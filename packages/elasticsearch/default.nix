@@ -16,6 +16,7 @@
   autoPatchelfHook,
   libxcrypt-legacy,
   fixDarwinDylibNames,
+  sd,
 }: let
   applyPatch = (builtins.compareVersions version "6.4.0") >= 0;
 in
@@ -43,7 +44,7 @@ in
     '';
 
     nativeBuildInputs =
-      [makeWrapper]
+      [makeWrapper sd]
       ++ lib.optional stdenv.hostPlatform.isLinux autoPatchelfHook
       ++ lib.optional stdenv.hostPlatform.isDarwin fixDarwinDylibNames;
 
@@ -75,6 +76,11 @@ in
       wrapProgram $out/bin/elasticsearch-plugin \
           --set JAVA_HOME "${jdk17}" \
           --set ES_JAVA_HOME "${jdk17}"
+
+      # adapt default jvm options to only apply up to jdk11
+      sd -- '^\-XX\:\+UseConcMarkSweepGC' "8-13:-XX:+UseConcMarkSweepGC" "$out/config/jvm.options"
+      sd -- '^\-XX\:CMSInitiatingOccupancyFraction' "8-13:-XX:CMSInitiatingOccupancyFraction" "$out/config/jvm.options"
+      sd -- '^\-XX\:\+UseCMSInitiatingOccupancyOnly' "8-13:-XX:+UseCMSInitiatingOccupancyOnly" "$out/config/jvm.options"
 
       runHook postInstall
     '';
