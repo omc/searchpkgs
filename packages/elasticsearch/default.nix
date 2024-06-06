@@ -55,7 +55,6 @@ in
     installPhase = ''
       runHook preInstall
 
-      ls -alr plugins
       mkdir -p $out
       cp -R bin config lib modules plugins $out
 
