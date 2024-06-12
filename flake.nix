@@ -7,6 +7,7 @@
   };
 
   outputs = {
+    self,
     nixpkgs,
     rust-overlay,
     ...
@@ -25,6 +26,15 @@
           arch = builtins.elemAt (builtins.split system) 1;
         });
   in {
+    # TODO: study rust-overlay to figure out an API here
+    overlays = {
+      latest = final: prev: {
+        opensearch = self.packages.${final.system}.opensearch_2_14_0;
+        elasticsearch = self.packages.${final.system}.elasticsearch_8_13_4;
+        quickwit = self.packages.${final.system}.quickwit_0_8_1;
+      };
+    };
+
     packages = builtins.mapAttrs (
       system: systemPackages: let
         pkgs = import nixpkgs {
