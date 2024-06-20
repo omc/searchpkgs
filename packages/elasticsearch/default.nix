@@ -43,6 +43,10 @@ in
       fi
     '';
 
+    # we provide the full distro and just the modules
+    # modules are not distributed via maven repo so this is the only way to get at the necessary jars
+    outputs = [ "out" "modules" ];
+
     nativeBuildInputs =
       [makeWrapper sd]
       ++ lib.optional stdenv.hostPlatform.isLinux autoPatchelfHook
@@ -82,6 +86,15 @@ in
       sd -- '^\-XX\:\+UseCMSInitiatingOccupancyOnly' "8-13:-XX:+UseCMSInitiatingOccupancyOnly" "$out/config/jvm.options"
 
       runHook postInstall
+
+      # copy just the modules
+      mkdir $modules
+      find $out/modules -type f -name '*.jar' -exec ln -s {} $modules/ \;
+
+      mkdir -p $modules/nix-support
+      cat << EOF > $modules/nix-support/setup-hook
+      export ES_MODULES_JARS=$modules
+      EOF
     '';
 
     passthru = {enableUnfree = true;};
