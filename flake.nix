@@ -4,9 +4,10 @@
   inputs = {
     nixpkgs.url = "nixpkgs";
     rust-overlay.url = "github:oxalica/rust-overlay";
+    nixel.url = "github:omc/nixel";
   };
 
-  outputs = {
+  outputs = inputs @ {
     self,
     nixpkgs,
     rust-overlay,
@@ -35,28 +36,32 @@
       };
     };
 
-    packages = builtins.mapAttrs (
-      system: systemPackages: let
-        pkgs = import nixpkgs {
-          inherit system;
-          config.allowUnfree = true;
-        };
-      in (
-        builtins.mapAttrs (_: {
-          pname,
-          version,
-          url,
-          sha256,
-        }: let
-          # The construction of the package is defined in a conventional location.
-          packageDefinition = ./packages/${pname};
-        in
-          pkgs.callPackage packageDefinition {
-            inherit pname version url sha256;
-          })
-        systemPackages
-      )
-    ) (builtins.fromJSON (builtins.readFile ./packages.json));
+    packages =
+      (builtins.mapAttrs (
+        system: systemPackages: let
+          pkgs = import nixpkgs {
+            inherit system;
+            config.allowUnfree = true;
+          };
+        in (
+          builtins.mapAttrs (_: {
+            pname,
+            version,
+            url,
+            sha256,
+          }: let
+            # The construction of the package is defined in a conventional location.
+            packageDefinition = ./packages/${pname};
+          in
+            pkgs.callPackage packageDefinition {
+              inherit pname version url sha256;
+            })
+          systemPackages
+        ) //  (import ./packages/learning-to-rank/elasticsearch {
+                     inherit pkgs inputs;
+                     inherit (pkgs) lib;
+                   })
+      ) (builtins.fromJSON (builtins.readFile ./packages.json)));
 
     devShells = forAllSystems (
       {pkgs, ...}: {

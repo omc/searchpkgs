@@ -45,7 +45,7 @@ in
 
     # we provide the full distro and just the modules
     # modules are not distributed via maven repo so this is the only way to get at the necessary jars
-    outputs = [ "out" "modules" ];
+    outputs = ["out" "modules"];
 
     nativeBuildInputs =
       [makeWrapper sd]
