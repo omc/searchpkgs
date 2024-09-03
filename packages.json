@@ -1,125 +1,5 @@
 {
   "x86_64-linux": {
-    "quickwit_0_1_0": {
-      "pname": "quickwit",
-      "version": "0.1.0",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.1.0/quickwit-v0.1.0-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "0cclhqz5664f76y14md99yk4rqjihff8nzb3vss0ssyfmfhymkbl"
-    },
-    "quickwit_0_2_0": {
-      "pname": "quickwit",
-      "version": "0.2.0",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.2.0/quickwit-v0.2.0-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "0p42xlyc1sls5ymwwx2jfhlfvl856c8i8ncd00iza4mkyrnmk5sy"
-    },
-    "quickwit_0_2_1": {
-      "pname": "quickwit",
-      "version": "0.2.1",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.2.1/quickwit-v0.2.1-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "0wg1372aia26gmai9kq8d2ni7hn644ix9qhwd0w5i43w318dlgwf"
-    },
-    "quickwit_0_3_0": {
-      "pname": "quickwit",
-      "version": "0.3.0",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.3.0/quickwit-v0.3.0-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "0ghmcnsp4cc8kv1a02mnajr39bq04mc4l73hdnr67p6sdp9afyib"
-    },
-    "quickwit_0_3_1": {
-      "pname": "quickwit",
-      "version": "0.3.1",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.3.1/quickwit-v0.3.1-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "0v4dj6x7rxh4chxg4w92274vxhps7f8ifgi0nwdqjf4krvyvndy9"
-    },
-    "quickwit_0_4_0": {
-      "pname": "quickwit",
-      "version": "0.4.0",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.4.0/quickwit-v0.4.0-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "1brmnvvy65qh9lqwr5dgzba9jpbrjn81nryb17703iwgjhh2as73"
-    },
-    "quickwit_0_5_0": {
-      "pname": "quickwit",
-      "version": "0.5.0",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.5.0/quickwit-v0.5.0-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "0g80w7al2bfky14x37hkms9vmy0jswf43xz2wihd210irxqlbxi8"
-    },
-    "quickwit_0_5_1": {
-      "pname": "quickwit",
-      "version": "0.5.1",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.5.1/quickwit-v0.5.1-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "1j0ww8zrjab6h96wh5gi4p9vf244bgizsk016kwcywam1ja0pmd3"
-    },
-    "quickwit_0_5_2": {
-      "pname": "quickwit",
-      "version": "0.5.2",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.5.2/quickwit-v0.5.2-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "02kdh28891cq474rd55v306qy2m3cj9cdxpx5akgsm80vifz0c9v"
-    },
-    "quickwit_0_6_0": {
-      "pname": "quickwit",
-      "version": "0.6.0",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.0/quickwit-v0.6.0-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "0g2v4dm8di4sjg8k4q4zyp2nf8rkni66vjyya4c732klhbklzdvx"
-    },
-    "quickwit_0_6_1": {
-      "pname": "quickwit",
-      "version": "0.6.1",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.1/quickwit-v0.6.1-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "122w2f3adbpdc45wn3fzfjisn6p3mak2429fpdjzndrd80ghcnm6"
-    },
-    "quickwit_0_6_2": {
-      "pname": "quickwit",
-      "version": "0.6.2",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.2/quickwit-v0.6.2-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "0mf3ivp6rfp5fmqsm44lbi0d2ipm7lyphzs87mh55nikp1pca7gk"
-    },
-    "quickwit_0_6_3": {
-      "pname": "quickwit",
-      "version": "0.6.3",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.3/quickwit-v0.6.3-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "1072ry9cm3vvxj971f9g9v8zrrxp69in44hl1ymxv8301vlkp3ri"
-    },
-    "quickwit_0_6_4": {
-      "pname": "quickwit",
-      "version": "0.6.4",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.4/quickwit-v0.6.4-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "0k5vzldqxn6rdwdzl8y5sqfrc3x28kcdphlp71ib5aw9g3w7gk33"
-    },
-    "quickwit_0_6_5": {
-      "pname": "quickwit",
-      "version": "0.6.5",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.5/quickwit-v0.6.5-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "028qdzv7gjh8wp1y1q91avw7j163a8pa1aaqlx31aagkmramjqn9"
-    },
-    "quickwit_0_7_0": {
-      "pname": "quickwit",
-      "version": "0.7.0",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.7.0/quickwit-v0.7.0-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "1ras5jigpbxyaq6sia8pw1gx4kzkkvlwy43z1rcpkbsb5y7k8sg9"
-    },
-    "quickwit_0_7_1": {
-      "pname": "quickwit",
-      "version": "0.7.1",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.7.1/quickwit-v0.7.1-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "0sb7jkbg6x7jy8bckkfs4rix04l79xb1rg0zrb3h499ljgr3wlvb"
-    },
-    "quickwit_0_8_0": {
-      "pname": "quickwit",
-      "version": "0.8.0",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.0/quickwit-v0.8.0-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "13g3fac5axkgxillyqrdi11sgvafr4l7j4axp2zb7f7lq525a054"
-    },
-    "quickwit_0_8_1": {
-      "pname": "quickwit",
-      "version": "0.8.1",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.1/quickwit-v0.8.1-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "0qkqd4giywk7f8agvf8761y0aq9f1sr363v7jp89zkcpk1q1n41w"
-    },
-    "quickwit_0_8_2": {
-      "pname": "quickwit",
-      "version": "0.8.2",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.2/quickwit-v0.8.2-x86_64-unknown-linux-gnu.tar.gz",
-      "sha256": "141jylhnpw8cj6cwjjdpv04pa7bafdpn8v4qrkm2cc3s82zkb03j"
-    },
     "elasticsearch_0_90_13": {
       "pname": "elasticsearch",
       "version": "0.90.13",
@@ -127,10 +7,10 @@
       "sha256": "0hyvvxffr8l1b2cpnrplldr0143kc19b9pn0ryhr7j2gar64v442"
     },
     "elasticsearch_1_0_0": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "1.0.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.0.0/opensearch-min-1.0.0-linux-x64.tar.gz",
-      "sha256": "1zyh41h8w052qnbldfgkbknv58kmx4myf3izamqvhbhlf1a3pjrc"
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.0.tar.gz",
+      "sha256": "06ym7hl47339a5dav2hawnxv820y0lbvh9xxd0lfp1f815vbql01"
     },
     "elasticsearch_1_0_1": {
       "pname": "elasticsearch",
@@ -151,10 +31,10 @@
       "sha256": "0hpfc6aksh9bxnr2i8h5pbvh3xbn3hpm2vhbncwcpyb7v4gmdp9n"
     },
     "elasticsearch_1_1_0": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "1.1.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.1.0/opensearch-min-1.1.0-linux-x64.tar.gz",
-      "sha256": "0ia9vhdyxvr7wj97svz5jvp0r3g6g7dnxmd550747hzxzqvvmg65"
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.1.0.tar.gz",
+      "sha256": "1k29lpa7zr4c9yck4akri4h22xbsjv4lvgwh6rzlkw97w0brah4g"
     },
     "elasticsearch_1_1_1": {
       "pname": "elasticsearch",
@@ -168,47 +48,41 @@
       "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.1.2.tar.gz",
       "sha256": "09wmmwmsrj57wwrzwbxzypqr7yhsciivbil6mrqf5yrgzxws5kmd"
     },
-    "opensearch_1_2_0": {
-      "pname": "opensearch",
-      "version": "1.2.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.0/opensearch-min-1.2.0-linux-x64.tar.gz",
-      "sha256": "078havs0hbbmpydw7irckf2q43waxb06mvjpvj4zah6wdfmnfvrw"
-    },
     "elasticsearch_1_2_1": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "1.2.1",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.1/opensearch-min-1.2.1-linux-x64.tar.gz",
-      "sha256": "03ngk9m4m6c1cdb2hjc1sd75afwyvl5b71dv838sqb4c4p5s72g6"
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.2.1.tar.gz",
+      "sha256": "11lirxl0hb0xfd57accsgldq1adrlv9pak2520jll2sj5gg71cmj"
     },
     "elasticsearch_1_2_2": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "1.2.2",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.2/opensearch-min-1.2.2-linux-x64.tar.gz",
-      "sha256": "03qw4881a6if6735bklk6zqvaa2p9iifb8iqkj52z1g42f8f65ip"
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.2.2.tar.gz",
+      "sha256": "1vpvxndcq48rcsgw2jnzdh4fwnf141hf5wjxrjs1g7p2qw0d0cy8"
     },
     "elasticsearch_1_2_3": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "1.2.3",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.3/opensearch-min-1.2.3-linux-x64.tar.gz",
-      "sha256": "1plw5jhd04f6m8mpc87hninxgvw7nrabl5n76ccaxwyc7n7v2v4n"
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.2.3.tar.gz",
+      "sha256": "1fqbjls8cwq2nasf3pwjvn9f1fyn1zyyik13y2a3w7h606f2fjyw"
     },
     "elasticsearch_1_2_4": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "1.2.4",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.4/opensearch-min-1.2.4-linux-x64.tar.gz",
-      "sha256": "0hc763lfsf0pq1rnxrwa71f8pps9x5xwl5ihr151m2vv33r791vq"
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.2.4.tar.gz",
+      "sha256": "0bz2n94zy93gxrssvl52wf30vgikhp92q0pn2hjllqxf9p5rihh7"
     },
     "elasticsearch_1_3_0": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "1.3.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.0/opensearch-min-1.3.0-linux-x64.tar.gz",
-      "sha256": "14g126ch00gy50s2drarwaa8jgwmhqicbfk8ckly8fx9905dlk00"
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.0.tar.gz",
+      "sha256": "0d25mxh31nv2k2bfvbnqg83dnbrxs4ha601c5452bbza9hnzfb2f"
     },
     "elasticsearch_1_3_1": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "1.3.1",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.1/opensearch-min-1.3.1-linux-x64.tar.gz",
-      "sha256": "1klnkvh6qz9v972dkghll8g5p1igdr4rcc65hgyd2s2gd060nrny"
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.1.tar.gz",
+      "sha256": "0f8281d4hqvc9v859j8la06aydda6j5hn69vbw09y28d811i7mmd"
     },
     "elasticsearch_1_3_2": {
       "pname": "elasticsearch",
@@ -223,76 +97,40 @@
       "sha256": "0i80vi9jiqb3z4b6hfma31graszai6lc2ikcfs8391ilqyflnygx"
     },
     "elasticsearch_1_3_4": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "1.3.4",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.4/opensearch-min-1.3.4-linux-x64.tar.gz",
-      "sha256": "1wskgl227bp74nxr2mk55pznrg6flkrybnbqjkzahwmq53acy01g"
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.4.tar.gz",
+      "sha256": "0c6klwag17npmr1f0zv4syn0d9ir3zm595x3vb42ni4b72f65bqq"
     },
     "elasticsearch_1_3_5": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "1.3.5",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.5/opensearch-min-1.3.5-linux-x64.tar.gz",
-      "sha256": "0f01hnmqxcmz7kpi0kgsqsh1c70qicjni7c6vbpx54gd985v94za"
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.5.tar.gz",
+      "sha256": "1yjpmrx1r068zgp5r65cmyasr22j6223ar7w0lg68sv7f9zz6qg3"
     },
     "elasticsearch_1_3_6": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "1.3.6",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.6/opensearch-min-1.3.6-linux-x64.tar.gz",
-      "sha256": "09aqrrf4vylwmshsjxmj8fa9g7skl56kjjjln7mf0z310qagns4l"
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.6.tar.gz",
+      "sha256": "1mkb89gz9qcsd7v48c8wk5gamwqvj1x2x7xjnz0x8lfkgkvinzl8"
     },
     "elasticsearch_1_3_7": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "1.3.7",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.7/opensearch-min-1.3.7-linux-x64.tar.gz",
-      "sha256": "0pzj3pfkssrjhdw6wf2yda1l5rpl3gy924ywsbrj02wfnbs4ngjh"
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.7.tar.gz",
+      "sha256": "1vgz9hvrs0nm3m9pgyh8xa46wmwa0c6cl2hpq2nfsdjqj60v62af"
     },
     "elasticsearch_1_3_8": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "1.3.8",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.8/opensearch-min-1.3.8-linux-x64.tar.gz",
-      "sha256": "1sdad5mkvzlsmjlphvivwxcsgidfn24xjrnqhwdjayhxahkrv831"
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.8.tar.gz",
+      "sha256": "1bmygmc06qmrfkl3xgci981b23h521w17lki7lngar14wn9yhf6m"
     },
     "elasticsearch_1_3_9": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "1.3.9",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.9/opensearch-min-1.3.9-linux-x64.tar.gz",
-      "sha256": "1sk6ywfpb6hcz2fnbvgmlj5ilyrx09209kn9v1pwsfx06ljnw37j"
-    },
-    "opensearch_1_3_10": {
-      "pname": "opensearch",
-      "version": "1.3.10",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.10/opensearch-min-1.3.10-linux-x64.tar.gz",
-      "sha256": "1iwlz6lw92qjsj9lj91zwqs3wayw3kb1bv89qaa18cyxryx4p1m0"
-    },
-    "opensearch_1_3_13": {
-      "pname": "opensearch",
-      "version": "1.3.13",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.13/opensearch-min-1.3.13-linux-x64.tar.gz",
-      "sha256": "08k3l6xaqhjr2hxp69j7mc1m5s9whkbb06myznn9xz878ad7wmm9"
-    },
-    "opensearch_1_3_15": {
-      "pname": "opensearch",
-      "version": "1.3.15",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.15/opensearch-min-1.3.15-linux-x64.tar.gz",
-      "sha256": "1gzqz38lgrmil2j2mg78jmvqaxs1as5s67p1qsivkyrni294fyb8"
-    },
-    "opensearch_1_3_16": {
-      "pname": "opensearch",
-      "version": "1.3.16",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.16/opensearch-min-1.3.16-linux-x64.tar.gz",
-      "sha256": "0lhrw38w7gjkipw8s35gkc48v7aq1p8mpjgii98y381ci4v0cc4k"
-    },
-    "opensearch_1_3_17": {
-      "pname": "opensearch",
-      "version": "1.3.17",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.17/opensearch-min-1.3.17-linux-x64.tar.gz",
-      "sha256": "1g19qmr1hp60yqwk7q1cr08yhm4jbsdmh2bqavfx98i19skvqcp3"
-    },
-    "opensearch_1_3_18": {
-      "pname": "opensearch",
-      "version": "1.3.18",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.18/opensearch-min-1.3.18-linux-x64.tar.gz",
-      "sha256": "1y6zwdsc192zzighwxr0gay0cbb6lnb47wp98bi12cf8mz61p9p7"
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.9.tar.gz",
+      "sha256": "1ga0wmrimz4y5yglw9p9bv5hml8pd5kz14yw1wz8x9646nxcw4lv"
     },
     "elasticsearch_1_4_0": {
       "pname": "elasticsearch",
@@ -409,16 +247,16 @@
       "sha256": "1pvpxl8cmqbqv1ysish8z0nd2jia4kg1f7xdbljfqc1p6lqgrbvq"
     },
     "elasticsearch_2_0_0": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.0.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.0.0/opensearch-min-2.0.0-linux-x64.tar.gz",
-      "sha256": "1sha6cny951g9nc3bsc9zdvl7gb36m2s86fbl3v2x5bh58qng7h3"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.0.0/elasticsearch-2.0.0.tar.gz",
+      "sha256": "1pqnbmfjhj1mz7d9h8djhfls5y2hf9fgrnagjrr20z1k2pv16pxj"
     },
     "elasticsearch_2_0_1": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.0.1",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.0.1/opensearch-min-2.0.1-linux-x64.tar.gz",
-      "sha256": "1j4rnv07nii0bnvni9b7jjdvvidr2pxvy0cd8xmr16sbwifvg5as"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.0.1/elasticsearch-2.0.1.tar.gz",
+      "sha256": "12vr6hg14hlzsyh9j8xzk2qlr2yzazlshg074bj5f8002z3sdr3v"
     },
     "elasticsearch_2_0_2": {
       "pname": "elasticsearch",
@@ -427,10 +265,10 @@
       "sha256": "0gzsl7ah8y5hpnwk14jlz2q7qnbxfmfcnwkhyim4kl3qn7zks4bl"
     },
     "elasticsearch_2_1_0": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.1.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.1.0/opensearch-min-2.1.0-linux-x64.tar.gz",
-      "sha256": "045ja3z8hzl0d85wa1l0ja2p8dsxjdb74xyb294ywy1f0cm3vr8b"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.1.0/elasticsearch-2.1.0.tar.gz",
+      "sha256": "052dbnld055f888i2z9qzzbrzh2mphfay1hmcmls7nh6nny8akla"
     },
     "elasticsearch_2_1_1": {
       "pname": "elasticsearch",
@@ -445,16 +283,16 @@
       "sha256": "1q928289s920wlsyl9m1xpvdw2hvi5ln3d2ldvw02vd3i2mz7706"
     },
     "elasticsearch_2_2_0": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.2.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.2.0/opensearch-min-2.2.0-linux-x64.tar.gz",
-      "sha256": "1b1jqqbxfvsgmgd2k37pr5kslmdbrzmiaz7902mw964l6wakdz42"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.2.0/elasticsearch-2.2.0.tar.gz",
+      "sha256": "0c2d0mpcr8lpvifvgp2pfj7avdi7fa8a5vib0gqdap7mw60wqw7d"
     },
     "elasticsearch_2_2_1": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.2.1",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.2.1/opensearch-min-2.2.1-linux-x64.tar.gz",
-      "sha256": "0p7ci61bk51jvhxdw5yxllrrjp53y7r834wb17w3x9brsfjwr4ml"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.2.1/elasticsearch-2.2.1.tar.gz",
+      "sha256": "00rfkcxbz6cxvvlccm5nlpsji5lk7pzv89pd4zc1bmz8is5d2hvx"
     },
     "elasticsearch_2_2_2": {
       "pname": "elasticsearch",
@@ -463,10 +301,10 @@
       "sha256": "0sdghc8q08m18prv9hwy1bh61pga2b2cd5q6v58m1sqz9xcxn1n7"
     },
     "elasticsearch_2_3_0": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.3.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.3.0/opensearch-min-2.3.0-linux-x64.tar.gz",
-      "sha256": "0fsdyz85gz8byq9x5dzj9dbsmm07asvqlvhvjzjzxvnal8ydxlm9"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.3.0/elasticsearch-2.3.0.tar.gz",
+      "sha256": "12ydzp3agl26aihpncsyrz359355p29izwf57ck8ca9zcg3q516n"
     },
     "elasticsearch_2_3_1": {
       "pname": "elasticsearch",
@@ -499,16 +337,16 @@
       "sha256": "12j6pdygn4zqnzz4vwr65alxw9hz79k1h4r6hm5qrf90hv0sh68i"
     },
     "elasticsearch_2_4_0": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.4.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.4.0/opensearch-min-2.4.0-linux-x64.tar.gz",
-      "sha256": "1l03b6rk6161dk0rz4hvpv4gxxaihhb1vp0fd6azwyvfmjyhnwz2"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.4.0/elasticsearch-2.4.0.tar.gz",
+      "sha256": "1jglmj1dnh1n2niyds6iyrpf6x6ppqgkivzy6qabkjvvmr013q1s"
     },
     "elasticsearch_2_4_1": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.4.1",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.4.1/opensearch-min-2.4.1-linux-x64.tar.gz",
-      "sha256": "0k728qpywah4hv7sqabrbp5hjwjljh5yxvd94rndm881b22bja95"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.4.1/elasticsearch-2.4.1.tar.gz",
+      "sha256": "0rz1pda7m2lrl1nygyyp2z95w19sx8g8jd4ymym1jp4m8bpnk8r3"
     },
     "elasticsearch_2_4_2": {
       "pname": "elasticsearch",
@@ -539,84 +377,6 @@
       "version": "2.4.6",
       "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.4.6/elasticsearch-2.4.6.tar.gz",
       "sha256": "0vzw9kpyyyv3f1m5sy9zara6shc7xkgi5xm5qbzvfywijavlnzjz"
-    },
-    "opensearch_2_5_0": {
-      "pname": "opensearch",
-      "version": "2.5.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.5.0/opensearch-min-2.5.0-linux-x64.tar.gz",
-      "sha256": "0mvd1hady459k804bb1yxz5aj2hf7pild46hmclcb8fl7wqv0iil"
-    },
-    "opensearch_2_6_0": {
-      "pname": "opensearch",
-      "version": "2.6.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.6.0/opensearch-min-2.6.0-linux-x64.tar.gz",
-      "sha256": "0dlm9s2m2pqqpdg94s80qk3dn0mld9qxydijv2xmymmghhkkz2da"
-    },
-    "opensearch_2_7_0": {
-      "pname": "opensearch",
-      "version": "2.7.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.7.0/opensearch-min-2.7.0-linux-x64.tar.gz",
-      "sha256": "0w1wycgzh0z1i8ilxgf2zfycsnfc6kjnsavm2bfsl9mnlhgqrlps"
-    },
-    "opensearch_2_8_0": {
-      "pname": "opensearch",
-      "version": "2.8.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.8.0/opensearch-min-2.8.0-linux-x64.tar.gz",
-      "sha256": "14s1k81ban6qxz5lgz9pvv87wkpnq9qklwnlb8ivr2c12mj1qjrq"
-    },
-    "opensearch_2_9_0": {
-      "pname": "opensearch",
-      "version": "2.9.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.9.0/opensearch-min-2.9.0-linux-x64.tar.gz",
-      "sha256": "0cf04w6w4zzd8g06z39v6088aivljzh8xvf1bqkvzjd03vfc2skf"
-    },
-    "opensearch_2_10_0": {
-      "pname": "opensearch",
-      "version": "2.10.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.10.0/opensearch-min-2.10.0-linux-x64.tar.gz",
-      "sha256": "1l1546jl737x4dz7zlxsdrnglyy8nxpiw6jlfh71ddyq4a4p7472"
-    },
-    "opensearch_2_11_0": {
-      "pname": "opensearch",
-      "version": "2.11.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.11.0/opensearch-min-2.11.0-linux-x64.tar.gz",
-      "sha256": "1z03vmkgs48s8xyxdarzpxar31m6fpx5285psyjvhni0cv9an4ad"
-    },
-    "opensearch_2_11_1": {
-      "pname": "opensearch",
-      "version": "2.11.1",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.11.1/opensearch-min-2.11.1-linux-x64.tar.gz",
-      "sha256": "0lf9mkbhxwgxsm7nz0hrp6j4svw7k08l7zr9v95imlywdyll3far"
-    },
-    "opensearch_2_12_0": {
-      "pname": "opensearch",
-      "version": "2.12.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.12.0/opensearch-min-2.12.0-linux-x64.tar.gz",
-      "sha256": "042mwbi8wx31xmnnr05mvnwn77rlzqjrsj4wdisrw3ch0pdkvl1x"
-    },
-    "opensearch_2_13_0": {
-      "pname": "opensearch",
-      "version": "2.13.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.13.0/opensearch-min-2.13.0-linux-x64.tar.gz",
-      "sha256": "091rqqm1xbziczxwxgzasj18xp2lbqz209fqpfnk08n0ffw22wqk"
-    },
-    "opensearch_2_14_0": {
-      "pname": "opensearch",
-      "version": "2.14.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.14.0/opensearch-min-2.14.0-linux-x64.tar.gz",
-      "sha256": "0pp1d5jk4j2x2c7m6cjmk9vpcsgnmb7kr4qw1hn8xv6skp5a4khq"
-    },
-    "opensearch_2_15_0": {
-      "pname": "opensearch",
-      "version": "2.15.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.15.0/opensearch-min-2.15.0-linux-x64.tar.gz",
-      "sha256": "0dkhrjrcagx9gjq2lq5h9rzfzh8jaqn3xzjfyhmvyw9lmfj55wbn"
-    },
-    "opensearch_2_16_0": {
-      "pname": "opensearch",
-      "version": "2.16.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.16.0/opensearch-min-2.16.0-linux-x64.tar.gz",
-      "sha256": "0ppg9rcqhyddb5nr60x2d6faxa27sba9q5avdax6g3qi4waaz239"
     },
     "elasticsearch_5_0_0": {
       "pname": "elasticsearch",
@@ -1937,176 +1697,18 @@
       "version": "8.15.0",
       "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.15.0-linux-x86_64.tar.gz",
       "sha256": "0rji855ph26vaigyw40khq9sc3rs3vkgiqfq2gf7sb3vqgi9y5yl"
-    }
-  },
-  "x86_64-darwin": {
-    "quickwit_0_1_0": {
-      "pname": "quickwit",
-      "version": "0.1.0",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.1.0/quickwit-v0.1.0-x86_64-apple-darwin.tar.gz",
-      "sha256": "1pkn7dz59wnj0zch7m34agsygnd7k50dzqnclmhrxrsmbrglhkqy"
     },
-    "quickwit_0_2_0": {
-      "pname": "quickwit",
-      "version": "0.2.0",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.2.0/quickwit-v0.2.0-x86_64-apple-darwin.tar.gz",
-      "sha256": "0kdb221viz1666ws0n6j3jh5afm83gqlw6ydxwyh343pi3sjmdrd"
-    },
-    "quickwit_0_2_1": {
-      "pname": "quickwit",
-      "version": "0.2.1",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.2.1/quickwit-v0.2.1-x86_64-apple-darwin.tar.gz",
-      "sha256": "0p4scz97q6zdkkx7p5b65nlwaxlrr0mw37nyi9f94hrhw3abcxxh"
-    },
-    "quickwit_0_3_0": {
-      "pname": "quickwit",
-      "version": "0.3.0",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.3.0/quickwit-v0.3.0-x86_64-apple-darwin.tar.gz",
-      "sha256": "1kf5a65hqkamwvy6d5wd1w2ivvf68g2a6raivxlgwnp16744f4rg"
-    },
-    "quickwit_0_3_1": {
-      "pname": "quickwit",
-      "version": "0.3.1",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.3.1/quickwit-v0.3.1-x86_64-apple-darwin.tar.gz",
-      "sha256": "18xbgflvp33sl91iljgi2pkr4d92kqfiscg1avh910kd0dgj1bly"
-    },
-    "quickwit_0_4_0": {
-      "pname": "quickwit",
-      "version": "0.4.0",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.4.0/quickwit-v0.4.0-x86_64-apple-darwin.tar.gz",
-      "sha256": "1rpsp3mnn38sncqrd808v864b28vkpz1di3ilm7aamdjjjwdfcaz"
-    },
-    "quickwit_0_5_0": {
-      "pname": "quickwit",
-      "version": "0.5.0",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.5.0/quickwit-v0.5.0-x86_64-apple-darwin.tar.gz",
-      "sha256": "04n6rvdgajdazglwwi78256y3ywwz7hf603bq0igz1kcycrclvzy"
-    },
-    "quickwit_0_5_1": {
-      "pname": "quickwit",
-      "version": "0.5.1",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.5.1/quickwit-v0.5.1-x86_64-apple-darwin.tar.gz",
-      "sha256": "17m3970hlra1fn6qrkgkfxcmh90yxx7qw799lj68spnv91m06diw"
-    },
-    "quickwit_0_5_2": {
-      "pname": "quickwit",
-      "version": "0.5.2",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.5.2/quickwit-v0.5.2-x86_64-apple-darwin.tar.gz",
-      "sha256": "0bgj4775mx0bpf25kfdb6k3yn5bx4zmj9f0knz0css4mkbsfway2"
-    },
-    "quickwit_0_6_0": {
-      "pname": "quickwit",
-      "version": "0.6.0",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.0/quickwit-v0.6.0-x86_64-apple-darwin.tar.gz",
-      "sha256": "1iqv92iblagg4rcgkbfg619i6wc33369rnv8sc4nw3w6379chffn"
-    },
-    "quickwit_0_6_1": {
-      "pname": "quickwit",
-      "version": "0.6.1",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.1/quickwit-v0.6.1-x86_64-apple-darwin.tar.gz",
-      "sha256": "1h1ksbis74swgxlc8vfmckkil65lbl3kh4lbpx570ffcqg7ql6ww"
-    },
-    "quickwit_0_6_2": {
-      "pname": "quickwit",
-      "version": "0.6.2",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.2/quickwit-v0.6.2-x86_64-apple-darwin.tar.gz",
-      "sha256": "02w82s4wgsldb2xf0pzycvk4xz49ljw4py9vhb1gahymjqnd5vfc"
-    },
-    "quickwit_0_6_3": {
-      "pname": "quickwit",
-      "version": "0.6.3",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.3/quickwit-v0.6.3-x86_64-apple-darwin.tar.gz",
-      "sha256": "0l4f1q7l1d47jcrsr0l4nmzkv70plmfyf94szngpl7gcp2xgw03j"
-    },
-    "quickwit_0_6_4": {
-      "pname": "quickwit",
-      "version": "0.6.4",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.4/quickwit-v0.6.4-x86_64-apple-darwin.tar.gz",
-      "sha256": "1l1xnpsvaqpm5p2asixfmzaqf1l4g768qjq7ffwgd321il7km6rs"
-    },
-    "quickwit_0_6_5": {
-      "pname": "quickwit",
-      "version": "0.6.5",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.5/quickwit-v0.6.5-x86_64-apple-darwin.tar.gz",
-      "sha256": "14cycj2fc22n4haag8wmfzyljy1drdz3z2cqyjwih09215ss6zm9"
-    },
-    "quickwit_0_7_0": {
-      "pname": "quickwit",
-      "version": "0.7.0",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.7.0/quickwit-v0.7.0-x86_64-apple-darwin.tar.gz",
-      "sha256": "0x4w30wr2dh6q9g73hppdzda3kj2d7pilh6ad6y5kgimzxwbq634"
-    },
-    "quickwit_0_7_1": {
-      "pname": "quickwit",
-      "version": "0.7.1",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.7.1/quickwit-v0.7.1-x86_64-apple-darwin.tar.gz",
-      "sha256": "0842751d32j854j9b9625555zvdz17fw9c5zk7lnll8hbd2pzyz5"
-    },
-    "quickwit_0_8_0": {
-      "pname": "quickwit",
-      "version": "0.8.0",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.0/quickwit-v0.8.0-x86_64-apple-darwin.tar.gz",
-      "sha256": "09lbi8bwlkw0azl5id192jz7nbwpybnwnqyxg059lkqirijg05zd"
-    },
-    "quickwit_0_8_1": {
-      "pname": "quickwit",
-      "version": "0.8.1",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.1/quickwit-v0.8.1-x86_64-apple-darwin.tar.gz",
-      "sha256": "0w4mz8q24li15dxf3dyrvhvg9r8akcaag4fj48mqvibz9igyfk3b"
-    },
-    "quickwit_0_8_2": {
-      "pname": "quickwit",
-      "version": "0.8.2",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.2/quickwit-v0.8.2-x86_64-apple-darwin.tar.gz",
-      "sha256": "02iv5rir7xr3hhqc0d578h2593sq190d3pagdkpmfqqgv1l55dq6"
-    },
-    "elasticsearch_0_90_13": {
-      "pname": "elasticsearch",
-      "version": "0.90.13",
-      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.13.tar.gz",
-      "sha256": "0hyvvxffr8l1b2cpnrplldr0143kc19b9pn0ryhr7j2gar64v442"
-    },
-    "elasticsearch_1_0_0": {
+    "opensearch_1_0_0": {
       "pname": "opensearch",
       "version": "1.0.0",
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.0.0/opensearch-min-1.0.0-linux-x64.tar.gz",
       "sha256": "1zyh41h8w052qnbldfgkbknv58kmx4myf3izamqvhbhlf1a3pjrc"
     },
-    "elasticsearch_1_0_1": {
-      "pname": "elasticsearch",
-      "version": "1.0.1",
-      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.1.tar.gz",
-      "sha256": "0nwv7llw7gk94alfcpxxy0lybhnw7fggv30v7ylsxn20id9g7kba"
-    },
-    "elasticsearch_1_0_2": {
-      "pname": "elasticsearch",
-      "version": "1.0.2",
-      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.2.tar.gz",
-      "sha256": "0w5d2m38qxis9diz49pmj24md4h5nwr05ycv5jbvl0gkwl2wvhig"
-    },
-    "elasticsearch_1_0_3": {
-      "pname": "elasticsearch",
-      "version": "1.0.3",
-      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.3.tar.gz",
-      "sha256": "0hpfc6aksh9bxnr2i8h5pbvh3xbn3hpm2vhbncwcpyb7v4gmdp9n"
-    },
-    "elasticsearch_1_1_0": {
+    "opensearch_1_1_0": {
       "pname": "opensearch",
       "version": "1.1.0",
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.1.0/opensearch-min-1.1.0-linux-x64.tar.gz",
       "sha256": "0ia9vhdyxvr7wj97svz5jvp0r3g6g7dnxmd550747hzxzqvvmg65"
-    },
-    "elasticsearch_1_1_1": {
-      "pname": "elasticsearch",
-      "version": "1.1.1",
-      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.1.1.tar.gz",
-      "sha256": "0dd8a0zmzig4zkasz71bijyz1d70cvvb0ycnwlidkjawnldxjk2n"
-    },
-    "elasticsearch_1_1_2": {
-      "pname": "elasticsearch",
-      "version": "1.1.2",
-      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.1.2.tar.gz",
-      "sha256": "09wmmwmsrj57wwrzwbxzypqr7yhsciivbil6mrqf5yrgzxws5kmd"
     },
     "opensearch_1_2_0": {
       "pname": "opensearch",
@@ -2114,85 +1716,73 @@
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.0/opensearch-min-1.2.0-linux-x64.tar.gz",
       "sha256": "078havs0hbbmpydw7irckf2q43waxb06mvjpvj4zah6wdfmnfvrw"
     },
-    "elasticsearch_1_2_1": {
+    "opensearch_1_2_1": {
       "pname": "opensearch",
       "version": "1.2.1",
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.1/opensearch-min-1.2.1-linux-x64.tar.gz",
       "sha256": "03ngk9m4m6c1cdb2hjc1sd75afwyvl5b71dv838sqb4c4p5s72g6"
     },
-    "elasticsearch_1_2_2": {
+    "opensearch_1_2_2": {
       "pname": "opensearch",
       "version": "1.2.2",
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.2/opensearch-min-1.2.2-linux-x64.tar.gz",
       "sha256": "03qw4881a6if6735bklk6zqvaa2p9iifb8iqkj52z1g42f8f65ip"
     },
-    "elasticsearch_1_2_3": {
+    "opensearch_1_2_3": {
       "pname": "opensearch",
       "version": "1.2.3",
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.3/opensearch-min-1.2.3-linux-x64.tar.gz",
       "sha256": "1plw5jhd04f6m8mpc87hninxgvw7nrabl5n76ccaxwyc7n7v2v4n"
     },
-    "elasticsearch_1_2_4": {
+    "opensearch_1_2_4": {
       "pname": "opensearch",
       "version": "1.2.4",
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.4/opensearch-min-1.2.4-linux-x64.tar.gz",
       "sha256": "0hc763lfsf0pq1rnxrwa71f8pps9x5xwl5ihr151m2vv33r791vq"
     },
-    "elasticsearch_1_3_0": {
+    "opensearch_1_3_0": {
       "pname": "opensearch",
       "version": "1.3.0",
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.0/opensearch-min-1.3.0-linux-x64.tar.gz",
       "sha256": "14g126ch00gy50s2drarwaa8jgwmhqicbfk8ckly8fx9905dlk00"
     },
-    "elasticsearch_1_3_1": {
+    "opensearch_1_3_1": {
       "pname": "opensearch",
       "version": "1.3.1",
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.1/opensearch-min-1.3.1-linux-x64.tar.gz",
       "sha256": "1klnkvh6qz9v972dkghll8g5p1igdr4rcc65hgyd2s2gd060nrny"
     },
-    "elasticsearch_1_3_2": {
-      "pname": "elasticsearch",
-      "version": "1.3.2",
-      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.2.tar.gz",
-      "sha256": "191fk7pbsxvihwj86b935d5b9n55h6q9gnpql68vfzjgvfjd09bm"
-    },
-    "elasticsearch_1_3_3": {
-      "pname": "elasticsearch",
-      "version": "1.3.3",
-      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.3.tar.gz",
-      "sha256": "0i80vi9jiqb3z4b6hfma31graszai6lc2ikcfs8391ilqyflnygx"
-    },
-    "elasticsearch_1_3_4": {
+    "opensearch_1_3_4": {
       "pname": "opensearch",
       "version": "1.3.4",
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.4/opensearch-min-1.3.4-linux-x64.tar.gz",
       "sha256": "1wskgl227bp74nxr2mk55pznrg6flkrybnbqjkzahwmq53acy01g"
     },
-    "elasticsearch_1_3_5": {
+    "opensearch_1_3_5": {
       "pname": "opensearch",
       "version": "1.3.5",
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.5/opensearch-min-1.3.5-linux-x64.tar.gz",
       "sha256": "0f01hnmqxcmz7kpi0kgsqsh1c70qicjni7c6vbpx54gd985v94za"
     },
-    "elasticsearch_1_3_6": {
+    "opensearch_1_3_6": {
       "pname": "opensearch",
       "version": "1.3.6",
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.6/opensearch-min-1.3.6-linux-x64.tar.gz",
       "sha256": "09aqrrf4vylwmshsjxmj8fa9g7skl56kjjjln7mf0z310qagns4l"
     },
-    "elasticsearch_1_3_7": {
+    "opensearch_1_3_7": {
       "pname": "opensearch",
       "version": "1.3.7",
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.7/opensearch-min-1.3.7-linux-x64.tar.gz",
       "sha256": "0pzj3pfkssrjhdw6wf2yda1l5rpl3gy924ywsbrj02wfnbs4ngjh"
     },
-    "elasticsearch_1_3_8": {
+    "opensearch_1_3_8": {
       "pname": "opensearch",
       "version": "1.3.8",
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.8/opensearch-min-1.3.8-linux-x64.tar.gz",
       "sha256": "1sdad5mkvzlsmjlphvivwxcsgidfn24xjrnqhwdjayhxahkrv831"
     },
-    "elasticsearch_1_3_9": {
+    "opensearch_1_3_9": {
       "pname": "opensearch",
       "version": "1.3.9",
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.9/opensearch-min-1.3.9-linux-x64.tar.gz",
@@ -2233,6 +1823,386 @@
       "version": "1.3.18",
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.18/opensearch-min-1.3.18-linux-x64.tar.gz",
       "sha256": "1y6zwdsc192zzighwxr0gay0cbb6lnb47wp98bi12cf8mz61p9p7"
+    },
+    "opensearch_2_0_0": {
+      "pname": "opensearch",
+      "version": "2.0.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.0.0/opensearch-min-2.0.0-linux-x64.tar.gz",
+      "sha256": "1sha6cny951g9nc3bsc9zdvl7gb36m2s86fbl3v2x5bh58qng7h3"
+    },
+    "opensearch_2_0_1": {
+      "pname": "opensearch",
+      "version": "2.0.1",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.0.1/opensearch-min-2.0.1-linux-x64.tar.gz",
+      "sha256": "1j4rnv07nii0bnvni9b7jjdvvidr2pxvy0cd8xmr16sbwifvg5as"
+    },
+    "opensearch_2_1_0": {
+      "pname": "opensearch",
+      "version": "2.1.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.1.0/opensearch-min-2.1.0-linux-x64.tar.gz",
+      "sha256": "045ja3z8hzl0d85wa1l0ja2p8dsxjdb74xyb294ywy1f0cm3vr8b"
+    },
+    "opensearch_2_2_0": {
+      "pname": "opensearch",
+      "version": "2.2.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.2.0/opensearch-min-2.2.0-linux-x64.tar.gz",
+      "sha256": "1b1jqqbxfvsgmgd2k37pr5kslmdbrzmiaz7902mw964l6wakdz42"
+    },
+    "opensearch_2_2_1": {
+      "pname": "opensearch",
+      "version": "2.2.1",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.2.1/opensearch-min-2.2.1-linux-x64.tar.gz",
+      "sha256": "0p7ci61bk51jvhxdw5yxllrrjp53y7r834wb17w3x9brsfjwr4ml"
+    },
+    "opensearch_2_3_0": {
+      "pname": "opensearch",
+      "version": "2.3.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.3.0/opensearch-min-2.3.0-linux-x64.tar.gz",
+      "sha256": "0fsdyz85gz8byq9x5dzj9dbsmm07asvqlvhvjzjzxvnal8ydxlm9"
+    },
+    "opensearch_2_4_0": {
+      "pname": "opensearch",
+      "version": "2.4.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.4.0/opensearch-min-2.4.0-linux-x64.tar.gz",
+      "sha256": "1l03b6rk6161dk0rz4hvpv4gxxaihhb1vp0fd6azwyvfmjyhnwz2"
+    },
+    "opensearch_2_4_1": {
+      "pname": "opensearch",
+      "version": "2.4.1",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.4.1/opensearch-min-2.4.1-linux-x64.tar.gz",
+      "sha256": "0k728qpywah4hv7sqabrbp5hjwjljh5yxvd94rndm881b22bja95"
+    },
+    "opensearch_2_5_0": {
+      "pname": "opensearch",
+      "version": "2.5.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.5.0/opensearch-min-2.5.0-linux-x64.tar.gz",
+      "sha256": "0mvd1hady459k804bb1yxz5aj2hf7pild46hmclcb8fl7wqv0iil"
+    },
+    "opensearch_2_6_0": {
+      "pname": "opensearch",
+      "version": "2.6.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.6.0/opensearch-min-2.6.0-linux-x64.tar.gz",
+      "sha256": "0dlm9s2m2pqqpdg94s80qk3dn0mld9qxydijv2xmymmghhkkz2da"
+    },
+    "opensearch_2_7_0": {
+      "pname": "opensearch",
+      "version": "2.7.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.7.0/opensearch-min-2.7.0-linux-x64.tar.gz",
+      "sha256": "0w1wycgzh0z1i8ilxgf2zfycsnfc6kjnsavm2bfsl9mnlhgqrlps"
+    },
+    "opensearch_2_8_0": {
+      "pname": "opensearch",
+      "version": "2.8.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.8.0/opensearch-min-2.8.0-linux-x64.tar.gz",
+      "sha256": "14s1k81ban6qxz5lgz9pvv87wkpnq9qklwnlb8ivr2c12mj1qjrq"
+    },
+    "opensearch_2_9_0": {
+      "pname": "opensearch",
+      "version": "2.9.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.9.0/opensearch-min-2.9.0-linux-x64.tar.gz",
+      "sha256": "0cf04w6w4zzd8g06z39v6088aivljzh8xvf1bqkvzjd03vfc2skf"
+    },
+    "opensearch_2_10_0": {
+      "pname": "opensearch",
+      "version": "2.10.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.10.0/opensearch-min-2.10.0-linux-x64.tar.gz",
+      "sha256": "1l1546jl737x4dz7zlxsdrnglyy8nxpiw6jlfh71ddyq4a4p7472"
+    },
+    "opensearch_2_11_0": {
+      "pname": "opensearch",
+      "version": "2.11.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.11.0/opensearch-min-2.11.0-linux-x64.tar.gz",
+      "sha256": "1z03vmkgs48s8xyxdarzpxar31m6fpx5285psyjvhni0cv9an4ad"
+    },
+    "opensearch_2_11_1": {
+      "pname": "opensearch",
+      "version": "2.11.1",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.11.1/opensearch-min-2.11.1-linux-x64.tar.gz",
+      "sha256": "0lf9mkbhxwgxsm7nz0hrp6j4svw7k08l7zr9v95imlywdyll3far"
+    },
+    "opensearch_2_12_0": {
+      "pname": "opensearch",
+      "version": "2.12.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.12.0/opensearch-min-2.12.0-linux-x64.tar.gz",
+      "sha256": "042mwbi8wx31xmnnr05mvnwn77rlzqjrsj4wdisrw3ch0pdkvl1x"
+    },
+    "opensearch_2_13_0": {
+      "pname": "opensearch",
+      "version": "2.13.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.13.0/opensearch-min-2.13.0-linux-x64.tar.gz",
+      "sha256": "091rqqm1xbziczxwxgzasj18xp2lbqz209fqpfnk08n0ffw22wqk"
+    },
+    "opensearch_2_14_0": {
+      "pname": "opensearch",
+      "version": "2.14.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.14.0/opensearch-min-2.14.0-linux-x64.tar.gz",
+      "sha256": "0pp1d5jk4j2x2c7m6cjmk9vpcsgnmb7kr4qw1hn8xv6skp5a4khq"
+    },
+    "opensearch_2_15_0": {
+      "pname": "opensearch",
+      "version": "2.15.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.15.0/opensearch-min-2.15.0-linux-x64.tar.gz",
+      "sha256": "0dkhrjrcagx9gjq2lq5h9rzfzh8jaqn3xzjfyhmvyw9lmfj55wbn"
+    },
+    "opensearch_2_16_0": {
+      "pname": "opensearch",
+      "version": "2.16.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.16.0/opensearch-min-2.16.0-linux-x64.tar.gz",
+      "sha256": "0ppg9rcqhyddb5nr60x2d6faxa27sba9q5avdax6g3qi4waaz239"
+    },
+    "quickwit_0_1_0": {
+      "pname": "quickwit",
+      "version": "0.1.0",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.1.0/quickwit-v0.1.0-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "0cclhqz5664f76y14md99yk4rqjihff8nzb3vss0ssyfmfhymkbl"
+    },
+    "quickwit_0_2_0": {
+      "pname": "quickwit",
+      "version": "0.2.0",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.2.0/quickwit-v0.2.0-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "0p42xlyc1sls5ymwwx2jfhlfvl856c8i8ncd00iza4mkyrnmk5sy"
+    },
+    "quickwit_0_2_1": {
+      "pname": "quickwit",
+      "version": "0.2.1",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.2.1/quickwit-v0.2.1-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "0wg1372aia26gmai9kq8d2ni7hn644ix9qhwd0w5i43w318dlgwf"
+    },
+    "quickwit_0_3_0": {
+      "pname": "quickwit",
+      "version": "0.3.0",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.3.0/quickwit-v0.3.0-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "0ghmcnsp4cc8kv1a02mnajr39bq04mc4l73hdnr67p6sdp9afyib"
+    },
+    "quickwit_0_3_1": {
+      "pname": "quickwit",
+      "version": "0.3.1",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.3.1/quickwit-v0.3.1-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "0v4dj6x7rxh4chxg4w92274vxhps7f8ifgi0nwdqjf4krvyvndy9"
+    },
+    "quickwit_0_4_0": {
+      "pname": "quickwit",
+      "version": "0.4.0",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.4.0/quickwit-v0.4.0-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "1brmnvvy65qh9lqwr5dgzba9jpbrjn81nryb17703iwgjhh2as73"
+    },
+    "quickwit_0_5_0": {
+      "pname": "quickwit",
+      "version": "0.5.0",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.5.0/quickwit-v0.5.0-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "0g80w7al2bfky14x37hkms9vmy0jswf43xz2wihd210irxqlbxi8"
+    },
+    "quickwit_0_5_1": {
+      "pname": "quickwit",
+      "version": "0.5.1",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.5.1/quickwit-v0.5.1-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "1j0ww8zrjab6h96wh5gi4p9vf244bgizsk016kwcywam1ja0pmd3"
+    },
+    "quickwit_0_5_2": {
+      "pname": "quickwit",
+      "version": "0.5.2",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.5.2/quickwit-v0.5.2-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "02kdh28891cq474rd55v306qy2m3cj9cdxpx5akgsm80vifz0c9v"
+    },
+    "quickwit_0_6_0": {
+      "pname": "quickwit",
+      "version": "0.6.0",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.0/quickwit-v0.6.0-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "0g2v4dm8di4sjg8k4q4zyp2nf8rkni66vjyya4c732klhbklzdvx"
+    },
+    "quickwit_0_6_1": {
+      "pname": "quickwit",
+      "version": "0.6.1",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.1/quickwit-v0.6.1-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "122w2f3adbpdc45wn3fzfjisn6p3mak2429fpdjzndrd80ghcnm6"
+    },
+    "quickwit_0_6_2": {
+      "pname": "quickwit",
+      "version": "0.6.2",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.2/quickwit-v0.6.2-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "0mf3ivp6rfp5fmqsm44lbi0d2ipm7lyphzs87mh55nikp1pca7gk"
+    },
+    "quickwit_0_6_3": {
+      "pname": "quickwit",
+      "version": "0.6.3",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.3/quickwit-v0.6.3-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "1072ry9cm3vvxj971f9g9v8zrrxp69in44hl1ymxv8301vlkp3ri"
+    },
+    "quickwit_0_6_4": {
+      "pname": "quickwit",
+      "version": "0.6.4",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.4/quickwit-v0.6.4-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "0k5vzldqxn6rdwdzl8y5sqfrc3x28kcdphlp71ib5aw9g3w7gk33"
+    },
+    "quickwit_0_6_5": {
+      "pname": "quickwit",
+      "version": "0.6.5",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.5/quickwit-v0.6.5-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "028qdzv7gjh8wp1y1q91avw7j163a8pa1aaqlx31aagkmramjqn9"
+    },
+    "quickwit_0_7_0": {
+      "pname": "quickwit",
+      "version": "0.7.0",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.7.0/quickwit-v0.7.0-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "1ras5jigpbxyaq6sia8pw1gx4kzkkvlwy43z1rcpkbsb5y7k8sg9"
+    },
+    "quickwit_0_7_1": {
+      "pname": "quickwit",
+      "version": "0.7.1",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.7.1/quickwit-v0.7.1-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "0sb7jkbg6x7jy8bckkfs4rix04l79xb1rg0zrb3h499ljgr3wlvb"
+    },
+    "quickwit_0_8_0": {
+      "pname": "quickwit",
+      "version": "0.8.0",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.0/quickwit-v0.8.0-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "13g3fac5axkgxillyqrdi11sgvafr4l7j4axp2zb7f7lq525a054"
+    },
+    "quickwit_0_8_1": {
+      "pname": "quickwit",
+      "version": "0.8.1",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.1/quickwit-v0.8.1-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "0qkqd4giywk7f8agvf8761y0aq9f1sr363v7jp89zkcpk1q1n41w"
+    },
+    "quickwit_0_8_2": {
+      "pname": "quickwit",
+      "version": "0.8.2",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.2/quickwit-v0.8.2-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "141jylhnpw8cj6cwjjdpv04pa7bafdpn8v4qrkm2cc3s82zkb03j"
+    }
+  },
+  "x86_64-darwin": {
+    "elasticsearch_0_90_13": {
+      "pname": "elasticsearch",
+      "version": "0.90.13",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.13.tar.gz",
+      "sha256": "0hyvvxffr8l1b2cpnrplldr0143kc19b9pn0ryhr7j2gar64v442"
+    },
+    "elasticsearch_1_0_0": {
+      "pname": "elasticsearch",
+      "version": "1.0.0",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.0.tar.gz",
+      "sha256": "06ym7hl47339a5dav2hawnxv820y0lbvh9xxd0lfp1f815vbql01"
+    },
+    "elasticsearch_1_0_1": {
+      "pname": "elasticsearch",
+      "version": "1.0.1",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.1.tar.gz",
+      "sha256": "0nwv7llw7gk94alfcpxxy0lybhnw7fggv30v7ylsxn20id9g7kba"
+    },
+    "elasticsearch_1_0_2": {
+      "pname": "elasticsearch",
+      "version": "1.0.2",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.2.tar.gz",
+      "sha256": "0w5d2m38qxis9diz49pmj24md4h5nwr05ycv5jbvl0gkwl2wvhig"
+    },
+    "elasticsearch_1_0_3": {
+      "pname": "elasticsearch",
+      "version": "1.0.3",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.3.tar.gz",
+      "sha256": "0hpfc6aksh9bxnr2i8h5pbvh3xbn3hpm2vhbncwcpyb7v4gmdp9n"
+    },
+    "elasticsearch_1_1_0": {
+      "pname": "elasticsearch",
+      "version": "1.1.0",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.1.0.tar.gz",
+      "sha256": "1k29lpa7zr4c9yck4akri4h22xbsjv4lvgwh6rzlkw97w0brah4g"
+    },
+    "elasticsearch_1_1_1": {
+      "pname": "elasticsearch",
+      "version": "1.1.1",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.1.1.tar.gz",
+      "sha256": "0dd8a0zmzig4zkasz71bijyz1d70cvvb0ycnwlidkjawnldxjk2n"
+    },
+    "elasticsearch_1_1_2": {
+      "pname": "elasticsearch",
+      "version": "1.1.2",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.1.2.tar.gz",
+      "sha256": "09wmmwmsrj57wwrzwbxzypqr7yhsciivbil6mrqf5yrgzxws5kmd"
+    },
+    "elasticsearch_1_2_1": {
+      "pname": "elasticsearch",
+      "version": "1.2.1",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.2.1.tar.gz",
+      "sha256": "11lirxl0hb0xfd57accsgldq1adrlv9pak2520jll2sj5gg71cmj"
+    },
+    "elasticsearch_1_2_2": {
+      "pname": "elasticsearch",
+      "version": "1.2.2",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.2.2.tar.gz",
+      "sha256": "1vpvxndcq48rcsgw2jnzdh4fwnf141hf5wjxrjs1g7p2qw0d0cy8"
+    },
+    "elasticsearch_1_2_3": {
+      "pname": "elasticsearch",
+      "version": "1.2.3",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.2.3.tar.gz",
+      "sha256": "1fqbjls8cwq2nasf3pwjvn9f1fyn1zyyik13y2a3w7h606f2fjyw"
+    },
+    "elasticsearch_1_2_4": {
+      "pname": "elasticsearch",
+      "version": "1.2.4",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.2.4.tar.gz",
+      "sha256": "0bz2n94zy93gxrssvl52wf30vgikhp92q0pn2hjllqxf9p5rihh7"
+    },
+    "elasticsearch_1_3_0": {
+      "pname": "elasticsearch",
+      "version": "1.3.0",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.0.tar.gz",
+      "sha256": "0d25mxh31nv2k2bfvbnqg83dnbrxs4ha601c5452bbza9hnzfb2f"
+    },
+    "elasticsearch_1_3_1": {
+      "pname": "elasticsearch",
+      "version": "1.3.1",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.1.tar.gz",
+      "sha256": "0f8281d4hqvc9v859j8la06aydda6j5hn69vbw09y28d811i7mmd"
+    },
+    "elasticsearch_1_3_2": {
+      "pname": "elasticsearch",
+      "version": "1.3.2",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.2.tar.gz",
+      "sha256": "191fk7pbsxvihwj86b935d5b9n55h6q9gnpql68vfzjgvfjd09bm"
+    },
+    "elasticsearch_1_3_3": {
+      "pname": "elasticsearch",
+      "version": "1.3.3",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.3.tar.gz",
+      "sha256": "0i80vi9jiqb3z4b6hfma31graszai6lc2ikcfs8391ilqyflnygx"
+    },
+    "elasticsearch_1_3_4": {
+      "pname": "elasticsearch",
+      "version": "1.3.4",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.4.tar.gz",
+      "sha256": "0c6klwag17npmr1f0zv4syn0d9ir3zm595x3vb42ni4b72f65bqq"
+    },
+    "elasticsearch_1_3_5": {
+      "pname": "elasticsearch",
+      "version": "1.3.5",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.5.tar.gz",
+      "sha256": "1yjpmrx1r068zgp5r65cmyasr22j6223ar7w0lg68sv7f9zz6qg3"
+    },
+    "elasticsearch_1_3_6": {
+      "pname": "elasticsearch",
+      "version": "1.3.6",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.6.tar.gz",
+      "sha256": "1mkb89gz9qcsd7v48c8wk5gamwqvj1x2x7xjnz0x8lfkgkvinzl8"
+    },
+    "elasticsearch_1_3_7": {
+      "pname": "elasticsearch",
+      "version": "1.3.7",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.7.tar.gz",
+      "sha256": "1vgz9hvrs0nm3m9pgyh8xa46wmwa0c6cl2hpq2nfsdjqj60v62af"
+    },
+    "elasticsearch_1_3_8": {
+      "pname": "elasticsearch",
+      "version": "1.3.8",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.8.tar.gz",
+      "sha256": "1bmygmc06qmrfkl3xgci981b23h521w17lki7lngar14wn9yhf6m"
+    },
+    "elasticsearch_1_3_9": {
+      "pname": "elasticsearch",
+      "version": "1.3.9",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.9.tar.gz",
+      "sha256": "1ga0wmrimz4y5yglw9p9bv5hml8pd5kz14yw1wz8x9646nxcw4lv"
     },
     "elasticsearch_1_4_0": {
       "pname": "elasticsearch",
@@ -2349,16 +2319,16 @@
       "sha256": "1pvpxl8cmqbqv1ysish8z0nd2jia4kg1f7xdbljfqc1p6lqgrbvq"
     },
     "elasticsearch_2_0_0": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.0.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.0.0/opensearch-min-2.0.0-linux-x64.tar.gz",
-      "sha256": "1sha6cny951g9nc3bsc9zdvl7gb36m2s86fbl3v2x5bh58qng7h3"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.0.0/elasticsearch-2.0.0.tar.gz",
+      "sha256": "1pqnbmfjhj1mz7d9h8djhfls5y2hf9fgrnagjrr20z1k2pv16pxj"
     },
     "elasticsearch_2_0_1": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.0.1",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.0.1/opensearch-min-2.0.1-linux-x64.tar.gz",
-      "sha256": "1j4rnv07nii0bnvni9b7jjdvvidr2pxvy0cd8xmr16sbwifvg5as"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.0.1/elasticsearch-2.0.1.tar.gz",
+      "sha256": "12vr6hg14hlzsyh9j8xzk2qlr2yzazlshg074bj5f8002z3sdr3v"
     },
     "elasticsearch_2_0_2": {
       "pname": "elasticsearch",
@@ -2367,10 +2337,10 @@
       "sha256": "0gzsl7ah8y5hpnwk14jlz2q7qnbxfmfcnwkhyim4kl3qn7zks4bl"
     },
     "elasticsearch_2_1_0": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.1.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.1.0/opensearch-min-2.1.0-linux-x64.tar.gz",
-      "sha256": "045ja3z8hzl0d85wa1l0ja2p8dsxjdb74xyb294ywy1f0cm3vr8b"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.1.0/elasticsearch-2.1.0.tar.gz",
+      "sha256": "052dbnld055f888i2z9qzzbrzh2mphfay1hmcmls7nh6nny8akla"
     },
     "elasticsearch_2_1_1": {
       "pname": "elasticsearch",
@@ -2385,16 +2355,16 @@
       "sha256": "1q928289s920wlsyl9m1xpvdw2hvi5ln3d2ldvw02vd3i2mz7706"
     },
     "elasticsearch_2_2_0": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.2.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.2.0/opensearch-min-2.2.0-linux-x64.tar.gz",
-      "sha256": "1b1jqqbxfvsgmgd2k37pr5kslmdbrzmiaz7902mw964l6wakdz42"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.2.0/elasticsearch-2.2.0.tar.gz",
+      "sha256": "0c2d0mpcr8lpvifvgp2pfj7avdi7fa8a5vib0gqdap7mw60wqw7d"
     },
     "elasticsearch_2_2_1": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.2.1",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.2.1/opensearch-min-2.2.1-linux-x64.tar.gz",
-      "sha256": "0p7ci61bk51jvhxdw5yxllrrjp53y7r834wb17w3x9brsfjwr4ml"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.2.1/elasticsearch-2.2.1.tar.gz",
+      "sha256": "00rfkcxbz6cxvvlccm5nlpsji5lk7pzv89pd4zc1bmz8is5d2hvx"
     },
     "elasticsearch_2_2_2": {
       "pname": "elasticsearch",
@@ -2403,10 +2373,10 @@
       "sha256": "0sdghc8q08m18prv9hwy1bh61pga2b2cd5q6v58m1sqz9xcxn1n7"
     },
     "elasticsearch_2_3_0": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.3.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.3.0/opensearch-min-2.3.0-linux-x64.tar.gz",
-      "sha256": "0fsdyz85gz8byq9x5dzj9dbsmm07asvqlvhvjzjzxvnal8ydxlm9"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.3.0/elasticsearch-2.3.0.tar.gz",
+      "sha256": "12ydzp3agl26aihpncsyrz359355p29izwf57ck8ca9zcg3q516n"
     },
     "elasticsearch_2_3_1": {
       "pname": "elasticsearch",
@@ -2439,16 +2409,16 @@
       "sha256": "12j6pdygn4zqnzz4vwr65alxw9hz79k1h4r6hm5qrf90hv0sh68i"
     },
     "elasticsearch_2_4_0": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.4.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.4.0/opensearch-min-2.4.0-linux-x64.tar.gz",
-      "sha256": "1l03b6rk6161dk0rz4hvpv4gxxaihhb1vp0fd6azwyvfmjyhnwz2"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.4.0/elasticsearch-2.4.0.tar.gz",
+      "sha256": "1jglmj1dnh1n2niyds6iyrpf6x6ppqgkivzy6qabkjvvmr013q1s"
     },
     "elasticsearch_2_4_1": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.4.1",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.4.1/opensearch-min-2.4.1-linux-x64.tar.gz",
-      "sha256": "0k728qpywah4hv7sqabrbp5hjwjljh5yxvd94rndm881b22bja95"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.4.1/elasticsearch-2.4.1.tar.gz",
+      "sha256": "0rz1pda7m2lrl1nygyyp2z95w19sx8g8jd4ymym1jp4m8bpnk8r3"
     },
     "elasticsearch_2_4_2": {
       "pname": "elasticsearch",
@@ -2479,84 +2449,6 @@
       "version": "2.4.6",
       "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.4.6/elasticsearch-2.4.6.tar.gz",
       "sha256": "0vzw9kpyyyv3f1m5sy9zara6shc7xkgi5xm5qbzvfywijavlnzjz"
-    },
-    "opensearch_2_5_0": {
-      "pname": "opensearch",
-      "version": "2.5.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.5.0/opensearch-min-2.5.0-linux-x64.tar.gz",
-      "sha256": "0mvd1hady459k804bb1yxz5aj2hf7pild46hmclcb8fl7wqv0iil"
-    },
-    "opensearch_2_6_0": {
-      "pname": "opensearch",
-      "version": "2.6.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.6.0/opensearch-min-2.6.0-linux-x64.tar.gz",
-      "sha256": "0dlm9s2m2pqqpdg94s80qk3dn0mld9qxydijv2xmymmghhkkz2da"
-    },
-    "opensearch_2_7_0": {
-      "pname": "opensearch",
-      "version": "2.7.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.7.0/opensearch-min-2.7.0-linux-x64.tar.gz",
-      "sha256": "0w1wycgzh0z1i8ilxgf2zfycsnfc6kjnsavm2bfsl9mnlhgqrlps"
-    },
-    "opensearch_2_8_0": {
-      "pname": "opensearch",
-      "version": "2.8.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.8.0/opensearch-min-2.8.0-linux-x64.tar.gz",
-      "sha256": "14s1k81ban6qxz5lgz9pvv87wkpnq9qklwnlb8ivr2c12mj1qjrq"
-    },
-    "opensearch_2_9_0": {
-      "pname": "opensearch",
-      "version": "2.9.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.9.0/opensearch-min-2.9.0-linux-x64.tar.gz",
-      "sha256": "0cf04w6w4zzd8g06z39v6088aivljzh8xvf1bqkvzjd03vfc2skf"
-    },
-    "opensearch_2_10_0": {
-      "pname": "opensearch",
-      "version": "2.10.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.10.0/opensearch-min-2.10.0-linux-x64.tar.gz",
-      "sha256": "1l1546jl737x4dz7zlxsdrnglyy8nxpiw6jlfh71ddyq4a4p7472"
-    },
-    "opensearch_2_11_0": {
-      "pname": "opensearch",
-      "version": "2.11.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.11.0/opensearch-min-2.11.0-linux-x64.tar.gz",
-      "sha256": "1z03vmkgs48s8xyxdarzpxar31m6fpx5285psyjvhni0cv9an4ad"
-    },
-    "opensearch_2_11_1": {
-      "pname": "opensearch",
-      "version": "2.11.1",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.11.1/opensearch-min-2.11.1-linux-x64.tar.gz",
-      "sha256": "0lf9mkbhxwgxsm7nz0hrp6j4svw7k08l7zr9v95imlywdyll3far"
-    },
-    "opensearch_2_12_0": {
-      "pname": "opensearch",
-      "version": "2.12.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.12.0/opensearch-min-2.12.0-linux-x64.tar.gz",
-      "sha256": "042mwbi8wx31xmnnr05mvnwn77rlzqjrsj4wdisrw3ch0pdkvl1x"
-    },
-    "opensearch_2_13_0": {
-      "pname": "opensearch",
-      "version": "2.13.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.13.0/opensearch-min-2.13.0-linux-x64.tar.gz",
-      "sha256": "091rqqm1xbziczxwxgzasj18xp2lbqz209fqpfnk08n0ffw22wqk"
-    },
-    "opensearch_2_14_0": {
-      "pname": "opensearch",
-      "version": "2.14.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.14.0/opensearch-min-2.14.0-linux-x64.tar.gz",
-      "sha256": "0pp1d5jk4j2x2c7m6cjmk9vpcsgnmb7kr4qw1hn8xv6skp5a4khq"
-    },
-    "opensearch_2_15_0": {
-      "pname": "opensearch",
-      "version": "2.15.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.15.0/opensearch-min-2.15.0-linux-x64.tar.gz",
-      "sha256": "0dkhrjrcagx9gjq2lq5h9rzfzh8jaqn3xzjfyhmvyw9lmfj55wbn"
-    },
-    "opensearch_2_16_0": {
-      "pname": "opensearch",
-      "version": "2.16.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.16.0/opensearch-min-2.16.0-linux-x64.tar.gz",
-      "sha256": "0ppg9rcqhyddb5nr60x2d6faxa27sba9q5avdax6g3qi4waaz239"
     },
     "elasticsearch_5_0_0": {
       "pname": "elasticsearch",
@@ -3877,129 +3769,381 @@
       "version": "8.15.0",
       "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.15.0-darwin-x86_64.tar.gz",
       "sha256": "02p1xjiaxvk2s9r1jvlmlpj6p5jax4w0361a5riwqj5lrd2x3a27"
-    }
-  },
-  "aarch64-linux": {
+    },
+    "opensearch_1_0_0": {
+      "pname": "opensearch",
+      "version": "1.0.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.0.0/opensearch-min-1.0.0-linux-x64.tar.gz",
+      "sha256": "1zyh41h8w052qnbldfgkbknv58kmx4myf3izamqvhbhlf1a3pjrc"
+    },
+    "opensearch_1_1_0": {
+      "pname": "opensearch",
+      "version": "1.1.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.1.0/opensearch-min-1.1.0-linux-x64.tar.gz",
+      "sha256": "0ia9vhdyxvr7wj97svz5jvp0r3g6g7dnxmd550747hzxzqvvmg65"
+    },
+    "opensearch_1_2_0": {
+      "pname": "opensearch",
+      "version": "1.2.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.0/opensearch-min-1.2.0-linux-x64.tar.gz",
+      "sha256": "078havs0hbbmpydw7irckf2q43waxb06mvjpvj4zah6wdfmnfvrw"
+    },
+    "opensearch_1_2_1": {
+      "pname": "opensearch",
+      "version": "1.2.1",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.1/opensearch-min-1.2.1-linux-x64.tar.gz",
+      "sha256": "03ngk9m4m6c1cdb2hjc1sd75afwyvl5b71dv838sqb4c4p5s72g6"
+    },
+    "opensearch_1_2_2": {
+      "pname": "opensearch",
+      "version": "1.2.2",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.2/opensearch-min-1.2.2-linux-x64.tar.gz",
+      "sha256": "03qw4881a6if6735bklk6zqvaa2p9iifb8iqkj52z1g42f8f65ip"
+    },
+    "opensearch_1_2_3": {
+      "pname": "opensearch",
+      "version": "1.2.3",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.3/opensearch-min-1.2.3-linux-x64.tar.gz",
+      "sha256": "1plw5jhd04f6m8mpc87hninxgvw7nrabl5n76ccaxwyc7n7v2v4n"
+    },
+    "opensearch_1_2_4": {
+      "pname": "opensearch",
+      "version": "1.2.4",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.4/opensearch-min-1.2.4-linux-x64.tar.gz",
+      "sha256": "0hc763lfsf0pq1rnxrwa71f8pps9x5xwl5ihr151m2vv33r791vq"
+    },
+    "opensearch_1_3_0": {
+      "pname": "opensearch",
+      "version": "1.3.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.0/opensearch-min-1.3.0-linux-x64.tar.gz",
+      "sha256": "14g126ch00gy50s2drarwaa8jgwmhqicbfk8ckly8fx9905dlk00"
+    },
+    "opensearch_1_3_1": {
+      "pname": "opensearch",
+      "version": "1.3.1",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.1/opensearch-min-1.3.1-linux-x64.tar.gz",
+      "sha256": "1klnkvh6qz9v972dkghll8g5p1igdr4rcc65hgyd2s2gd060nrny"
+    },
+    "opensearch_1_3_4": {
+      "pname": "opensearch",
+      "version": "1.3.4",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.4/opensearch-min-1.3.4-linux-x64.tar.gz",
+      "sha256": "1wskgl227bp74nxr2mk55pznrg6flkrybnbqjkzahwmq53acy01g"
+    },
+    "opensearch_1_3_5": {
+      "pname": "opensearch",
+      "version": "1.3.5",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.5/opensearch-min-1.3.5-linux-x64.tar.gz",
+      "sha256": "0f01hnmqxcmz7kpi0kgsqsh1c70qicjni7c6vbpx54gd985v94za"
+    },
+    "opensearch_1_3_6": {
+      "pname": "opensearch",
+      "version": "1.3.6",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.6/opensearch-min-1.3.6-linux-x64.tar.gz",
+      "sha256": "09aqrrf4vylwmshsjxmj8fa9g7skl56kjjjln7mf0z310qagns4l"
+    },
+    "opensearch_1_3_7": {
+      "pname": "opensearch",
+      "version": "1.3.7",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.7/opensearch-min-1.3.7-linux-x64.tar.gz",
+      "sha256": "0pzj3pfkssrjhdw6wf2yda1l5rpl3gy924ywsbrj02wfnbs4ngjh"
+    },
+    "opensearch_1_3_8": {
+      "pname": "opensearch",
+      "version": "1.3.8",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.8/opensearch-min-1.3.8-linux-x64.tar.gz",
+      "sha256": "1sdad5mkvzlsmjlphvivwxcsgidfn24xjrnqhwdjayhxahkrv831"
+    },
+    "opensearch_1_3_9": {
+      "pname": "opensearch",
+      "version": "1.3.9",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.9/opensearch-min-1.3.9-linux-x64.tar.gz",
+      "sha256": "1sk6ywfpb6hcz2fnbvgmlj5ilyrx09209kn9v1pwsfx06ljnw37j"
+    },
+    "opensearch_1_3_10": {
+      "pname": "opensearch",
+      "version": "1.3.10",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.10/opensearch-min-1.3.10-linux-x64.tar.gz",
+      "sha256": "1iwlz6lw92qjsj9lj91zwqs3wayw3kb1bv89qaa18cyxryx4p1m0"
+    },
+    "opensearch_1_3_13": {
+      "pname": "opensearch",
+      "version": "1.3.13",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.13/opensearch-min-1.3.13-linux-x64.tar.gz",
+      "sha256": "08k3l6xaqhjr2hxp69j7mc1m5s9whkbb06myznn9xz878ad7wmm9"
+    },
+    "opensearch_1_3_15": {
+      "pname": "opensearch",
+      "version": "1.3.15",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.15/opensearch-min-1.3.15-linux-x64.tar.gz",
+      "sha256": "1gzqz38lgrmil2j2mg78jmvqaxs1as5s67p1qsivkyrni294fyb8"
+    },
+    "opensearch_1_3_16": {
+      "pname": "opensearch",
+      "version": "1.3.16",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.16/opensearch-min-1.3.16-linux-x64.tar.gz",
+      "sha256": "0lhrw38w7gjkipw8s35gkc48v7aq1p8mpjgii98y381ci4v0cc4k"
+    },
+    "opensearch_1_3_17": {
+      "pname": "opensearch",
+      "version": "1.3.17",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.17/opensearch-min-1.3.17-linux-x64.tar.gz",
+      "sha256": "1g19qmr1hp60yqwk7q1cr08yhm4jbsdmh2bqavfx98i19skvqcp3"
+    },
+    "opensearch_1_3_18": {
+      "pname": "opensearch",
+      "version": "1.3.18",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.18/opensearch-min-1.3.18-linux-x64.tar.gz",
+      "sha256": "1y6zwdsc192zzighwxr0gay0cbb6lnb47wp98bi12cf8mz61p9p7"
+    },
+    "opensearch_2_0_0": {
+      "pname": "opensearch",
+      "version": "2.0.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.0.0/opensearch-min-2.0.0-linux-x64.tar.gz",
+      "sha256": "1sha6cny951g9nc3bsc9zdvl7gb36m2s86fbl3v2x5bh58qng7h3"
+    },
+    "opensearch_2_0_1": {
+      "pname": "opensearch",
+      "version": "2.0.1",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.0.1/opensearch-min-2.0.1-linux-x64.tar.gz",
+      "sha256": "1j4rnv07nii0bnvni9b7jjdvvidr2pxvy0cd8xmr16sbwifvg5as"
+    },
+    "opensearch_2_1_0": {
+      "pname": "opensearch",
+      "version": "2.1.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.1.0/opensearch-min-2.1.0-linux-x64.tar.gz",
+      "sha256": "045ja3z8hzl0d85wa1l0ja2p8dsxjdb74xyb294ywy1f0cm3vr8b"
+    },
+    "opensearch_2_2_0": {
+      "pname": "opensearch",
+      "version": "2.2.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.2.0/opensearch-min-2.2.0-linux-x64.tar.gz",
+      "sha256": "1b1jqqbxfvsgmgd2k37pr5kslmdbrzmiaz7902mw964l6wakdz42"
+    },
+    "opensearch_2_2_1": {
+      "pname": "opensearch",
+      "version": "2.2.1",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.2.1/opensearch-min-2.2.1-linux-x64.tar.gz",
+      "sha256": "0p7ci61bk51jvhxdw5yxllrrjp53y7r834wb17w3x9brsfjwr4ml"
+    },
+    "opensearch_2_3_0": {
+      "pname": "opensearch",
+      "version": "2.3.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.3.0/opensearch-min-2.3.0-linux-x64.tar.gz",
+      "sha256": "0fsdyz85gz8byq9x5dzj9dbsmm07asvqlvhvjzjzxvnal8ydxlm9"
+    },
+    "opensearch_2_4_0": {
+      "pname": "opensearch",
+      "version": "2.4.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.4.0/opensearch-min-2.4.0-linux-x64.tar.gz",
+      "sha256": "1l03b6rk6161dk0rz4hvpv4gxxaihhb1vp0fd6azwyvfmjyhnwz2"
+    },
+    "opensearch_2_4_1": {
+      "pname": "opensearch",
+      "version": "2.4.1",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.4.1/opensearch-min-2.4.1-linux-x64.tar.gz",
+      "sha256": "0k728qpywah4hv7sqabrbp5hjwjljh5yxvd94rndm881b22bja95"
+    },
+    "opensearch_2_5_0": {
+      "pname": "opensearch",
+      "version": "2.5.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.5.0/opensearch-min-2.5.0-linux-x64.tar.gz",
+      "sha256": "0mvd1hady459k804bb1yxz5aj2hf7pild46hmclcb8fl7wqv0iil"
+    },
+    "opensearch_2_6_0": {
+      "pname": "opensearch",
+      "version": "2.6.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.6.0/opensearch-min-2.6.0-linux-x64.tar.gz",
+      "sha256": "0dlm9s2m2pqqpdg94s80qk3dn0mld9qxydijv2xmymmghhkkz2da"
+    },
+    "opensearch_2_7_0": {
+      "pname": "opensearch",
+      "version": "2.7.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.7.0/opensearch-min-2.7.0-linux-x64.tar.gz",
+      "sha256": "0w1wycgzh0z1i8ilxgf2zfycsnfc6kjnsavm2bfsl9mnlhgqrlps"
+    },
+    "opensearch_2_8_0": {
+      "pname": "opensearch",
+      "version": "2.8.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.8.0/opensearch-min-2.8.0-linux-x64.tar.gz",
+      "sha256": "14s1k81ban6qxz5lgz9pvv87wkpnq9qklwnlb8ivr2c12mj1qjrq"
+    },
+    "opensearch_2_9_0": {
+      "pname": "opensearch",
+      "version": "2.9.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.9.0/opensearch-min-2.9.0-linux-x64.tar.gz",
+      "sha256": "0cf04w6w4zzd8g06z39v6088aivljzh8xvf1bqkvzjd03vfc2skf"
+    },
+    "opensearch_2_10_0": {
+      "pname": "opensearch",
+      "version": "2.10.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.10.0/opensearch-min-2.10.0-linux-x64.tar.gz",
+      "sha256": "1l1546jl737x4dz7zlxsdrnglyy8nxpiw6jlfh71ddyq4a4p7472"
+    },
+    "opensearch_2_11_0": {
+      "pname": "opensearch",
+      "version": "2.11.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.11.0/opensearch-min-2.11.0-linux-x64.tar.gz",
+      "sha256": "1z03vmkgs48s8xyxdarzpxar31m6fpx5285psyjvhni0cv9an4ad"
+    },
+    "opensearch_2_11_1": {
+      "pname": "opensearch",
+      "version": "2.11.1",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.11.1/opensearch-min-2.11.1-linux-x64.tar.gz",
+      "sha256": "0lf9mkbhxwgxsm7nz0hrp6j4svw7k08l7zr9v95imlywdyll3far"
+    },
+    "opensearch_2_12_0": {
+      "pname": "opensearch",
+      "version": "2.12.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.12.0/opensearch-min-2.12.0-linux-x64.tar.gz",
+      "sha256": "042mwbi8wx31xmnnr05mvnwn77rlzqjrsj4wdisrw3ch0pdkvl1x"
+    },
+    "opensearch_2_13_0": {
+      "pname": "opensearch",
+      "version": "2.13.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.13.0/opensearch-min-2.13.0-linux-x64.tar.gz",
+      "sha256": "091rqqm1xbziczxwxgzasj18xp2lbqz209fqpfnk08n0ffw22wqk"
+    },
+    "opensearch_2_14_0": {
+      "pname": "opensearch",
+      "version": "2.14.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.14.0/opensearch-min-2.14.0-linux-x64.tar.gz",
+      "sha256": "0pp1d5jk4j2x2c7m6cjmk9vpcsgnmb7kr4qw1hn8xv6skp5a4khq"
+    },
+    "opensearch_2_15_0": {
+      "pname": "opensearch",
+      "version": "2.15.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.15.0/opensearch-min-2.15.0-linux-x64.tar.gz",
+      "sha256": "0dkhrjrcagx9gjq2lq5h9rzfzh8jaqn3xzjfyhmvyw9lmfj55wbn"
+    },
+    "opensearch_2_16_0": {
+      "pname": "opensearch",
+      "version": "2.16.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.16.0/opensearch-min-2.16.0-linux-x64.tar.gz",
+      "sha256": "0ppg9rcqhyddb5nr60x2d6faxa27sba9q5avdax6g3qi4waaz239"
+    },
     "quickwit_0_1_0": {
       "pname": "quickwit",
       "version": "0.1.0",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.1.0/quickwit-v0.1.0-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "1yyk82kmfsnfv6h3kzkiswpxa61gbfr3kaz1wmk4wmhz5isp31nb"
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.1.0/quickwit-v0.1.0-x86_64-apple-darwin.tar.gz",
+      "sha256": "1pkn7dz59wnj0zch7m34agsygnd7k50dzqnclmhrxrsmbrglhkqy"
     },
     "quickwit_0_2_0": {
       "pname": "quickwit",
       "version": "0.2.0",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.2.0/quickwit-v0.2.0-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "1hd9lkfp16ccl5mlwfwfbkwqqkfhcs3whp909v8zhmha8xjynbfn"
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.2.0/quickwit-v0.2.0-x86_64-apple-darwin.tar.gz",
+      "sha256": "0kdb221viz1666ws0n6j3jh5afm83gqlw6ydxwyh343pi3sjmdrd"
     },
     "quickwit_0_2_1": {
       "pname": "quickwit",
       "version": "0.2.1",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.2.1/quickwit-v0.2.1-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "1fkfzvrx3mf4sbnbkzjsyc1a5fjyxssjjnrl3d8zha74zyn3ajdm"
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.2.1/quickwit-v0.2.1-x86_64-apple-darwin.tar.gz",
+      "sha256": "0p4scz97q6zdkkx7p5b65nlwaxlrr0mw37nyi9f94hrhw3abcxxh"
     },
     "quickwit_0_3_0": {
       "pname": "quickwit",
       "version": "0.3.0",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.3.0/quickwit-v0.3.0-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "18jb8s0d0614y5pfag7nb1dmf9h8g3g1jm620zkr9zja40wb8p0b"
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.3.0/quickwit-v0.3.0-x86_64-apple-darwin.tar.gz",
+      "sha256": "1kf5a65hqkamwvy6d5wd1w2ivvf68g2a6raivxlgwnp16744f4rg"
     },
     "quickwit_0_3_1": {
       "pname": "quickwit",
       "version": "0.3.1",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.3.1/quickwit-v0.3.1-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "09cv5lvy2f7s8r5wdj1y31ak3pbambbi85sy6ikh8k39hsp17svi"
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.3.1/quickwit-v0.3.1-x86_64-apple-darwin.tar.gz",
+      "sha256": "18xbgflvp33sl91iljgi2pkr4d92kqfiscg1avh910kd0dgj1bly"
     },
     "quickwit_0_4_0": {
       "pname": "quickwit",
       "version": "0.4.0",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.4.0/quickwit-v0.4.0-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "060d975qfpf5h2k811b38w43ydgdqbi47sp9771ls942simyz532"
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.4.0/quickwit-v0.4.0-x86_64-apple-darwin.tar.gz",
+      "sha256": "1rpsp3mnn38sncqrd808v864b28vkpz1di3ilm7aamdjjjwdfcaz"
     },
     "quickwit_0_5_0": {
       "pname": "quickwit",
       "version": "0.5.0",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.5.0/quickwit-v0.5.0-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "16h2583z81wdxn30m4v2226pacbm5ycpm0rg75bynvmg9zmpj73s"
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.5.0/quickwit-v0.5.0-x86_64-apple-darwin.tar.gz",
+      "sha256": "04n6rvdgajdazglwwi78256y3ywwz7hf603bq0igz1kcycrclvzy"
     },
     "quickwit_0_5_1": {
       "pname": "quickwit",
       "version": "0.5.1",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.5.1/quickwit-v0.5.1-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "1lk029h8jyn7lsnd4hxyx9rxvrkb5zbij6v7gcrb3hqhyq9vws2b"
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.5.1/quickwit-v0.5.1-x86_64-apple-darwin.tar.gz",
+      "sha256": "17m3970hlra1fn6qrkgkfxcmh90yxx7qw799lj68spnv91m06diw"
     },
     "quickwit_0_5_2": {
       "pname": "quickwit",
       "version": "0.5.2",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.5.2/quickwit-v0.5.2-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "1fc0bm2z3q35vpyvhklrrpw08swq5r08vwh6ryn0gncp9lhi70z9"
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.5.2/quickwit-v0.5.2-x86_64-apple-darwin.tar.gz",
+      "sha256": "0bgj4775mx0bpf25kfdb6k3yn5bx4zmj9f0knz0css4mkbsfway2"
     },
     "quickwit_0_6_0": {
       "pname": "quickwit",
       "version": "0.6.0",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.0/quickwit-v0.6.0-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "1a3bliq2npfhfh1aky050g5542a3lczfh847ddsxdyg2pm0lhdw8"
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.0/quickwit-v0.6.0-x86_64-apple-darwin.tar.gz",
+      "sha256": "1iqv92iblagg4rcgkbfg619i6wc33369rnv8sc4nw3w6379chffn"
     },
     "quickwit_0_6_1": {
       "pname": "quickwit",
       "version": "0.6.1",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.1/quickwit-v0.6.1-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "1crxpky2fvgnx6hrwj88qvj30s62fyp4krfyb71rpp0wrz8gp5lg"
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.1/quickwit-v0.6.1-x86_64-apple-darwin.tar.gz",
+      "sha256": "1h1ksbis74swgxlc8vfmckkil65lbl3kh4lbpx570ffcqg7ql6ww"
     },
     "quickwit_0_6_2": {
       "pname": "quickwit",
       "version": "0.6.2",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.2/quickwit-v0.6.2-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "032ijnb4pw5bkbk299r6wz1xd0di1xxf6gmhscfdi0mzimv2mjcs"
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.2/quickwit-v0.6.2-x86_64-apple-darwin.tar.gz",
+      "sha256": "02w82s4wgsldb2xf0pzycvk4xz49ljw4py9vhb1gahymjqnd5vfc"
     },
     "quickwit_0_6_3": {
       "pname": "quickwit",
       "version": "0.6.3",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.3/quickwit-v0.6.3-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "0mwbfvd67aqxmbsqd241j1zafzxipsc8wg6kkfnhhcnxc9p1afb7"
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.3/quickwit-v0.6.3-x86_64-apple-darwin.tar.gz",
+      "sha256": "0l4f1q7l1d47jcrsr0l4nmzkv70plmfyf94szngpl7gcp2xgw03j"
     },
     "quickwit_0_6_4": {
       "pname": "quickwit",
       "version": "0.6.4",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.4/quickwit-v0.6.4-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "07dgk0bhl1465svk0kxy6hyb750m152vql59y7sk6lgrd43v9rsz"
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.4/quickwit-v0.6.4-x86_64-apple-darwin.tar.gz",
+      "sha256": "1l1xnpsvaqpm5p2asixfmzaqf1l4g768qjq7ffwgd321il7km6rs"
     },
     "quickwit_0_6_5": {
       "pname": "quickwit",
       "version": "0.6.5",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.5/quickwit-v0.6.5-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "0l7mgkjfgr8dbz80kf2a1mmrfnpnykmsnl8k5q3m9fl2dypz29gm"
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.5/quickwit-v0.6.5-x86_64-apple-darwin.tar.gz",
+      "sha256": "14cycj2fc22n4haag8wmfzyljy1drdz3z2cqyjwih09215ss6zm9"
     },
     "quickwit_0_7_0": {
       "pname": "quickwit",
       "version": "0.7.0",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.7.0/quickwit-v0.7.0-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "1h7grj7hn98qqp81v25ldwv7szi13lgcmk8xkq554db5wyia72vf"
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.7.0/quickwit-v0.7.0-x86_64-apple-darwin.tar.gz",
+      "sha256": "0x4w30wr2dh6q9g73hppdzda3kj2d7pilh6ad6y5kgimzxwbq634"
     },
     "quickwit_0_7_1": {
       "pname": "quickwit",
       "version": "0.7.1",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.7.1/quickwit-v0.7.1-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "0kfh2zh9rcs79hv76j8p26anr3pagy1900fvgxf6gplbf37q1zqf"
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.7.1/quickwit-v0.7.1-x86_64-apple-darwin.tar.gz",
+      "sha256": "0842751d32j854j9b9625555zvdz17fw9c5zk7lnll8hbd2pzyz5"
     },
     "quickwit_0_8_0": {
       "pname": "quickwit",
       "version": "0.8.0",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.0/quickwit-v0.8.0-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "014jza3gvrqryv00xzsx0j58kgbi6ablk3b2q15gg665zdl2dlyz"
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.0/quickwit-v0.8.0-x86_64-apple-darwin.tar.gz",
+      "sha256": "09lbi8bwlkw0azl5id192jz7nbwpybnwnqyxg059lkqirijg05zd"
     },
     "quickwit_0_8_1": {
       "pname": "quickwit",
       "version": "0.8.1",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.1/quickwit-v0.8.1-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "1n0575js273ip8b7vlfy30ckfp08rvq32aba5l4psshmmr0wz8sm"
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.1/quickwit-v0.8.1-x86_64-apple-darwin.tar.gz",
+      "sha256": "0w4mz8q24li15dxf3dyrvhvg9r8akcaag4fj48mqvibz9igyfk3b"
     },
     "quickwit_0_8_2": {
       "pname": "quickwit",
       "version": "0.8.2",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.2/quickwit-v0.8.2-aarch64-unknown-linux-gnu.tar.gz",
-      "sha256": "1r9zg7wf7m0wb58636g8hn9piibxzzp795ipn40qynngbrp0vdl4"
-    },
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.2/quickwit-v0.8.2-x86_64-apple-darwin.tar.gz",
+      "sha256": "02iv5rir7xr3hhqc0d578h2593sq190d3pagdkpmfqqgv1l55dq6"
+    }
+  },
+  "aarch64-linux": {
     "elasticsearch_0_90_13": {
       "pname": "elasticsearch",
       "version": "0.90.13",
@@ -4007,10 +4151,10 @@
       "sha256": "0hyvvxffr8l1b2cpnrplldr0143kc19b9pn0ryhr7j2gar64v442"
     },
     "elasticsearch_1_0_0": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "1.0.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.0.0/opensearch-min-1.0.0-linux-arm64.tar.gz",
-      "sha256": "1ivkxh5rzwggpkba201w32dr39ap329wmci8phr7m55l0gcb1kbl"
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.0.tar.gz",
+      "sha256": "06ym7hl47339a5dav2hawnxv820y0lbvh9xxd0lfp1f815vbql01"
     },
     "elasticsearch_1_0_1": {
       "pname": "elasticsearch",
@@ -4031,10 +4175,10 @@
       "sha256": "0hpfc6aksh9bxnr2i8h5pbvh3xbn3hpm2vhbncwcpyb7v4gmdp9n"
     },
     "elasticsearch_1_1_0": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "1.1.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.1.0/opensearch-min-1.1.0-linux-arm64.tar.gz",
-      "sha256": "12hlrdkx556pxjrhjyqrq8r0nk947jhpnr8ikvphz0c4sscy9fqy"
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.1.0.tar.gz",
+      "sha256": "1k29lpa7zr4c9yck4akri4h22xbsjv4lvgwh6rzlkw97w0brah4g"
     },
     "elasticsearch_1_1_1": {
       "pname": "elasticsearch",
@@ -4048,47 +4192,41 @@
       "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.1.2.tar.gz",
       "sha256": "09wmmwmsrj57wwrzwbxzypqr7yhsciivbil6mrqf5yrgzxws5kmd"
     },
-    "opensearch_1_2_0": {
-      "pname": "opensearch",
-      "version": "1.2.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.0/opensearch-min-1.2.0-linux-arm64.tar.gz",
-      "sha256": "04v2vg3fv6vfv61hdlkniy1a148sl4hhhwmdm9s63fnjcsbkv5m5"
-    },
     "elasticsearch_1_2_1": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "1.2.1",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.1/opensearch-min-1.2.1-linux-arm64.tar.gz",
-      "sha256": "0jdqqkf24dwa1n5p5wap55rqp0fph9bvc8gxv722q8dc72k14c9w"
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.2.1.tar.gz",
+      "sha256": "11lirxl0hb0xfd57accsgldq1adrlv9pak2520jll2sj5gg71cmj"
     },
     "elasticsearch_1_2_2": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "1.2.2",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.2/opensearch-min-1.2.2-linux-arm64.tar.gz",
-      "sha256": "13b00pcv2a92llvbyzsyhk9c1szv868201s6jc6lpd7hw1yaqnj8"
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.2.2.tar.gz",
+      "sha256": "1vpvxndcq48rcsgw2jnzdh4fwnf141hf5wjxrjs1g7p2qw0d0cy8"
     },
     "elasticsearch_1_2_3": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "1.2.3",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.3/opensearch-min-1.2.3-linux-arm64.tar.gz",
-      "sha256": "1m5m2q2rvd9psycvjs97r7iiz8dygabx4m25q0s9yyvxaga34jlv"
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.2.3.tar.gz",
+      "sha256": "1fqbjls8cwq2nasf3pwjvn9f1fyn1zyyik13y2a3w7h606f2fjyw"
     },
     "elasticsearch_1_2_4": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "1.2.4",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.4/opensearch-min-1.2.4-linux-arm64.tar.gz",
-      "sha256": "0yq1x3j5nkbasf57i3drx92q9nczbspvdabpsh4gdxjpxq22agf2"
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.2.4.tar.gz",
+      "sha256": "0bz2n94zy93gxrssvl52wf30vgikhp92q0pn2hjllqxf9p5rihh7"
     },
     "elasticsearch_1_3_0": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "1.3.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.0/opensearch-min-1.3.0-linux-arm64.tar.gz",
-      "sha256": "1v026d6cmjzx1wbw4r25209rz6jby74g9qd226f3maqd92iizyk7"
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.0.tar.gz",
+      "sha256": "0d25mxh31nv2k2bfvbnqg83dnbrxs4ha601c5452bbza9hnzfb2f"
     },
     "elasticsearch_1_3_1": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "1.3.1",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.1/opensearch-min-1.3.1-linux-arm64.tar.gz",
-      "sha256": "0dqc0i4k69qwpznrkw8xfv9ssr86b4g2n9jgzcs73ld7b9x9d2y5"
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.1.tar.gz",
+      "sha256": "0f8281d4hqvc9v859j8la06aydda6j5hn69vbw09y28d811i7mmd"
     },
     "elasticsearch_1_3_2": {
       "pname": "elasticsearch",
@@ -4103,76 +4241,40 @@
       "sha256": "0i80vi9jiqb3z4b6hfma31graszai6lc2ikcfs8391ilqyflnygx"
     },
     "elasticsearch_1_3_4": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "1.3.4",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.4/opensearch-min-1.3.4-linux-arm64.tar.gz",
-      "sha256": "14fy5wmmcxfhz50ag5yvhpff1ws9q8i7kkcar1jxk6s1bz82if53"
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.4.tar.gz",
+      "sha256": "0c6klwag17npmr1f0zv4syn0d9ir3zm595x3vb42ni4b72f65bqq"
     },
     "elasticsearch_1_3_5": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "1.3.5",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.5/opensearch-min-1.3.5-linux-arm64.tar.gz",
-      "sha256": "04n6fjzk2lbadmg53096z4j4sb93mg7745v0jnfg581v43mj7kw4"
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.5.tar.gz",
+      "sha256": "1yjpmrx1r068zgp5r65cmyasr22j6223ar7w0lg68sv7f9zz6qg3"
     },
     "elasticsearch_1_3_6": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "1.3.6",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.6/opensearch-min-1.3.6-linux-arm64.tar.gz",
-      "sha256": "1d3kzv0v6xdnxp69qdsx9r6g3v9nigzzpb7k00acdj5g9xrvz3fx"
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.6.tar.gz",
+      "sha256": "1mkb89gz9qcsd7v48c8wk5gamwqvj1x2x7xjnz0x8lfkgkvinzl8"
     },
     "elasticsearch_1_3_7": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "1.3.7",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.7/opensearch-min-1.3.7-linux-arm64.tar.gz",
-      "sha256": "1rq76x8a7jcdj0yk3l7qzij09rg3lgnif0bi1032kpvzjk8s5pdl"
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.7.tar.gz",
+      "sha256": "1vgz9hvrs0nm3m9pgyh8xa46wmwa0c6cl2hpq2nfsdjqj60v62af"
     },
     "elasticsearch_1_3_8": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "1.3.8",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.8/opensearch-min-1.3.8-linux-arm64.tar.gz",
-      "sha256": "1w275izdj9ck3bz62vm45qi916ipfgy9kglg6jyzq7ici0g0f4fa"
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.8.tar.gz",
+      "sha256": "1bmygmc06qmrfkl3xgci981b23h521w17lki7lngar14wn9yhf6m"
     },
     "elasticsearch_1_3_9": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "1.3.9",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.9/opensearch-min-1.3.9-linux-arm64.tar.gz",
-      "sha256": "03y9p266b68gzywmzigrilq2xv6js3g9knwmkf4a0x45svv1gv42"
-    },
-    "opensearch_1_3_10": {
-      "pname": "opensearch",
-      "version": "1.3.10",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.10/opensearch-min-1.3.10-linux-arm64.tar.gz",
-      "sha256": "08m7mj171fcrrhq36pqwvi3zyg04ksqib2gixsfpjbyqhqfx18yg"
-    },
-    "opensearch_1_3_13": {
-      "pname": "opensearch",
-      "version": "1.3.13",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.13/opensearch-min-1.3.13-linux-arm64.tar.gz",
-      "sha256": "17nmbpv0d9gpbcrmgpvhliwfsjgzcc49n5b2mch2r1629wc2g3p1"
-    },
-    "opensearch_1_3_15": {
-      "pname": "opensearch",
-      "version": "1.3.15",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.15/opensearch-min-1.3.15-linux-arm64.tar.gz",
-      "sha256": "0ia9bhwfp7pb1464dn19r5wwa5gkw2fnqy8iy40azqwnnydz4ymk"
-    },
-    "opensearch_1_3_16": {
-      "pname": "opensearch",
-      "version": "1.3.16",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.16/opensearch-min-1.3.16-linux-arm64.tar.gz",
-      "sha256": "0l1hvc8sm5nqq0s77gh18ipikjh4r7d0m5fwyjv84zwmyjh1jz4p"
-    },
-    "opensearch_1_3_17": {
-      "pname": "opensearch",
-      "version": "1.3.17",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.17/opensearch-min-1.3.17-linux-arm64.tar.gz",
-      "sha256": "1hy219cfiybpvg1p09xn5pcx3s25jv7zi3km0g5x1lg557ay2man"
-    },
-    "opensearch_1_3_18": {
-      "pname": "opensearch",
-      "version": "1.3.18",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.18/opensearch-min-1.3.18-linux-arm64.tar.gz",
-      "sha256": "1bfgjsv2wfkj1hjs7dcxf7csh4d7pdh3wai7j04x0f9xliy054n2"
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.9.tar.gz",
+      "sha256": "1ga0wmrimz4y5yglw9p9bv5hml8pd5kz14yw1wz8x9646nxcw4lv"
     },
     "elasticsearch_1_4_0": {
       "pname": "elasticsearch",
@@ -4289,16 +4391,16 @@
       "sha256": "1pvpxl8cmqbqv1ysish8z0nd2jia4kg1f7xdbljfqc1p6lqgrbvq"
     },
     "elasticsearch_2_0_0": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.0.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.0.0/opensearch-min-2.0.0-linux-arm64.tar.gz",
-      "sha256": "0kzzz6m2qh0ljkxgjyqaq59fikmi4gh32xnarxqdachd1gkh2cjx"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.0.0/elasticsearch-2.0.0.tar.gz",
+      "sha256": "1pqnbmfjhj1mz7d9h8djhfls5y2hf9fgrnagjrr20z1k2pv16pxj"
     },
     "elasticsearch_2_0_1": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.0.1",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.0.1/opensearch-min-2.0.1-linux-arm64.tar.gz",
-      "sha256": "1lag29jxjmmfi0nqlxbm0gjm2lsmi0iva0s7cg2yxb8q3zm0y3j7"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.0.1/elasticsearch-2.0.1.tar.gz",
+      "sha256": "12vr6hg14hlzsyh9j8xzk2qlr2yzazlshg074bj5f8002z3sdr3v"
     },
     "elasticsearch_2_0_2": {
       "pname": "elasticsearch",
@@ -4307,10 +4409,10 @@
       "sha256": "0gzsl7ah8y5hpnwk14jlz2q7qnbxfmfcnwkhyim4kl3qn7zks4bl"
     },
     "elasticsearch_2_1_0": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.1.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.1.0/opensearch-min-2.1.0-linux-arm64.tar.gz",
-      "sha256": "1bkwchhy2ba6yygjm3kkqjc602q4v6j1vklam4cl5mccw5annndw"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.1.0/elasticsearch-2.1.0.tar.gz",
+      "sha256": "052dbnld055f888i2z9qzzbrzh2mphfay1hmcmls7nh6nny8akla"
     },
     "elasticsearch_2_1_1": {
       "pname": "elasticsearch",
@@ -4325,16 +4427,16 @@
       "sha256": "1q928289s920wlsyl9m1xpvdw2hvi5ln3d2ldvw02vd3i2mz7706"
     },
     "elasticsearch_2_2_0": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.2.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.2.0/opensearch-min-2.2.0-linux-arm64.tar.gz",
-      "sha256": "1hgasr8r47z9ri6xr0n4vibhh6afy40jjb0kafxq9a0j9h2012sw"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.2.0/elasticsearch-2.2.0.tar.gz",
+      "sha256": "0c2d0mpcr8lpvifvgp2pfj7avdi7fa8a5vib0gqdap7mw60wqw7d"
     },
     "elasticsearch_2_2_1": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.2.1",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.2.1/opensearch-min-2.2.1-linux-arm64.tar.gz",
-      "sha256": "09p7r3k2a0yhwnnxkk6ch16l5pa8ngfgjw1l8m782imwcfypnibk"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.2.1/elasticsearch-2.2.1.tar.gz",
+      "sha256": "00rfkcxbz6cxvvlccm5nlpsji5lk7pzv89pd4zc1bmz8is5d2hvx"
     },
     "elasticsearch_2_2_2": {
       "pname": "elasticsearch",
@@ -4343,10 +4445,10 @@
       "sha256": "0sdghc8q08m18prv9hwy1bh61pga2b2cd5q6v58m1sqz9xcxn1n7"
     },
     "elasticsearch_2_3_0": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.3.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.3.0/opensearch-min-2.3.0-linux-arm64.tar.gz",
-      "sha256": "19rmmchixnk2i7rqwavh7l50aqidjypg6giqn1kwqyr4cb61igvm"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.3.0/elasticsearch-2.3.0.tar.gz",
+      "sha256": "12ydzp3agl26aihpncsyrz359355p29izwf57ck8ca9zcg3q516n"
     },
     "elasticsearch_2_3_1": {
       "pname": "elasticsearch",
@@ -4379,16 +4481,16 @@
       "sha256": "12j6pdygn4zqnzz4vwr65alxw9hz79k1h4r6hm5qrf90hv0sh68i"
     },
     "elasticsearch_2_4_0": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.4.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.4.0/opensearch-min-2.4.0-linux-arm64.tar.gz",
-      "sha256": "1bkc43ln2w85rp920xbn10yh8k2y9jmhn3cqanmq6ksk49i89zm5"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.4.0/elasticsearch-2.4.0.tar.gz",
+      "sha256": "1jglmj1dnh1n2niyds6iyrpf6x6ppqgkivzy6qabkjvvmr013q1s"
     },
     "elasticsearch_2_4_1": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.4.1",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.4.1/opensearch-min-2.4.1-linux-arm64.tar.gz",
-      "sha256": "1qx0183gmfbrdb006m2qjq7gbaxrk6i0fnf4lkp505ambflwbdyv"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.4.1/elasticsearch-2.4.1.tar.gz",
+      "sha256": "0rz1pda7m2lrl1nygyyp2z95w19sx8g8jd4ymym1jp4m8bpnk8r3"
     },
     "elasticsearch_2_4_2": {
       "pname": "elasticsearch",
@@ -4419,84 +4521,6 @@
       "version": "2.4.6",
       "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.4.6/elasticsearch-2.4.6.tar.gz",
       "sha256": "0vzw9kpyyyv3f1m5sy9zara6shc7xkgi5xm5qbzvfywijavlnzjz"
-    },
-    "opensearch_2_5_0": {
-      "pname": "opensearch",
-      "version": "2.5.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.5.0/opensearch-min-2.5.0-linux-arm64.tar.gz",
-      "sha256": "1c8z0kczjkpxq9gs9hfk5z5isfna6lr1va5jmwmp0fhvy8k1m6h1"
-    },
-    "opensearch_2_6_0": {
-      "pname": "opensearch",
-      "version": "2.6.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.6.0/opensearch-min-2.6.0-linux-arm64.tar.gz",
-      "sha256": "14gypa0xh8avljjsb99jlmj58bc2b3ng6i435bza7rfc0s5w3bai"
-    },
-    "opensearch_2_7_0": {
-      "pname": "opensearch",
-      "version": "2.7.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.7.0/opensearch-min-2.7.0-linux-arm64.tar.gz",
-      "sha256": "1f2cdzbd5500zrcvsaai4042p8s04kl1c7bgzvy2449qf1rfbsbd"
-    },
-    "opensearch_2_8_0": {
-      "pname": "opensearch",
-      "version": "2.8.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.8.0/opensearch-min-2.8.0-linux-arm64.tar.gz",
-      "sha256": "1c6k90fq94x8lccrhmb34m3ac1v5lkz2y8ysvxr0cxpyfd42rmcf"
-    },
-    "opensearch_2_9_0": {
-      "pname": "opensearch",
-      "version": "2.9.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.9.0/opensearch-min-2.9.0-linux-arm64.tar.gz",
-      "sha256": "0wmbc1nsl20yym1ppdjcb0fq4nq3nhdl441pgfbxr827l4mvk2md"
-    },
-    "opensearch_2_10_0": {
-      "pname": "opensearch",
-      "version": "2.10.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.10.0/opensearch-min-2.10.0-linux-arm64.tar.gz",
-      "sha256": "0vqr9y78bhnfajk4p2iarbhbs7sjd40p4cw427063ggkgx9pspa1"
-    },
-    "opensearch_2_11_0": {
-      "pname": "opensearch",
-      "version": "2.11.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.11.0/opensearch-min-2.11.0-linux-arm64.tar.gz",
-      "sha256": "0zq7g8300vygqqg750fpvg64hw3xdi3lvk898w2jybycv8alxmbk"
-    },
-    "opensearch_2_11_1": {
-      "pname": "opensearch",
-      "version": "2.11.1",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.11.1/opensearch-min-2.11.1-linux-arm64.tar.gz",
-      "sha256": "030biafh88pv7iv5d01f2cpqbagfcjyh1615qb9cv32b7b5mfjmh"
-    },
-    "opensearch_2_12_0": {
-      "pname": "opensearch",
-      "version": "2.12.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.12.0/opensearch-min-2.12.0-linux-arm64.tar.gz",
-      "sha256": "1jn7ch1ibf94w5bkazxcw7fsjzg1lp0339ip7apd6y9gp10ibcmp"
-    },
-    "opensearch_2_13_0": {
-      "pname": "opensearch",
-      "version": "2.13.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.13.0/opensearch-min-2.13.0-linux-arm64.tar.gz",
-      "sha256": "12gvx47p04dv4yq66x8jvy4a7h90zyn270fzvlw8nkd6j52l3b21"
-    },
-    "opensearch_2_14_0": {
-      "pname": "opensearch",
-      "version": "2.14.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.14.0/opensearch-min-2.14.0-linux-arm64.tar.gz",
-      "sha256": "1kndq95xi20pspk8gzkmrn2fw0612wvscipcmidy3ln21wjrccw4"
-    },
-    "opensearch_2_15_0": {
-      "pname": "opensearch",
-      "version": "2.15.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.15.0/opensearch-min-2.15.0-linux-arm64.tar.gz",
-      "sha256": "0hjc2hfdli1ka87sw96spiabg45gjkdx5l5jrhcdf8i7ra0d88fj"
-    },
-    "opensearch_2_16_0": {
-      "pname": "opensearch",
-      "version": "2.16.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.16.0/opensearch-min-2.16.0-linux-arm64.tar.gz",
-      "sha256": "0m18xj417c18ygl4vq0hyrki5dnav6yn9birlqa6ig42njma3q30"
     },
     "elasticsearch_5_0_0": {
       "pname": "elasticsearch",
@@ -5817,140 +5841,18 @@
       "version": "8.15.0",
       "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.15.0-linux-aarch64.tar.gz",
       "sha256": "1xpif6d8vj5mmdbpzs3qgz2p5g09w65ccyyc7m29zbvpa28jzv9f"
-    }
-  },
-  "aarch64-darwin": {
-    "quickwit_0_5_0": {
-      "pname": "quickwit",
-      "version": "0.5.0",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.5.0/quickwit-v0.5.0-aarch64-apple-darwin.tar.gz",
-      "sha256": "068967ylzjkd8svwfivwnvw72883jlsrgsv5pnj3kb26qspn2q5j"
     },
-    "quickwit_0_5_1": {
-      "pname": "quickwit",
-      "version": "0.5.1",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.5.1/quickwit-v0.5.1-aarch64-apple-darwin.tar.gz",
-      "sha256": "0yw4z2nlwgikkmkybixzry5s2k80jx45lk0iapg27lc91pqry2f0"
-    },
-    "quickwit_0_5_2": {
-      "pname": "quickwit",
-      "version": "0.5.2",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.5.2/quickwit-v0.5.2-aarch64-apple-darwin.tar.gz",
-      "sha256": "1py4n3y6ah0dkk95fj0apzmpmh85pi1llw9r5pq85nwxgz03y9bh"
-    },
-    "quickwit_0_6_0": {
-      "pname": "quickwit",
-      "version": "0.6.0",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.0/quickwit-v0.6.0-aarch64-apple-darwin.tar.gz",
-      "sha256": "129vd67z8nmmmv475s9j17gc0cg1820l6k0yvd4n5ifs20z9qd4x"
-    },
-    "quickwit_0_6_1": {
-      "pname": "quickwit",
-      "version": "0.6.1",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.1/quickwit-v0.6.1-aarch64-apple-darwin.tar.gz",
-      "sha256": "0cc65spzxmls2y31ggc7cjp9077qcgbjq6gc0551d6ls5rl6k8b1"
-    },
-    "quickwit_0_6_2": {
-      "pname": "quickwit",
-      "version": "0.6.2",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.2/quickwit-v0.6.2-aarch64-apple-darwin.tar.gz",
-      "sha256": "07c96qvvqj2qg45ijlzb6x7l57i1kyxcklhdsk19qwx785jchhqp"
-    },
-    "quickwit_0_6_3": {
-      "pname": "quickwit",
-      "version": "0.6.3",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.3/quickwit-v0.6.3-aarch64-apple-darwin.tar.gz",
-      "sha256": "1hqxingfhmjh7ccwpabg318gpnhqgmzmp7gs1w96ilhbk3nwznl6"
-    },
-    "quickwit_0_6_4": {
-      "pname": "quickwit",
-      "version": "0.6.4",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.4/quickwit-v0.6.4-aarch64-apple-darwin.tar.gz",
-      "sha256": "15q084gm185dqilknchfs6w3k4cgc9mq2s3916i9nzz5rqzsbjrp"
-    },
-    "quickwit_0_6_5": {
-      "pname": "quickwit",
-      "version": "0.6.5",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.5/quickwit-v0.6.5-aarch64-apple-darwin.tar.gz",
-      "sha256": "0jryzghqzsg9a9mngb2xh90km59dhmqhn6zb4fr32xvap0858hd1"
-    },
-    "quickwit_0_7_0": {
-      "pname": "quickwit",
-      "version": "0.7.0",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.7.0/quickwit-v0.7.0-aarch64-apple-darwin.tar.gz",
-      "sha256": "09qnkqzlm197jv062mdx8941gswamhandsvrwlxgfxvirbp4dw2a"
-    },
-    "quickwit_0_7_1": {
-      "pname": "quickwit",
-      "version": "0.7.1",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.7.1/quickwit-v0.7.1-aarch64-apple-darwin.tar.gz",
-      "sha256": "0lksw333gdf8m6sqajca227r40gs6m77cb9gzkmzrz6fyij99j4q"
-    },
-    "quickwit_0_8_0": {
-      "pname": "quickwit",
-      "version": "0.8.0",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.0/quickwit-v0.8.0-aarch64-apple-darwin.tar.gz",
-      "sha256": "1s63nl9gi33p7i9izzdhi6mcxai5s1xjczc5hzfjk9pnnr67sik0"
-    },
-    "quickwit_0_8_1": {
-      "pname": "quickwit",
-      "version": "0.8.1",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.1/quickwit-v0.8.1-aarch64-apple-darwin.tar.gz",
-      "sha256": "0q7xwps37zrk5df9ybhzx3f3k5wbqxshhn0acm2v7mwx2ijqknar"
-    },
-    "quickwit_0_8_2": {
-      "pname": "quickwit",
-      "version": "0.8.2",
-      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.2/quickwit-v0.8.2-aarch64-apple-darwin.tar.gz",
-      "sha256": "03j9509jl54c4c41g2ii1knfjkbg08v108axm3rx49zrl4w5c7l2"
-    },
-    "elasticsearch_0_90_13": {
-      "pname": "elasticsearch",
-      "version": "0.90.13",
-      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.13.tar.gz",
-      "sha256": "0hyvvxffr8l1b2cpnrplldr0143kc19b9pn0ryhr7j2gar64v442"
-    },
-    "elasticsearch_1_0_0": {
+    "opensearch_1_0_0": {
       "pname": "opensearch",
       "version": "1.0.0",
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.0.0/opensearch-min-1.0.0-linux-arm64.tar.gz",
       "sha256": "1ivkxh5rzwggpkba201w32dr39ap329wmci8phr7m55l0gcb1kbl"
     },
-    "elasticsearch_1_0_1": {
-      "pname": "elasticsearch",
-      "version": "1.0.1",
-      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.1.tar.gz",
-      "sha256": "0nwv7llw7gk94alfcpxxy0lybhnw7fggv30v7ylsxn20id9g7kba"
-    },
-    "elasticsearch_1_0_2": {
-      "pname": "elasticsearch",
-      "version": "1.0.2",
-      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.2.tar.gz",
-      "sha256": "0w5d2m38qxis9diz49pmj24md4h5nwr05ycv5jbvl0gkwl2wvhig"
-    },
-    "elasticsearch_1_0_3": {
-      "pname": "elasticsearch",
-      "version": "1.0.3",
-      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.3.tar.gz",
-      "sha256": "0hpfc6aksh9bxnr2i8h5pbvh3xbn3hpm2vhbncwcpyb7v4gmdp9n"
-    },
-    "elasticsearch_1_1_0": {
+    "opensearch_1_1_0": {
       "pname": "opensearch",
       "version": "1.1.0",
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.1.0/opensearch-min-1.1.0-linux-arm64.tar.gz",
       "sha256": "12hlrdkx556pxjrhjyqrq8r0nk947jhpnr8ikvphz0c4sscy9fqy"
-    },
-    "elasticsearch_1_1_1": {
-      "pname": "elasticsearch",
-      "version": "1.1.1",
-      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.1.1.tar.gz",
-      "sha256": "0dd8a0zmzig4zkasz71bijyz1d70cvvb0ycnwlidkjawnldxjk2n"
-    },
-    "elasticsearch_1_1_2": {
-      "pname": "elasticsearch",
-      "version": "1.1.2",
-      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.1.2.tar.gz",
-      "sha256": "09wmmwmsrj57wwrzwbxzypqr7yhsciivbil6mrqf5yrgzxws5kmd"
     },
     "opensearch_1_2_0": {
       "pname": "opensearch",
@@ -5958,85 +5860,73 @@
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.0/opensearch-min-1.2.0-linux-arm64.tar.gz",
       "sha256": "04v2vg3fv6vfv61hdlkniy1a148sl4hhhwmdm9s63fnjcsbkv5m5"
     },
-    "elasticsearch_1_2_1": {
+    "opensearch_1_2_1": {
       "pname": "opensearch",
       "version": "1.2.1",
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.1/opensearch-min-1.2.1-linux-arm64.tar.gz",
       "sha256": "0jdqqkf24dwa1n5p5wap55rqp0fph9bvc8gxv722q8dc72k14c9w"
     },
-    "elasticsearch_1_2_2": {
+    "opensearch_1_2_2": {
       "pname": "opensearch",
       "version": "1.2.2",
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.2/opensearch-min-1.2.2-linux-arm64.tar.gz",
       "sha256": "13b00pcv2a92llvbyzsyhk9c1szv868201s6jc6lpd7hw1yaqnj8"
     },
-    "elasticsearch_1_2_3": {
+    "opensearch_1_2_3": {
       "pname": "opensearch",
       "version": "1.2.3",
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.3/opensearch-min-1.2.3-linux-arm64.tar.gz",
       "sha256": "1m5m2q2rvd9psycvjs97r7iiz8dygabx4m25q0s9yyvxaga34jlv"
     },
-    "elasticsearch_1_2_4": {
+    "opensearch_1_2_4": {
       "pname": "opensearch",
       "version": "1.2.4",
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.4/opensearch-min-1.2.4-linux-arm64.tar.gz",
       "sha256": "0yq1x3j5nkbasf57i3drx92q9nczbspvdabpsh4gdxjpxq22agf2"
     },
-    "elasticsearch_1_3_0": {
+    "opensearch_1_3_0": {
       "pname": "opensearch",
       "version": "1.3.0",
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.0/opensearch-min-1.3.0-linux-arm64.tar.gz",
       "sha256": "1v026d6cmjzx1wbw4r25209rz6jby74g9qd226f3maqd92iizyk7"
     },
-    "elasticsearch_1_3_1": {
+    "opensearch_1_3_1": {
       "pname": "opensearch",
       "version": "1.3.1",
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.1/opensearch-min-1.3.1-linux-arm64.tar.gz",
       "sha256": "0dqc0i4k69qwpznrkw8xfv9ssr86b4g2n9jgzcs73ld7b9x9d2y5"
     },
-    "elasticsearch_1_3_2": {
-      "pname": "elasticsearch",
-      "version": "1.3.2",
-      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.2.tar.gz",
-      "sha256": "191fk7pbsxvihwj86b935d5b9n55h6q9gnpql68vfzjgvfjd09bm"
-    },
-    "elasticsearch_1_3_3": {
-      "pname": "elasticsearch",
-      "version": "1.3.3",
-      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.3.tar.gz",
-      "sha256": "0i80vi9jiqb3z4b6hfma31graszai6lc2ikcfs8391ilqyflnygx"
-    },
-    "elasticsearch_1_3_4": {
+    "opensearch_1_3_4": {
       "pname": "opensearch",
       "version": "1.3.4",
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.4/opensearch-min-1.3.4-linux-arm64.tar.gz",
       "sha256": "14fy5wmmcxfhz50ag5yvhpff1ws9q8i7kkcar1jxk6s1bz82if53"
     },
-    "elasticsearch_1_3_5": {
+    "opensearch_1_3_5": {
       "pname": "opensearch",
       "version": "1.3.5",
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.5/opensearch-min-1.3.5-linux-arm64.tar.gz",
       "sha256": "04n6fjzk2lbadmg53096z4j4sb93mg7745v0jnfg581v43mj7kw4"
     },
-    "elasticsearch_1_3_6": {
+    "opensearch_1_3_6": {
       "pname": "opensearch",
       "version": "1.3.6",
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.6/opensearch-min-1.3.6-linux-arm64.tar.gz",
       "sha256": "1d3kzv0v6xdnxp69qdsx9r6g3v9nigzzpb7k00acdj5g9xrvz3fx"
     },
-    "elasticsearch_1_3_7": {
+    "opensearch_1_3_7": {
       "pname": "opensearch",
       "version": "1.3.7",
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.7/opensearch-min-1.3.7-linux-arm64.tar.gz",
       "sha256": "1rq76x8a7jcdj0yk3l7qzij09rg3lgnif0bi1032kpvzjk8s5pdl"
     },
-    "elasticsearch_1_3_8": {
+    "opensearch_1_3_8": {
       "pname": "opensearch",
       "version": "1.3.8",
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.8/opensearch-min-1.3.8-linux-arm64.tar.gz",
       "sha256": "1w275izdj9ck3bz62vm45qi916ipfgy9kglg6jyzq7ici0g0f4fa"
     },
-    "elasticsearch_1_3_9": {
+    "opensearch_1_3_9": {
       "pname": "opensearch",
       "version": "1.3.9",
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.9/opensearch-min-1.3.9-linux-arm64.tar.gz",
@@ -6077,6 +5967,386 @@
       "version": "1.3.18",
       "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.18/opensearch-min-1.3.18-linux-arm64.tar.gz",
       "sha256": "1bfgjsv2wfkj1hjs7dcxf7csh4d7pdh3wai7j04x0f9xliy054n2"
+    },
+    "opensearch_2_0_0": {
+      "pname": "opensearch",
+      "version": "2.0.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.0.0/opensearch-min-2.0.0-linux-arm64.tar.gz",
+      "sha256": "0kzzz6m2qh0ljkxgjyqaq59fikmi4gh32xnarxqdachd1gkh2cjx"
+    },
+    "opensearch_2_0_1": {
+      "pname": "opensearch",
+      "version": "2.0.1",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.0.1/opensearch-min-2.0.1-linux-arm64.tar.gz",
+      "sha256": "1lag29jxjmmfi0nqlxbm0gjm2lsmi0iva0s7cg2yxb8q3zm0y3j7"
+    },
+    "opensearch_2_1_0": {
+      "pname": "opensearch",
+      "version": "2.1.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.1.0/opensearch-min-2.1.0-linux-arm64.tar.gz",
+      "sha256": "1bkwchhy2ba6yygjm3kkqjc602q4v6j1vklam4cl5mccw5annndw"
+    },
+    "opensearch_2_2_0": {
+      "pname": "opensearch",
+      "version": "2.2.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.2.0/opensearch-min-2.2.0-linux-arm64.tar.gz",
+      "sha256": "1hgasr8r47z9ri6xr0n4vibhh6afy40jjb0kafxq9a0j9h2012sw"
+    },
+    "opensearch_2_2_1": {
+      "pname": "opensearch",
+      "version": "2.2.1",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.2.1/opensearch-min-2.2.1-linux-arm64.tar.gz",
+      "sha256": "09p7r3k2a0yhwnnxkk6ch16l5pa8ngfgjw1l8m782imwcfypnibk"
+    },
+    "opensearch_2_3_0": {
+      "pname": "opensearch",
+      "version": "2.3.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.3.0/opensearch-min-2.3.0-linux-arm64.tar.gz",
+      "sha256": "19rmmchixnk2i7rqwavh7l50aqidjypg6giqn1kwqyr4cb61igvm"
+    },
+    "opensearch_2_4_0": {
+      "pname": "opensearch",
+      "version": "2.4.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.4.0/opensearch-min-2.4.0-linux-arm64.tar.gz",
+      "sha256": "1bkc43ln2w85rp920xbn10yh8k2y9jmhn3cqanmq6ksk49i89zm5"
+    },
+    "opensearch_2_4_1": {
+      "pname": "opensearch",
+      "version": "2.4.1",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.4.1/opensearch-min-2.4.1-linux-arm64.tar.gz",
+      "sha256": "1qx0183gmfbrdb006m2qjq7gbaxrk6i0fnf4lkp505ambflwbdyv"
+    },
+    "opensearch_2_5_0": {
+      "pname": "opensearch",
+      "version": "2.5.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.5.0/opensearch-min-2.5.0-linux-arm64.tar.gz",
+      "sha256": "1c8z0kczjkpxq9gs9hfk5z5isfna6lr1va5jmwmp0fhvy8k1m6h1"
+    },
+    "opensearch_2_6_0": {
+      "pname": "opensearch",
+      "version": "2.6.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.6.0/opensearch-min-2.6.0-linux-arm64.tar.gz",
+      "sha256": "14gypa0xh8avljjsb99jlmj58bc2b3ng6i435bza7rfc0s5w3bai"
+    },
+    "opensearch_2_7_0": {
+      "pname": "opensearch",
+      "version": "2.7.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.7.0/opensearch-min-2.7.0-linux-arm64.tar.gz",
+      "sha256": "1f2cdzbd5500zrcvsaai4042p8s04kl1c7bgzvy2449qf1rfbsbd"
+    },
+    "opensearch_2_8_0": {
+      "pname": "opensearch",
+      "version": "2.8.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.8.0/opensearch-min-2.8.0-linux-arm64.tar.gz",
+      "sha256": "1c6k90fq94x8lccrhmb34m3ac1v5lkz2y8ysvxr0cxpyfd42rmcf"
+    },
+    "opensearch_2_9_0": {
+      "pname": "opensearch",
+      "version": "2.9.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.9.0/opensearch-min-2.9.0-linux-arm64.tar.gz",
+      "sha256": "0wmbc1nsl20yym1ppdjcb0fq4nq3nhdl441pgfbxr827l4mvk2md"
+    },
+    "opensearch_2_10_0": {
+      "pname": "opensearch",
+      "version": "2.10.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.10.0/opensearch-min-2.10.0-linux-arm64.tar.gz",
+      "sha256": "0vqr9y78bhnfajk4p2iarbhbs7sjd40p4cw427063ggkgx9pspa1"
+    },
+    "opensearch_2_11_0": {
+      "pname": "opensearch",
+      "version": "2.11.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.11.0/opensearch-min-2.11.0-linux-arm64.tar.gz",
+      "sha256": "0zq7g8300vygqqg750fpvg64hw3xdi3lvk898w2jybycv8alxmbk"
+    },
+    "opensearch_2_11_1": {
+      "pname": "opensearch",
+      "version": "2.11.1",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.11.1/opensearch-min-2.11.1-linux-arm64.tar.gz",
+      "sha256": "030biafh88pv7iv5d01f2cpqbagfcjyh1615qb9cv32b7b5mfjmh"
+    },
+    "opensearch_2_12_0": {
+      "pname": "opensearch",
+      "version": "2.12.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.12.0/opensearch-min-2.12.0-linux-arm64.tar.gz",
+      "sha256": "1jn7ch1ibf94w5bkazxcw7fsjzg1lp0339ip7apd6y9gp10ibcmp"
+    },
+    "opensearch_2_13_0": {
+      "pname": "opensearch",
+      "version": "2.13.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.13.0/opensearch-min-2.13.0-linux-arm64.tar.gz",
+      "sha256": "12gvx47p04dv4yq66x8jvy4a7h90zyn270fzvlw8nkd6j52l3b21"
+    },
+    "opensearch_2_14_0": {
+      "pname": "opensearch",
+      "version": "2.14.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.14.0/opensearch-min-2.14.0-linux-arm64.tar.gz",
+      "sha256": "1kndq95xi20pspk8gzkmrn2fw0612wvscipcmidy3ln21wjrccw4"
+    },
+    "opensearch_2_15_0": {
+      "pname": "opensearch",
+      "version": "2.15.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.15.0/opensearch-min-2.15.0-linux-arm64.tar.gz",
+      "sha256": "0hjc2hfdli1ka87sw96spiabg45gjkdx5l5jrhcdf8i7ra0d88fj"
+    },
+    "opensearch_2_16_0": {
+      "pname": "opensearch",
+      "version": "2.16.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.16.0/opensearch-min-2.16.0-linux-arm64.tar.gz",
+      "sha256": "0m18xj417c18ygl4vq0hyrki5dnav6yn9birlqa6ig42njma3q30"
+    },
+    "quickwit_0_1_0": {
+      "pname": "quickwit",
+      "version": "0.1.0",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.1.0/quickwit-v0.1.0-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "1yyk82kmfsnfv6h3kzkiswpxa61gbfr3kaz1wmk4wmhz5isp31nb"
+    },
+    "quickwit_0_2_0": {
+      "pname": "quickwit",
+      "version": "0.2.0",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.2.0/quickwit-v0.2.0-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "1hd9lkfp16ccl5mlwfwfbkwqqkfhcs3whp909v8zhmha8xjynbfn"
+    },
+    "quickwit_0_2_1": {
+      "pname": "quickwit",
+      "version": "0.2.1",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.2.1/quickwit-v0.2.1-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "1fkfzvrx3mf4sbnbkzjsyc1a5fjyxssjjnrl3d8zha74zyn3ajdm"
+    },
+    "quickwit_0_3_0": {
+      "pname": "quickwit",
+      "version": "0.3.0",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.3.0/quickwit-v0.3.0-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "18jb8s0d0614y5pfag7nb1dmf9h8g3g1jm620zkr9zja40wb8p0b"
+    },
+    "quickwit_0_3_1": {
+      "pname": "quickwit",
+      "version": "0.3.1",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.3.1/quickwit-v0.3.1-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "09cv5lvy2f7s8r5wdj1y31ak3pbambbi85sy6ikh8k39hsp17svi"
+    },
+    "quickwit_0_4_0": {
+      "pname": "quickwit",
+      "version": "0.4.0",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.4.0/quickwit-v0.4.0-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "060d975qfpf5h2k811b38w43ydgdqbi47sp9771ls942simyz532"
+    },
+    "quickwit_0_5_0": {
+      "pname": "quickwit",
+      "version": "0.5.0",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.5.0/quickwit-v0.5.0-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "16h2583z81wdxn30m4v2226pacbm5ycpm0rg75bynvmg9zmpj73s"
+    },
+    "quickwit_0_5_1": {
+      "pname": "quickwit",
+      "version": "0.5.1",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.5.1/quickwit-v0.5.1-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "1lk029h8jyn7lsnd4hxyx9rxvrkb5zbij6v7gcrb3hqhyq9vws2b"
+    },
+    "quickwit_0_5_2": {
+      "pname": "quickwit",
+      "version": "0.5.2",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.5.2/quickwit-v0.5.2-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "1fc0bm2z3q35vpyvhklrrpw08swq5r08vwh6ryn0gncp9lhi70z9"
+    },
+    "quickwit_0_6_0": {
+      "pname": "quickwit",
+      "version": "0.6.0",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.0/quickwit-v0.6.0-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "1a3bliq2npfhfh1aky050g5542a3lczfh847ddsxdyg2pm0lhdw8"
+    },
+    "quickwit_0_6_1": {
+      "pname": "quickwit",
+      "version": "0.6.1",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.1/quickwit-v0.6.1-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "1crxpky2fvgnx6hrwj88qvj30s62fyp4krfyb71rpp0wrz8gp5lg"
+    },
+    "quickwit_0_6_2": {
+      "pname": "quickwit",
+      "version": "0.6.2",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.2/quickwit-v0.6.2-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "032ijnb4pw5bkbk299r6wz1xd0di1xxf6gmhscfdi0mzimv2mjcs"
+    },
+    "quickwit_0_6_3": {
+      "pname": "quickwit",
+      "version": "0.6.3",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.3/quickwit-v0.6.3-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "0mwbfvd67aqxmbsqd241j1zafzxipsc8wg6kkfnhhcnxc9p1afb7"
+    },
+    "quickwit_0_6_4": {
+      "pname": "quickwit",
+      "version": "0.6.4",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.4/quickwit-v0.6.4-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "07dgk0bhl1465svk0kxy6hyb750m152vql59y7sk6lgrd43v9rsz"
+    },
+    "quickwit_0_6_5": {
+      "pname": "quickwit",
+      "version": "0.6.5",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.5/quickwit-v0.6.5-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "0l7mgkjfgr8dbz80kf2a1mmrfnpnykmsnl8k5q3m9fl2dypz29gm"
+    },
+    "quickwit_0_7_0": {
+      "pname": "quickwit",
+      "version": "0.7.0",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.7.0/quickwit-v0.7.0-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "1h7grj7hn98qqp81v25ldwv7szi13lgcmk8xkq554db5wyia72vf"
+    },
+    "quickwit_0_7_1": {
+      "pname": "quickwit",
+      "version": "0.7.1",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.7.1/quickwit-v0.7.1-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "0kfh2zh9rcs79hv76j8p26anr3pagy1900fvgxf6gplbf37q1zqf"
+    },
+    "quickwit_0_8_0": {
+      "pname": "quickwit",
+      "version": "0.8.0",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.0/quickwit-v0.8.0-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "014jza3gvrqryv00xzsx0j58kgbi6ablk3b2q15gg665zdl2dlyz"
+    },
+    "quickwit_0_8_1": {
+      "pname": "quickwit",
+      "version": "0.8.1",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.1/quickwit-v0.8.1-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "1n0575js273ip8b7vlfy30ckfp08rvq32aba5l4psshmmr0wz8sm"
+    },
+    "quickwit_0_8_2": {
+      "pname": "quickwit",
+      "version": "0.8.2",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.2/quickwit-v0.8.2-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "1r9zg7wf7m0wb58636g8hn9piibxzzp795ipn40qynngbrp0vdl4"
+    }
+  },
+  "aarch64-darwin": {
+    "elasticsearch_0_90_13": {
+      "pname": "elasticsearch",
+      "version": "0.90.13",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.13.tar.gz",
+      "sha256": "0hyvvxffr8l1b2cpnrplldr0143kc19b9pn0ryhr7j2gar64v442"
+    },
+    "elasticsearch_1_0_0": {
+      "pname": "elasticsearch",
+      "version": "1.0.0",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.0.tar.gz",
+      "sha256": "06ym7hl47339a5dav2hawnxv820y0lbvh9xxd0lfp1f815vbql01"
+    },
+    "elasticsearch_1_0_1": {
+      "pname": "elasticsearch",
+      "version": "1.0.1",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.1.tar.gz",
+      "sha256": "0nwv7llw7gk94alfcpxxy0lybhnw7fggv30v7ylsxn20id9g7kba"
+    },
+    "elasticsearch_1_0_2": {
+      "pname": "elasticsearch",
+      "version": "1.0.2",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.2.tar.gz",
+      "sha256": "0w5d2m38qxis9diz49pmj24md4h5nwr05ycv5jbvl0gkwl2wvhig"
+    },
+    "elasticsearch_1_0_3": {
+      "pname": "elasticsearch",
+      "version": "1.0.3",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.3.tar.gz",
+      "sha256": "0hpfc6aksh9bxnr2i8h5pbvh3xbn3hpm2vhbncwcpyb7v4gmdp9n"
+    },
+    "elasticsearch_1_1_0": {
+      "pname": "elasticsearch",
+      "version": "1.1.0",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.1.0.tar.gz",
+      "sha256": "1k29lpa7zr4c9yck4akri4h22xbsjv4lvgwh6rzlkw97w0brah4g"
+    },
+    "elasticsearch_1_1_1": {
+      "pname": "elasticsearch",
+      "version": "1.1.1",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.1.1.tar.gz",
+      "sha256": "0dd8a0zmzig4zkasz71bijyz1d70cvvb0ycnwlidkjawnldxjk2n"
+    },
+    "elasticsearch_1_1_2": {
+      "pname": "elasticsearch",
+      "version": "1.1.2",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.1.2.tar.gz",
+      "sha256": "09wmmwmsrj57wwrzwbxzypqr7yhsciivbil6mrqf5yrgzxws5kmd"
+    },
+    "elasticsearch_1_2_1": {
+      "pname": "elasticsearch",
+      "version": "1.2.1",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.2.1.tar.gz",
+      "sha256": "11lirxl0hb0xfd57accsgldq1adrlv9pak2520jll2sj5gg71cmj"
+    },
+    "elasticsearch_1_2_2": {
+      "pname": "elasticsearch",
+      "version": "1.2.2",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.2.2.tar.gz",
+      "sha256": "1vpvxndcq48rcsgw2jnzdh4fwnf141hf5wjxrjs1g7p2qw0d0cy8"
+    },
+    "elasticsearch_1_2_3": {
+      "pname": "elasticsearch",
+      "version": "1.2.3",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.2.3.tar.gz",
+      "sha256": "1fqbjls8cwq2nasf3pwjvn9f1fyn1zyyik13y2a3w7h606f2fjyw"
+    },
+    "elasticsearch_1_2_4": {
+      "pname": "elasticsearch",
+      "version": "1.2.4",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.2.4.tar.gz",
+      "sha256": "0bz2n94zy93gxrssvl52wf30vgikhp92q0pn2hjllqxf9p5rihh7"
+    },
+    "elasticsearch_1_3_0": {
+      "pname": "elasticsearch",
+      "version": "1.3.0",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.0.tar.gz",
+      "sha256": "0d25mxh31nv2k2bfvbnqg83dnbrxs4ha601c5452bbza9hnzfb2f"
+    },
+    "elasticsearch_1_3_1": {
+      "pname": "elasticsearch",
+      "version": "1.3.1",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.1.tar.gz",
+      "sha256": "0f8281d4hqvc9v859j8la06aydda6j5hn69vbw09y28d811i7mmd"
+    },
+    "elasticsearch_1_3_2": {
+      "pname": "elasticsearch",
+      "version": "1.3.2",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.2.tar.gz",
+      "sha256": "191fk7pbsxvihwj86b935d5b9n55h6q9gnpql68vfzjgvfjd09bm"
+    },
+    "elasticsearch_1_3_3": {
+      "pname": "elasticsearch",
+      "version": "1.3.3",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.3.tar.gz",
+      "sha256": "0i80vi9jiqb3z4b6hfma31graszai6lc2ikcfs8391ilqyflnygx"
+    },
+    "elasticsearch_1_3_4": {
+      "pname": "elasticsearch",
+      "version": "1.3.4",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.4.tar.gz",
+      "sha256": "0c6klwag17npmr1f0zv4syn0d9ir3zm595x3vb42ni4b72f65bqq"
+    },
+    "elasticsearch_1_3_5": {
+      "pname": "elasticsearch",
+      "version": "1.3.5",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.5.tar.gz",
+      "sha256": "1yjpmrx1r068zgp5r65cmyasr22j6223ar7w0lg68sv7f9zz6qg3"
+    },
+    "elasticsearch_1_3_6": {
+      "pname": "elasticsearch",
+      "version": "1.3.6",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.6.tar.gz",
+      "sha256": "1mkb89gz9qcsd7v48c8wk5gamwqvj1x2x7xjnz0x8lfkgkvinzl8"
+    },
+    "elasticsearch_1_3_7": {
+      "pname": "elasticsearch",
+      "version": "1.3.7",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.7.tar.gz",
+      "sha256": "1vgz9hvrs0nm3m9pgyh8xa46wmwa0c6cl2hpq2nfsdjqj60v62af"
+    },
+    "elasticsearch_1_3_8": {
+      "pname": "elasticsearch",
+      "version": "1.3.8",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.8.tar.gz",
+      "sha256": "1bmygmc06qmrfkl3xgci981b23h521w17lki7lngar14wn9yhf6m"
+    },
+    "elasticsearch_1_3_9": {
+      "pname": "elasticsearch",
+      "version": "1.3.9",
+      "url": "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.3.9.tar.gz",
+      "sha256": "1ga0wmrimz4y5yglw9p9bv5hml8pd5kz14yw1wz8x9646nxcw4lv"
     },
     "elasticsearch_1_4_0": {
       "pname": "elasticsearch",
@@ -6193,16 +6463,16 @@
       "sha256": "1pvpxl8cmqbqv1ysish8z0nd2jia4kg1f7xdbljfqc1p6lqgrbvq"
     },
     "elasticsearch_2_0_0": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.0.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.0.0/opensearch-min-2.0.0-linux-arm64.tar.gz",
-      "sha256": "0kzzz6m2qh0ljkxgjyqaq59fikmi4gh32xnarxqdachd1gkh2cjx"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.0.0/elasticsearch-2.0.0.tar.gz",
+      "sha256": "1pqnbmfjhj1mz7d9h8djhfls5y2hf9fgrnagjrr20z1k2pv16pxj"
     },
     "elasticsearch_2_0_1": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.0.1",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.0.1/opensearch-min-2.0.1-linux-arm64.tar.gz",
-      "sha256": "1lag29jxjmmfi0nqlxbm0gjm2lsmi0iva0s7cg2yxb8q3zm0y3j7"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.0.1/elasticsearch-2.0.1.tar.gz",
+      "sha256": "12vr6hg14hlzsyh9j8xzk2qlr2yzazlshg074bj5f8002z3sdr3v"
     },
     "elasticsearch_2_0_2": {
       "pname": "elasticsearch",
@@ -6211,10 +6481,10 @@
       "sha256": "0gzsl7ah8y5hpnwk14jlz2q7qnbxfmfcnwkhyim4kl3qn7zks4bl"
     },
     "elasticsearch_2_1_0": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.1.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.1.0/opensearch-min-2.1.0-linux-arm64.tar.gz",
-      "sha256": "1bkwchhy2ba6yygjm3kkqjc602q4v6j1vklam4cl5mccw5annndw"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.1.0/elasticsearch-2.1.0.tar.gz",
+      "sha256": "052dbnld055f888i2z9qzzbrzh2mphfay1hmcmls7nh6nny8akla"
     },
     "elasticsearch_2_1_1": {
       "pname": "elasticsearch",
@@ -6229,16 +6499,16 @@
       "sha256": "1q928289s920wlsyl9m1xpvdw2hvi5ln3d2ldvw02vd3i2mz7706"
     },
     "elasticsearch_2_2_0": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.2.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.2.0/opensearch-min-2.2.0-linux-arm64.tar.gz",
-      "sha256": "1hgasr8r47z9ri6xr0n4vibhh6afy40jjb0kafxq9a0j9h2012sw"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.2.0/elasticsearch-2.2.0.tar.gz",
+      "sha256": "0c2d0mpcr8lpvifvgp2pfj7avdi7fa8a5vib0gqdap7mw60wqw7d"
     },
     "elasticsearch_2_2_1": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.2.1",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.2.1/opensearch-min-2.2.1-linux-arm64.tar.gz",
-      "sha256": "09p7r3k2a0yhwnnxkk6ch16l5pa8ngfgjw1l8m782imwcfypnibk"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.2.1/elasticsearch-2.2.1.tar.gz",
+      "sha256": "00rfkcxbz6cxvvlccm5nlpsji5lk7pzv89pd4zc1bmz8is5d2hvx"
     },
     "elasticsearch_2_2_2": {
       "pname": "elasticsearch",
@@ -6247,10 +6517,10 @@
       "sha256": "0sdghc8q08m18prv9hwy1bh61pga2b2cd5q6v58m1sqz9xcxn1n7"
     },
     "elasticsearch_2_3_0": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.3.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.3.0/opensearch-min-2.3.0-linux-arm64.tar.gz",
-      "sha256": "19rmmchixnk2i7rqwavh7l50aqidjypg6giqn1kwqyr4cb61igvm"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.3.0/elasticsearch-2.3.0.tar.gz",
+      "sha256": "12ydzp3agl26aihpncsyrz359355p29izwf57ck8ca9zcg3q516n"
     },
     "elasticsearch_2_3_1": {
       "pname": "elasticsearch",
@@ -6283,16 +6553,16 @@
       "sha256": "12j6pdygn4zqnzz4vwr65alxw9hz79k1h4r6hm5qrf90hv0sh68i"
     },
     "elasticsearch_2_4_0": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.4.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.4.0/opensearch-min-2.4.0-linux-arm64.tar.gz",
-      "sha256": "1bkc43ln2w85rp920xbn10yh8k2y9jmhn3cqanmq6ksk49i89zm5"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.4.0/elasticsearch-2.4.0.tar.gz",
+      "sha256": "1jglmj1dnh1n2niyds6iyrpf6x6ppqgkivzy6qabkjvvmr013q1s"
     },
     "elasticsearch_2_4_1": {
-      "pname": "opensearch",
+      "pname": "elasticsearch",
       "version": "2.4.1",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.4.1/opensearch-min-2.4.1-linux-arm64.tar.gz",
-      "sha256": "1qx0183gmfbrdb006m2qjq7gbaxrk6i0fnf4lkp505ambflwbdyv"
+      "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.4.1/elasticsearch-2.4.1.tar.gz",
+      "sha256": "0rz1pda7m2lrl1nygyyp2z95w19sx8g8jd4ymym1jp4m8bpnk8r3"
     },
     "elasticsearch_2_4_2": {
       "pname": "elasticsearch",
@@ -6323,84 +6593,6 @@
       "version": "2.4.6",
       "url": "https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.4.6/elasticsearch-2.4.6.tar.gz",
       "sha256": "0vzw9kpyyyv3f1m5sy9zara6shc7xkgi5xm5qbzvfywijavlnzjz"
-    },
-    "opensearch_2_5_0": {
-      "pname": "opensearch",
-      "version": "2.5.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.5.0/opensearch-min-2.5.0-linux-arm64.tar.gz",
-      "sha256": "1c8z0kczjkpxq9gs9hfk5z5isfna6lr1va5jmwmp0fhvy8k1m6h1"
-    },
-    "opensearch_2_6_0": {
-      "pname": "opensearch",
-      "version": "2.6.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.6.0/opensearch-min-2.6.0-linux-arm64.tar.gz",
-      "sha256": "14gypa0xh8avljjsb99jlmj58bc2b3ng6i435bza7rfc0s5w3bai"
-    },
-    "opensearch_2_7_0": {
-      "pname": "opensearch",
-      "version": "2.7.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.7.0/opensearch-min-2.7.0-linux-arm64.tar.gz",
-      "sha256": "1f2cdzbd5500zrcvsaai4042p8s04kl1c7bgzvy2449qf1rfbsbd"
-    },
-    "opensearch_2_8_0": {
-      "pname": "opensearch",
-      "version": "2.8.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.8.0/opensearch-min-2.8.0-linux-arm64.tar.gz",
-      "sha256": "1c6k90fq94x8lccrhmb34m3ac1v5lkz2y8ysvxr0cxpyfd42rmcf"
-    },
-    "opensearch_2_9_0": {
-      "pname": "opensearch",
-      "version": "2.9.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.9.0/opensearch-min-2.9.0-linux-arm64.tar.gz",
-      "sha256": "0wmbc1nsl20yym1ppdjcb0fq4nq3nhdl441pgfbxr827l4mvk2md"
-    },
-    "opensearch_2_10_0": {
-      "pname": "opensearch",
-      "version": "2.10.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.10.0/opensearch-min-2.10.0-linux-arm64.tar.gz",
-      "sha256": "0vqr9y78bhnfajk4p2iarbhbs7sjd40p4cw427063ggkgx9pspa1"
-    },
-    "opensearch_2_11_0": {
-      "pname": "opensearch",
-      "version": "2.11.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.11.0/opensearch-min-2.11.0-linux-arm64.tar.gz",
-      "sha256": "0zq7g8300vygqqg750fpvg64hw3xdi3lvk898w2jybycv8alxmbk"
-    },
-    "opensearch_2_11_1": {
-      "pname": "opensearch",
-      "version": "2.11.1",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.11.1/opensearch-min-2.11.1-linux-arm64.tar.gz",
-      "sha256": "030biafh88pv7iv5d01f2cpqbagfcjyh1615qb9cv32b7b5mfjmh"
-    },
-    "opensearch_2_12_0": {
-      "pname": "opensearch",
-      "version": "2.12.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.12.0/opensearch-min-2.12.0-linux-arm64.tar.gz",
-      "sha256": "1jn7ch1ibf94w5bkazxcw7fsjzg1lp0339ip7apd6y9gp10ibcmp"
-    },
-    "opensearch_2_13_0": {
-      "pname": "opensearch",
-      "version": "2.13.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.13.0/opensearch-min-2.13.0-linux-arm64.tar.gz",
-      "sha256": "12gvx47p04dv4yq66x8jvy4a7h90zyn270fzvlw8nkd6j52l3b21"
-    },
-    "opensearch_2_14_0": {
-      "pname": "opensearch",
-      "version": "2.14.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.14.0/opensearch-min-2.14.0-linux-arm64.tar.gz",
-      "sha256": "1kndq95xi20pspk8gzkmrn2fw0612wvscipcmidy3ln21wjrccw4"
-    },
-    "opensearch_2_15_0": {
-      "pname": "opensearch",
-      "version": "2.15.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.15.0/opensearch-min-2.15.0-linux-arm64.tar.gz",
-      "sha256": "0hjc2hfdli1ka87sw96spiabg45gjkdx5l5jrhcdf8i7ra0d88fj"
-    },
-    "opensearch_2_16_0": {
-      "pname": "opensearch",
-      "version": "2.16.0",
-      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.16.0/opensearch-min-2.16.0-linux-arm64.tar.gz",
-      "sha256": "0m18xj417c18ygl4vq0hyrki5dnav6yn9birlqa6ig42njma3q30"
     },
     "elasticsearch_5_0_0": {
       "pname": "elasticsearch",
@@ -7721,6 +7913,342 @@
       "version": "8.15.0",
       "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.15.0-darwin-aarch64.tar.gz",
       "sha256": "1i66a5xsm8yyfj9knyb7nwj935c7p18y6xz7bvvq9fhbb7x79bwi"
+    },
+    "opensearch_1_0_0": {
+      "pname": "opensearch",
+      "version": "1.0.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.0.0/opensearch-min-1.0.0-linux-arm64.tar.gz",
+      "sha256": "1ivkxh5rzwggpkba201w32dr39ap329wmci8phr7m55l0gcb1kbl"
+    },
+    "opensearch_1_1_0": {
+      "pname": "opensearch",
+      "version": "1.1.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.1.0/opensearch-min-1.1.0-linux-arm64.tar.gz",
+      "sha256": "12hlrdkx556pxjrhjyqrq8r0nk947jhpnr8ikvphz0c4sscy9fqy"
+    },
+    "opensearch_1_2_0": {
+      "pname": "opensearch",
+      "version": "1.2.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.0/opensearch-min-1.2.0-linux-arm64.tar.gz",
+      "sha256": "04v2vg3fv6vfv61hdlkniy1a148sl4hhhwmdm9s63fnjcsbkv5m5"
+    },
+    "opensearch_1_2_1": {
+      "pname": "opensearch",
+      "version": "1.2.1",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.1/opensearch-min-1.2.1-linux-arm64.tar.gz",
+      "sha256": "0jdqqkf24dwa1n5p5wap55rqp0fph9bvc8gxv722q8dc72k14c9w"
+    },
+    "opensearch_1_2_2": {
+      "pname": "opensearch",
+      "version": "1.2.2",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.2/opensearch-min-1.2.2-linux-arm64.tar.gz",
+      "sha256": "13b00pcv2a92llvbyzsyhk9c1szv868201s6jc6lpd7hw1yaqnj8"
+    },
+    "opensearch_1_2_3": {
+      "pname": "opensearch",
+      "version": "1.2.3",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.3/opensearch-min-1.2.3-linux-arm64.tar.gz",
+      "sha256": "1m5m2q2rvd9psycvjs97r7iiz8dygabx4m25q0s9yyvxaga34jlv"
+    },
+    "opensearch_1_2_4": {
+      "pname": "opensearch",
+      "version": "1.2.4",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.2.4/opensearch-min-1.2.4-linux-arm64.tar.gz",
+      "sha256": "0yq1x3j5nkbasf57i3drx92q9nczbspvdabpsh4gdxjpxq22agf2"
+    },
+    "opensearch_1_3_0": {
+      "pname": "opensearch",
+      "version": "1.3.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.0/opensearch-min-1.3.0-linux-arm64.tar.gz",
+      "sha256": "1v026d6cmjzx1wbw4r25209rz6jby74g9qd226f3maqd92iizyk7"
+    },
+    "opensearch_1_3_1": {
+      "pname": "opensearch",
+      "version": "1.3.1",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.1/opensearch-min-1.3.1-linux-arm64.tar.gz",
+      "sha256": "0dqc0i4k69qwpznrkw8xfv9ssr86b4g2n9jgzcs73ld7b9x9d2y5"
+    },
+    "opensearch_1_3_4": {
+      "pname": "opensearch",
+      "version": "1.3.4",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.4/opensearch-min-1.3.4-linux-arm64.tar.gz",
+      "sha256": "14fy5wmmcxfhz50ag5yvhpff1ws9q8i7kkcar1jxk6s1bz82if53"
+    },
+    "opensearch_1_3_5": {
+      "pname": "opensearch",
+      "version": "1.3.5",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.5/opensearch-min-1.3.5-linux-arm64.tar.gz",
+      "sha256": "04n6fjzk2lbadmg53096z4j4sb93mg7745v0jnfg581v43mj7kw4"
+    },
+    "opensearch_1_3_6": {
+      "pname": "opensearch",
+      "version": "1.3.6",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.6/opensearch-min-1.3.6-linux-arm64.tar.gz",
+      "sha256": "1d3kzv0v6xdnxp69qdsx9r6g3v9nigzzpb7k00acdj5g9xrvz3fx"
+    },
+    "opensearch_1_3_7": {
+      "pname": "opensearch",
+      "version": "1.3.7",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.7/opensearch-min-1.3.7-linux-arm64.tar.gz",
+      "sha256": "1rq76x8a7jcdj0yk3l7qzij09rg3lgnif0bi1032kpvzjk8s5pdl"
+    },
+    "opensearch_1_3_8": {
+      "pname": "opensearch",
+      "version": "1.3.8",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.8/opensearch-min-1.3.8-linux-arm64.tar.gz",
+      "sha256": "1w275izdj9ck3bz62vm45qi916ipfgy9kglg6jyzq7ici0g0f4fa"
+    },
+    "opensearch_1_3_9": {
+      "pname": "opensearch",
+      "version": "1.3.9",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.9/opensearch-min-1.3.9-linux-arm64.tar.gz",
+      "sha256": "03y9p266b68gzywmzigrilq2xv6js3g9knwmkf4a0x45svv1gv42"
+    },
+    "opensearch_1_3_10": {
+      "pname": "opensearch",
+      "version": "1.3.10",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.10/opensearch-min-1.3.10-linux-arm64.tar.gz",
+      "sha256": "08m7mj171fcrrhq36pqwvi3zyg04ksqib2gixsfpjbyqhqfx18yg"
+    },
+    "opensearch_1_3_13": {
+      "pname": "opensearch",
+      "version": "1.3.13",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.13/opensearch-min-1.3.13-linux-arm64.tar.gz",
+      "sha256": "17nmbpv0d9gpbcrmgpvhliwfsjgzcc49n5b2mch2r1629wc2g3p1"
+    },
+    "opensearch_1_3_15": {
+      "pname": "opensearch",
+      "version": "1.3.15",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.15/opensearch-min-1.3.15-linux-arm64.tar.gz",
+      "sha256": "0ia9bhwfp7pb1464dn19r5wwa5gkw2fnqy8iy40azqwnnydz4ymk"
+    },
+    "opensearch_1_3_16": {
+      "pname": "opensearch",
+      "version": "1.3.16",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.16/opensearch-min-1.3.16-linux-arm64.tar.gz",
+      "sha256": "0l1hvc8sm5nqq0s77gh18ipikjh4r7d0m5fwyjv84zwmyjh1jz4p"
+    },
+    "opensearch_1_3_17": {
+      "pname": "opensearch",
+      "version": "1.3.17",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.17/opensearch-min-1.3.17-linux-arm64.tar.gz",
+      "sha256": "1hy219cfiybpvg1p09xn5pcx3s25jv7zi3km0g5x1lg557ay2man"
+    },
+    "opensearch_1_3_18": {
+      "pname": "opensearch",
+      "version": "1.3.18",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.18/opensearch-min-1.3.18-linux-arm64.tar.gz",
+      "sha256": "1bfgjsv2wfkj1hjs7dcxf7csh4d7pdh3wai7j04x0f9xliy054n2"
+    },
+    "opensearch_2_0_0": {
+      "pname": "opensearch",
+      "version": "2.0.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.0.0/opensearch-min-2.0.0-linux-arm64.tar.gz",
+      "sha256": "0kzzz6m2qh0ljkxgjyqaq59fikmi4gh32xnarxqdachd1gkh2cjx"
+    },
+    "opensearch_2_0_1": {
+      "pname": "opensearch",
+      "version": "2.0.1",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.0.1/opensearch-min-2.0.1-linux-arm64.tar.gz",
+      "sha256": "1lag29jxjmmfi0nqlxbm0gjm2lsmi0iva0s7cg2yxb8q3zm0y3j7"
+    },
+    "opensearch_2_1_0": {
+      "pname": "opensearch",
+      "version": "2.1.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.1.0/opensearch-min-2.1.0-linux-arm64.tar.gz",
+      "sha256": "1bkwchhy2ba6yygjm3kkqjc602q4v6j1vklam4cl5mccw5annndw"
+    },
+    "opensearch_2_2_0": {
+      "pname": "opensearch",
+      "version": "2.2.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.2.0/opensearch-min-2.2.0-linux-arm64.tar.gz",
+      "sha256": "1hgasr8r47z9ri6xr0n4vibhh6afy40jjb0kafxq9a0j9h2012sw"
+    },
+    "opensearch_2_2_1": {
+      "pname": "opensearch",
+      "version": "2.2.1",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.2.1/opensearch-min-2.2.1-linux-arm64.tar.gz",
+      "sha256": "09p7r3k2a0yhwnnxkk6ch16l5pa8ngfgjw1l8m782imwcfypnibk"
+    },
+    "opensearch_2_3_0": {
+      "pname": "opensearch",
+      "version": "2.3.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.3.0/opensearch-min-2.3.0-linux-arm64.tar.gz",
+      "sha256": "19rmmchixnk2i7rqwavh7l50aqidjypg6giqn1kwqyr4cb61igvm"
+    },
+    "opensearch_2_4_0": {
+      "pname": "opensearch",
+      "version": "2.4.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.4.0/opensearch-min-2.4.0-linux-arm64.tar.gz",
+      "sha256": "1bkc43ln2w85rp920xbn10yh8k2y9jmhn3cqanmq6ksk49i89zm5"
+    },
+    "opensearch_2_4_1": {
+      "pname": "opensearch",
+      "version": "2.4.1",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.4.1/opensearch-min-2.4.1-linux-arm64.tar.gz",
+      "sha256": "1qx0183gmfbrdb006m2qjq7gbaxrk6i0fnf4lkp505ambflwbdyv"
+    },
+    "opensearch_2_5_0": {
+      "pname": "opensearch",
+      "version": "2.5.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.5.0/opensearch-min-2.5.0-linux-arm64.tar.gz",
+      "sha256": "1c8z0kczjkpxq9gs9hfk5z5isfna6lr1va5jmwmp0fhvy8k1m6h1"
+    },
+    "opensearch_2_6_0": {
+      "pname": "opensearch",
+      "version": "2.6.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.6.0/opensearch-min-2.6.0-linux-arm64.tar.gz",
+      "sha256": "14gypa0xh8avljjsb99jlmj58bc2b3ng6i435bza7rfc0s5w3bai"
+    },
+    "opensearch_2_7_0": {
+      "pname": "opensearch",
+      "version": "2.7.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.7.0/opensearch-min-2.7.0-linux-arm64.tar.gz",
+      "sha256": "1f2cdzbd5500zrcvsaai4042p8s04kl1c7bgzvy2449qf1rfbsbd"
+    },
+    "opensearch_2_8_0": {
+      "pname": "opensearch",
+      "version": "2.8.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.8.0/opensearch-min-2.8.0-linux-arm64.tar.gz",
+      "sha256": "1c6k90fq94x8lccrhmb34m3ac1v5lkz2y8ysvxr0cxpyfd42rmcf"
+    },
+    "opensearch_2_9_0": {
+      "pname": "opensearch",
+      "version": "2.9.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.9.0/opensearch-min-2.9.0-linux-arm64.tar.gz",
+      "sha256": "0wmbc1nsl20yym1ppdjcb0fq4nq3nhdl441pgfbxr827l4mvk2md"
+    },
+    "opensearch_2_10_0": {
+      "pname": "opensearch",
+      "version": "2.10.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.10.0/opensearch-min-2.10.0-linux-arm64.tar.gz",
+      "sha256": "0vqr9y78bhnfajk4p2iarbhbs7sjd40p4cw427063ggkgx9pspa1"
+    },
+    "opensearch_2_11_0": {
+      "pname": "opensearch",
+      "version": "2.11.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.11.0/opensearch-min-2.11.0-linux-arm64.tar.gz",
+      "sha256": "0zq7g8300vygqqg750fpvg64hw3xdi3lvk898w2jybycv8alxmbk"
+    },
+    "opensearch_2_11_1": {
+      "pname": "opensearch",
+      "version": "2.11.1",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.11.1/opensearch-min-2.11.1-linux-arm64.tar.gz",
+      "sha256": "030biafh88pv7iv5d01f2cpqbagfcjyh1615qb9cv32b7b5mfjmh"
+    },
+    "opensearch_2_12_0": {
+      "pname": "opensearch",
+      "version": "2.12.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.12.0/opensearch-min-2.12.0-linux-arm64.tar.gz",
+      "sha256": "1jn7ch1ibf94w5bkazxcw7fsjzg1lp0339ip7apd6y9gp10ibcmp"
+    },
+    "opensearch_2_13_0": {
+      "pname": "opensearch",
+      "version": "2.13.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.13.0/opensearch-min-2.13.0-linux-arm64.tar.gz",
+      "sha256": "12gvx47p04dv4yq66x8jvy4a7h90zyn270fzvlw8nkd6j52l3b21"
+    },
+    "opensearch_2_14_0": {
+      "pname": "opensearch",
+      "version": "2.14.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.14.0/opensearch-min-2.14.0-linux-arm64.tar.gz",
+      "sha256": "1kndq95xi20pspk8gzkmrn2fw0612wvscipcmidy3ln21wjrccw4"
+    },
+    "opensearch_2_15_0": {
+      "pname": "opensearch",
+      "version": "2.15.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.15.0/opensearch-min-2.15.0-linux-arm64.tar.gz",
+      "sha256": "0hjc2hfdli1ka87sw96spiabg45gjkdx5l5jrhcdf8i7ra0d88fj"
+    },
+    "opensearch_2_16_0": {
+      "pname": "opensearch",
+      "version": "2.16.0",
+      "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.16.0/opensearch-min-2.16.0-linux-arm64.tar.gz",
+      "sha256": "0m18xj417c18ygl4vq0hyrki5dnav6yn9birlqa6ig42njma3q30"
+    },
+    "quickwit_0_5_0": {
+      "pname": "quickwit",
+      "version": "0.5.0",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.5.0/quickwit-v0.5.0-aarch64-apple-darwin.tar.gz",
+      "sha256": "068967ylzjkd8svwfivwnvw72883jlsrgsv5pnj3kb26qspn2q5j"
+    },
+    "quickwit_0_5_1": {
+      "pname": "quickwit",
+      "version": "0.5.1",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.5.1/quickwit-v0.5.1-aarch64-apple-darwin.tar.gz",
+      "sha256": "0yw4z2nlwgikkmkybixzry5s2k80jx45lk0iapg27lc91pqry2f0"
+    },
+    "quickwit_0_5_2": {
+      "pname": "quickwit",
+      "version": "0.5.2",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.5.2/quickwit-v0.5.2-aarch64-apple-darwin.tar.gz",
+      "sha256": "1py4n3y6ah0dkk95fj0apzmpmh85pi1llw9r5pq85nwxgz03y9bh"
+    },
+    "quickwit_0_6_0": {
+      "pname": "quickwit",
+      "version": "0.6.0",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.0/quickwit-v0.6.0-aarch64-apple-darwin.tar.gz",
+      "sha256": "129vd67z8nmmmv475s9j17gc0cg1820l6k0yvd4n5ifs20z9qd4x"
+    },
+    "quickwit_0_6_1": {
+      "pname": "quickwit",
+      "version": "0.6.1",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.1/quickwit-v0.6.1-aarch64-apple-darwin.tar.gz",
+      "sha256": "0cc65spzxmls2y31ggc7cjp9077qcgbjq6gc0551d6ls5rl6k8b1"
+    },
+    "quickwit_0_6_2": {
+      "pname": "quickwit",
+      "version": "0.6.2",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.2/quickwit-v0.6.2-aarch64-apple-darwin.tar.gz",
+      "sha256": "07c96qvvqj2qg45ijlzb6x7l57i1kyxcklhdsk19qwx785jchhqp"
+    },
+    "quickwit_0_6_3": {
+      "pname": "quickwit",
+      "version": "0.6.3",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.3/quickwit-v0.6.3-aarch64-apple-darwin.tar.gz",
+      "sha256": "1hqxingfhmjh7ccwpabg318gpnhqgmzmp7gs1w96ilhbk3nwznl6"
+    },
+    "quickwit_0_6_4": {
+      "pname": "quickwit",
+      "version": "0.6.4",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.4/quickwit-v0.6.4-aarch64-apple-darwin.tar.gz",
+      "sha256": "15q084gm185dqilknchfs6w3k4cgc9mq2s3916i9nzz5rqzsbjrp"
+    },
+    "quickwit_0_6_5": {
+      "pname": "quickwit",
+      "version": "0.6.5",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.6.5/quickwit-v0.6.5-aarch64-apple-darwin.tar.gz",
+      "sha256": "0jryzghqzsg9a9mngb2xh90km59dhmqhn6zb4fr32xvap0858hd1"
+    },
+    "quickwit_0_7_0": {
+      "pname": "quickwit",
+      "version": "0.7.0",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.7.0/quickwit-v0.7.0-aarch64-apple-darwin.tar.gz",
+      "sha256": "09qnkqzlm197jv062mdx8941gswamhandsvrwlxgfxvirbp4dw2a"
+    },
+    "quickwit_0_7_1": {
+      "pname": "quickwit",
+      "version": "0.7.1",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.7.1/quickwit-v0.7.1-aarch64-apple-darwin.tar.gz",
+      "sha256": "0lksw333gdf8m6sqajca227r40gs6m77cb9gzkmzrz6fyij99j4q"
+    },
+    "quickwit_0_8_0": {
+      "pname": "quickwit",
+      "version": "0.8.0",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.0/quickwit-v0.8.0-aarch64-apple-darwin.tar.gz",
+      "sha256": "1s63nl9gi33p7i9izzdhi6mcxai5s1xjczc5hzfjk9pnnr67sik0"
+    },
+    "quickwit_0_8_1": {
+      "pname": "quickwit",
+      "version": "0.8.1",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.1/quickwit-v0.8.1-aarch64-apple-darwin.tar.gz",
+      "sha256": "0q7xwps37zrk5df9ybhzx3f3k5wbqxshhn0acm2v7mwx2ijqknar"
+    },
+    "quickwit_0_8_2": {
+      "pname": "quickwit",
+      "version": "0.8.2",
+      "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.2/quickwit-v0.8.2-aarch64-apple-darwin.tar.gz",
+      "sha256": "03j9509jl54c4c41g2ii1knfjkbg08v108axm3rx49zrl4w5c7l2"
     }
   }
 }

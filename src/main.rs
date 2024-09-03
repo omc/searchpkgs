@@ -31,14 +31,14 @@ impl Serialize for System {
     }
 } 
 
-#[derive(PartialEq, PartialOrd, Eq)]
+#[derive(PartialEq, PartialOrd, Eq, Debug)]
 struct PackageName {
     engine: Engine,
     version: Version,
 }
 impl Ord for PackageName {
     fn cmp(&self, other: &Self) -> std::cmp::Ordering {
-        self.version.cmp(&other.version)
+        self.engine.cmp(&other.engine).then(self.version.cmp(&other.version))
     }
 }
 
@@ -52,7 +52,7 @@ impl Serialize for PackageName {
     }
 }
 
-#[derive(Serialize)]
+#[derive(Serialize, Debug)]
 struct PackageAttrs {
     #[serde(rename="pname")]
     engine: Engine,
@@ -132,6 +132,7 @@ async fn main() -> Result<()> {
             }
         }
     };
+
     let file = File::create("./packages.json").expect("couldn't create packages.json");
     let writer = BufWriter::new(file);
     serde_json::to_writer_pretty(writer, &packages).unwrap();
