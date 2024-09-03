@@ -4950,6 +4950,50 @@
         }
       }
     },
+    "7.17.22": {
+      "x86_64": {
+        "linux": {
+          "sha256": "1nzvkqqdxksp101zd1b9vdpk0q9bsdhnsjyjjrdjlxan6sk6rj7d",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.17.22-linux-x86_64.tar.gz"
+        },
+        "darwin": {
+          "sha256": "1al4yiqz75zxcxxcfn9d2h5ibw05cj25mya3sx3pwl2r2xgqnnim",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.17.22-darwin-x86_64.tar.gz"
+        }
+      },
+      "aarch64": {
+        "linux": {
+          "sha256": "1nzvkqqdxksp101zd1b9vdpk0q9bsdhnsjyjjrdjlxan6sk6rj7d",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.17.22-linux-x86_64.tar.gz"
+        },
+        "darwin": {
+          "sha256": "1al4yiqz75zxcxxcfn9d2h5ibw05cj25mya3sx3pwl2r2xgqnnim",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.17.22-darwin-x86_64.tar.gz"
+        }
+      }
+    },
+    "7.17.23": {
+      "x86_64": {
+        "linux": {
+          "sha256": "0srg1wajx029bxzghq5ccamdjgzcbk28zazvkyq6xaix11i0qr01",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.17.23-linux-x86_64.tar.gz"
+        },
+        "darwin": {
+          "sha256": "19q461zvvln9ibv5wbjv05njs2rm5dv2cjhk0y6l48qb4vr3f0j5",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.17.23-darwin-x86_64.tar.gz"
+        }
+      },
+      "aarch64": {
+        "linux": {
+          "sha256": "0srg1wajx029bxzghq5ccamdjgzcbk28zazvkyq6xaix11i0qr01",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.17.23-linux-x86_64.tar.gz"
+        },
+        "darwin": {
+          "sha256": "19q461zvvln9ibv5wbjv05njs2rm5dv2cjhk0y6l48qb4vr3f0j5",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.17.23-darwin-x86_64.tar.gz"
+        }
+      }
+    },
     "8.0.0": {
       "x86_64": {
         "linux": {
@@ -6071,6 +6115,116 @@
           "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.13.4-darwin-aarch64.tar.gz"
         }
       }
+    },
+    "8.14.0": {
+      "x86_64": {
+        "linux": {
+          "sha256": "1jx8n6p7m73yvkp66mb9agx7sj1jlsigydsdqv5iw6vda48zis4l",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.14.0-linux-x86_64.tar.gz"
+        },
+        "darwin": {
+          "sha256": "01ffa9m43b0xqgqsfkwig480q4r0l1dysrdswldlp37jl0rsl8xw",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.14.0-darwin-x86_64.tar.gz"
+        }
+      },
+      "aarch64": {
+        "linux": {
+          "sha256": "1qd47rgmb4kj7220dx17v1xlik29f14vrmw6ixwlx0zwjkj8kkdl",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.14.0-linux-aarch64.tar.gz"
+        },
+        "darwin": {
+          "sha256": "03j8x1w39x819yx365cdknkw7h94vhmb3fffqsb35hzbx298j8hw",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.14.0-darwin-aarch64.tar.gz"
+        }
+      }
+    },
+    "8.14.1": {
+      "x86_64": {
+        "linux": {
+          "sha256": "1alzydrysp3wyi6z1dvn6ws2alri52xm9gk7cc2mvpa9l7g2chli",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.14.1-linux-x86_64.tar.gz"
+        },
+        "darwin": {
+          "sha256": "081q646af3shrrrxjjrb7ns648jhb2zj1sny5qish61vidfnrwr3",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.14.1-darwin-x86_64.tar.gz"
+        }
+      },
+      "aarch64": {
+        "linux": {
+          "sha256": "002rl2r44nd8qkwcrbvh3a9x9r8hk56fd1ca4ldd4pld1jqnka92",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.14.1-linux-aarch64.tar.gz"
+        },
+        "darwin": {
+          "sha256": "1qxyzv4k2wni9vljnpv8n6v2mcdw9kgiy1gvjfhzx9hqip4j5rk0",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.14.1-darwin-aarch64.tar.gz"
+        }
+      }
+    },
+    "8.14.2": {
+      "x86_64": {
+        "linux": {
+          "sha256": "1pqafm06gw0ci5h15a8r4jhin7vbw5d07ajbnrvjdngy52qkcd2a",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.14.2-linux-x86_64.tar.gz"
+        },
+        "darwin": {
+          "sha256": "043q7bcfl4f5616gcfjlhgna4ljz9wssjik7n2f5yl0ngxm22c9n",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.14.2-darwin-x86_64.tar.gz"
+        }
+      },
+      "aarch64": {
+        "linux": {
+          "sha256": "0zwdzgv1mj5s0v2j5zjhkz0m4qa1wqi1ncicd21plgyzsxsnbbbb",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.14.2-linux-aarch64.tar.gz"
+        },
+        "darwin": {
+          "sha256": "0c2bpzpzb7gg04ijiznvx73nbc2jnr17m1lg7cn8g2v2z91az33z",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.14.2-darwin-aarch64.tar.gz"
+        }
+      }
+    },
+    "8.14.3": {
+      "x86_64": {
+        "linux": {
+          "sha256": "0q134yiakj4k1qlgzbrpjskhlw3df2qd7i6sxk2k7vhvrfzgnpkw",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.14.3-linux-x86_64.tar.gz"
+        },
+        "darwin": {
+          "sha256": "0m1y98jibsca5ya526q1l6ykmh7xp11bakqvvbldafgyfwcmgqk1",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.14.3-darwin-x86_64.tar.gz"
+        }
+      },
+      "aarch64": {
+        "linux": {
+          "sha256": "0kx3ihyyn3dvsbrjv3bk6dqb33ygp43hyvjmcs37q8inaym14mca",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.14.3-linux-aarch64.tar.gz"
+        },
+        "darwin": {
+          "sha256": "0y9wzqrg40s0kxi9rsiqpldcjdnyfv0d4v1qxskiwmly3wfbv21g",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.14.3-darwin-aarch64.tar.gz"
+        }
+      }
+    },
+    "8.15.0": {
+      "x86_64": {
+        "linux": {
+          "sha256": "0rji855ph26vaigyw40khq9sc3rs3vkgiqfq2gf7sb3vqgi9y5yl",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.15.0-linux-x86_64.tar.gz"
+        },
+        "darwin": {
+          "sha256": "02p1xjiaxvk2s9r1jvlmlpj6p5jax4w0361a5riwqj5lrd2x3a27",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.15.0-darwin-x86_64.tar.gz"
+        }
+      },
+      "aarch64": {
+        "linux": {
+          "sha256": "1xpif6d8vj5mmdbpzs3qgz2p5g09w65ccyyc7m29zbvpa28jzv9f",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.15.0-linux-aarch64.tar.gz"
+        },
+        "darwin": {
+          "sha256": "1i66a5xsm8yyfj9knyb7nwj935c7p18y6xz7bvvq9fhbb7x79bwi",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.15.0-darwin-aarch64.tar.gz"
+        }
+      }
     }
   },
   "opensearch": {
@@ -6492,6 +6646,50 @@
         }
       }
     },
+    "1.3.17": {
+      "x86_64": {
+        "linux": {
+          "sha256": "1g19qmr1hp60yqwk7q1cr08yhm4jbsdmh2bqavfx98i19skvqcp3",
+          "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.17/opensearch-min-1.3.17-linux-x64.tar.gz"
+        },
+        "darwin": {
+          "sha256": "1g19qmr1hp60yqwk7q1cr08yhm4jbsdmh2bqavfx98i19skvqcp3",
+          "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.17/opensearch-min-1.3.17-linux-x64.tar.gz"
+        }
+      },
+      "aarch64": {
+        "linux": {
+          "sha256": "1hy219cfiybpvg1p09xn5pcx3s25jv7zi3km0g5x1lg557ay2man",
+          "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.17/opensearch-min-1.3.17-linux-arm64.tar.gz"
+        },
+        "darwin": {
+          "sha256": "1hy219cfiybpvg1p09xn5pcx3s25jv7zi3km0g5x1lg557ay2man",
+          "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.17/opensearch-min-1.3.17-linux-arm64.tar.gz"
+        }
+      }
+    },
+    "1.3.18": {
+      "x86_64": {
+        "linux": {
+          "sha256": "1y6zwdsc192zzighwxr0gay0cbb6lnb47wp98bi12cf8mz61p9p7",
+          "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.18/opensearch-min-1.3.18-linux-x64.tar.gz"
+        },
+        "darwin": {
+          "sha256": "1y6zwdsc192zzighwxr0gay0cbb6lnb47wp98bi12cf8mz61p9p7",
+          "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.18/opensearch-min-1.3.18-linux-x64.tar.gz"
+        }
+      },
+      "aarch64": {
+        "linux": {
+          "sha256": "1bfgjsv2wfkj1hjs7dcxf7csh4d7pdh3wai7j04x0f9xliy054n2",
+          "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.18/opensearch-min-1.3.18-linux-arm64.tar.gz"
+        },
+        "darwin": {
+          "sha256": "1bfgjsv2wfkj1hjs7dcxf7csh4d7pdh3wai7j04x0f9xliy054n2",
+          "url": "https://artifacts.opensearch.org/releases/core/opensearch/1.3.18/opensearch-min-1.3.18-linux-arm64.tar.gz"
+        }
+      }
+    },
     "2.0.0": {
       "x86_64": {
         "linux": {
@@ -6909,6 +7107,50 @@
           "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.14.0/opensearch-min-2.14.0-linux-arm64.tar.gz"
         }
       }
+    },
+    "2.15.0": {
+      "x86_64": {
+        "linux": {
+          "sha256": "0dkhrjrcagx9gjq2lq5h9rzfzh8jaqn3xzjfyhmvyw9lmfj55wbn",
+          "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.15.0/opensearch-min-2.15.0-linux-x64.tar.gz"
+        },
+        "darwin": {
+          "sha256": "0dkhrjrcagx9gjq2lq5h9rzfzh8jaqn3xzjfyhmvyw9lmfj55wbn",
+          "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.15.0/opensearch-min-2.15.0-linux-x64.tar.gz"
+        }
+      },
+      "aarch64": {
+        "linux": {
+          "sha256": "0hjc2hfdli1ka87sw96spiabg45gjkdx5l5jrhcdf8i7ra0d88fj",
+          "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.15.0/opensearch-min-2.15.0-linux-arm64.tar.gz"
+        },
+        "darwin": {
+          "sha256": "0hjc2hfdli1ka87sw96spiabg45gjkdx5l5jrhcdf8i7ra0d88fj",
+          "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.15.0/opensearch-min-2.15.0-linux-arm64.tar.gz"
+        }
+      }
+    },
+    "2.16.0": {
+      "x86_64": {
+        "linux": {
+          "sha256": "0ppg9rcqhyddb5nr60x2d6faxa27sba9q5avdax6g3qi4waaz239",
+          "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.16.0/opensearch-min-2.16.0-linux-x64.tar.gz"
+        },
+        "darwin": {
+          "sha256": "0ppg9rcqhyddb5nr60x2d6faxa27sba9q5avdax6g3qi4waaz239",
+          "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.16.0/opensearch-min-2.16.0-linux-x64.tar.gz"
+        }
+      },
+      "aarch64": {
+        "linux": {
+          "sha256": "0m18xj417c18ygl4vq0hyrki5dnav6yn9birlqa6ig42njma3q30",
+          "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.16.0/opensearch-min-2.16.0-linux-arm64.tar.gz"
+        },
+        "darwin": {
+          "sha256": "0m18xj417c18ygl4vq0hyrki5dnav6yn9birlqa6ig42njma3q30",
+          "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.16.0/opensearch-min-2.16.0-linux-arm64.tar.gz"
+        }
+      }
     }
   },
   "quickwit": {
@@ -7303,6 +7545,28 @@
         "darwin": {
           "sha256": "0q7xwps37zrk5df9ybhzx3f3k5wbqxshhn0acm2v7mwx2ijqknar",
           "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.1/quickwit-v0.8.1-aarch64-apple-darwin.tar.gz"
+        }
+      }
+    },
+    "0.8.2": {
+      "x86_64": {
+        "linux": {
+          "sha256": "141jylhnpw8cj6cwjjdpv04pa7bafdpn8v4qrkm2cc3s82zkb03j",
+          "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.2/quickwit-v0.8.2-x86_64-unknown-linux-gnu.tar.gz"
+        },
+        "darwin": {
+          "sha256": "02iv5rir7xr3hhqc0d578h2593sq190d3pagdkpmfqqgv1l55dq6",
+          "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.2/quickwit-v0.8.2-x86_64-apple-darwin.tar.gz"
+        }
+      },
+      "aarch64": {
+        "linux": {
+          "sha256": "1r9zg7wf7m0wb58636g8hn9piibxzzp795ipn40qynngbrp0vdl4",
+          "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.2/quickwit-v0.8.2-aarch64-unknown-linux-gnu.tar.gz"
+        },
+        "darwin": {
+          "sha256": "03j9509jl54c4c41g2ii1knfjkbg08v108axm3rx49zrl4w5c7l2",
+          "url": "https://github.com/quickwit-oss/quickwit/releases/download/v0.8.2/quickwit-v0.8.2-aarch64-apple-darwin.tar.gz"
         }
       }
     }
