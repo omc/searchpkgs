@@ -1698,6 +1698,12 @@
       "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.15.0-linux-x86_64.tar.gz",
       "sha256": "0rji855ph26vaigyw40khq9sc3rs3vkgiqfq2gf7sb3vqgi9y5yl"
     },
+    "elasticsearch_8_15_1": {
+      "pname": "elasticsearch",
+      "version": "8.15.1",
+      "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.15.1-linux-x86_64.tar.gz",
+      "sha256": "0hqhjdhsixvfg96cs6w8mfg76npg8hpaawbb3rh5bchzh4x4fnac"
+    },
     "opensearch_1_0_0": {
       "pname": "opensearch",
       "version": "1.0.0",
@@ -3769,6 +3775,12 @@
       "version": "8.15.0",
       "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.15.0-darwin-x86_64.tar.gz",
       "sha256": "02p1xjiaxvk2s9r1jvlmlpj6p5jax4w0361a5riwqj5lrd2x3a27"
+    },
+    "elasticsearch_8_15_1": {
+      "pname": "elasticsearch",
+      "version": "8.15.1",
+      "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.15.1-darwin-x86_64.tar.gz",
+      "sha256": "01v9fbsl0wi606kx6fcwlvsvd8hqw8irsqgv3bq411l59j93bpj4"
     },
     "opensearch_1_0_0": {
       "pname": "opensearch",
@@ -5842,6 +5854,12 @@
       "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.15.0-linux-aarch64.tar.gz",
       "sha256": "1xpif6d8vj5mmdbpzs3qgz2p5g09w65ccyyc7m29zbvpa28jzv9f"
     },
+    "elasticsearch_8_15_1": {
+      "pname": "elasticsearch",
+      "version": "8.15.1",
+      "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.15.1-linux-aarch64.tar.gz",
+      "sha256": "1rv4k2imrz2y250jg816l38lamcrdii9zzh41i73h12bvpd6rpfy"
+    },
     "opensearch_1_0_0": {
       "pname": "opensearch",
       "version": "1.0.0",
@@ -7913,6 +7931,12 @@
       "version": "8.15.0",
       "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.15.0-darwin-aarch64.tar.gz",
       "sha256": "1i66a5xsm8yyfj9knyb7nwj935c7p18y6xz7bvvq9fhbb7x79bwi"
+    },
+    "elasticsearch_8_15_1": {
+      "pname": "elasticsearch",
+      "version": "8.15.1",
+      "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.15.1-darwin-aarch64.tar.gz",
+      "sha256": "1fanjxa9n2b3xr00hv6p1rmdqnahminiilg7vg0ijygl3f9rglkz"
     },
     "opensearch_1_0_0": {
       "pname": "opensearch",
