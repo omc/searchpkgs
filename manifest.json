@@ -6247,6 +6247,28 @@
           "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.15.1-darwin-aarch64.tar.gz"
         }
       }
+    },
+    "8.15.2": {
+      "x86_64": {
+        "linux": {
+          "sha256": "13rhlw5x6jk0y8rbailqh8h64z3w78fbxdnhfcfrvgjpwknhas8b",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.15.2-linux-x86_64.tar.gz"
+        },
+        "darwin": {
+          "sha256": "0dcrpd7didlf33xhf5lfb535ryfmkb5lv2db9indwb7sd5i5zhf3",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.15.2-darwin-x86_64.tar.gz"
+        }
+      },
+      "aarch64": {
+        "linux": {
+          "sha256": "0fcczi3mzq95aixgq3vnmq813xzl46il16wfbwdylwgjqqhlhjgq",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.15.2-linux-aarch64.tar.gz"
+        },
+        "darwin": {
+          "sha256": "0vm6sz77fls6qzayz9f4c33jdja1mixm4l27b9d4c6fihi1rvh14",
+          "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.15.2-darwin-aarch64.tar.gz"
+        }
+      }
     }
   },
   "opensearch": {
@@ -7171,6 +7193,28 @@
         "darwin": {
           "sha256": "0m18xj417c18ygl4vq0hyrki5dnav6yn9birlqa6ig42njma3q30",
           "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.16.0/opensearch-min-2.16.0-linux-arm64.tar.gz"
+        }
+      }
+    },
+    "2.17.0": {
+      "x86_64": {
+        "linux": {
+          "sha256": "0rzcgfq2llkr0ldngznhsbk667b3fj0ygjqxrc7q3z73zgxfl0kz",
+          "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.17.0/opensearch-min-2.17.0-linux-x64.tar.gz"
+        },
+        "darwin": {
+          "sha256": "0rzcgfq2llkr0ldngznhsbk667b3fj0ygjqxrc7q3z73zgxfl0kz",
+          "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.17.0/opensearch-min-2.17.0-linux-x64.tar.gz"
+        }
+      },
+      "aarch64": {
+        "linux": {
+          "sha256": "1hw3hj7zhx78clpxdx80bfn7vx2yi272jvskgciy39ph39jbx2j5",
+          "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.17.0/opensearch-min-2.17.0-linux-arm64.tar.gz"
+        },
+        "darwin": {
+          "sha256": "1hw3hj7zhx78clpxdx80bfn7vx2yi272jvskgciy39ph39jbx2j5",
+          "url": "https://artifacts.opensearch.org/releases/core/opensearch/2.17.0/opensearch-min-2.17.0-linux-arm64.tar.gz"
         }
       }
     }
